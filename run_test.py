@@ -20,8 +20,7 @@ def is_Chinese(word):
                 return True
         except:
             # l.info(f"[INFO]:\t{ch} check chinese error")
-            # 存在列表嵌套的问题
-            pass
+            pass  # 存在列表嵌套的问题
     return False
 
 
@@ -83,18 +82,18 @@ def fetch_json(ori):
 def merge(fin, out: dict = {}):
     "融合翻译,根据ID(存在ID不存在的问题和列表嵌套的问题)"
     for i in fin["CN"]["dataList"]:
-        id = i["id"]
-        out[id] = {}
-        for key in fin.keys():
-            for j in fin[key]["dataList"]:
-                try:
+        try:
+            id = i["id"]
+            out[id] = {}
+            for key in fin.keys():
+                for j in fin[key]["dataList"]:
                     if j["id"] == id:
                         out[id][key] = {}
                         for k in j:
                             if k != "id":
                                 out[id][key][k] = j[k]
-                except:
-                    pass  # 存在ID不存在的条目，暂时忽略
+        except:
+            pass  # 存在ID不存在的条目，暂时忽略
     return out
 
 
@@ -124,14 +123,14 @@ def main():
     save(last)
 
 
-def save(fin_dict, PATH=os.path.join("output", "_Substitutions")):
+def save(fin_dict, PATH=os.path.join("output", "_Substitutions.txt")):
     with open(PATH, "w", encoding="utf-8") as fn:
         for i in fin_dict:
             fn.write(i+"="+fin_dict[i]+"\n")
 
 
-f = "./LimbusLocalize/assets/Localize/CN/CN_S0_17.json"
+f = "./LimbusLocalize/assets/Localize/CN/CN_S0_23.json"
 
-print(get_path(f))
+# print(get_path(f))
 print(check(merge(fetch_json(f))))
 # main()
