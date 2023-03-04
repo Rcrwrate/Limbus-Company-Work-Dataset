@@ -83,6 +83,7 @@ def fetch_json(ori):
 
 
 def transform(data):
+    "将双重嵌套字典变成单层和重建编号ID"
     keys = list(data.keys())
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
         out = copy.deepcopy(data)
@@ -99,7 +100,8 @@ def transform(data):
                             for q in h.keys():
                                 out[i]["dataList"][j][f"{k}-{q}"] = h[q]
                         remove.append({"i": i, "j": j, "k": k})
-                    elif isinstance(data[i]["dataList"][j][k], dict):  # 未经过测试
+                    # 未经过测试，看这段代码是不是血压很高啊，没错，我也是
+                    elif isinstance(data[i]["dataList"][j][k], dict):
                         for q in data[i]["dataList"][j][k].keys():
                             out[i]["dataList"][j][f"{k}-{q}"] = data[i]["dataList"][j][k][q]
                         remove.append({"i": i, "j": j, "k": k})
