@@ -123,7 +123,7 @@ def main():
     save(last)
 
 
-def save(fin_dict, PATH=os.path.join("output", "_Substitutions.txt")):
+def save(fin_dict, PATH=os.path.join("output", "Substitutions.txt")):
     with open(PATH, "w", encoding="utf-8") as fn:
         for i in fin_dict:
             fn.write(i+"="+fin_dict[i]+"\n")
