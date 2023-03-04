@@ -1,77 +1,23 @@
-2023-03-04 07:24:55,032:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Rodion.json
+2023-03-04 09:04:36,563:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in transform
+    for q in h.keys():
+AttributeError: 'str' object has no attribute 'keys'
 
-2023-03-04 07:24:55,032:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_YiSang_1.json
+2023-03-04 09:04:36,653:[critical]	./LimbusLocalize/assets/Localize/CN/CN_CN_settings-ui-donttranslate.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 87, in transform
+    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
+IndexError: list index out of range
 
-2023-03-04 07:24:55,034:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEventsResultLog.json
+2023-03-04 09:04:36,698:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
+2023-03-04 09:04:36,699:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,049:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_HongLu.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,050:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Enemy.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,276:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,276:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Meursault_5.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,318:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
-2023-03-04 07:24:55,319:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -86,19 +32,19 @@ json.decoder.JSONDecodeError: Expecting value: line 25 column 18 (char 405)
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 25
     "content": 与迄今为止所撞见的人都不同，那些人的身上有一部分看起来就像昆虫一样。"
                             ^
 SyntaxError: invalid character '，' (U+FF0C)
 
-2023-03-04 07:24:55,470:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-04 07:24:55,470:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+2023-03-04 09:04:36,778:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-04 09:04:36,778:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -113,29 +59,19 @@ json.decoder.JSONDecodeError: Invalid control character at: line 9 column 27 (ch
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 9
     "place": "梅菲斯托费勒斯 内部
              ^
 SyntaxError: unterminated string literal (detected at line 9)
 
-2023-03-04 07:24:55,482:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Merusault.json
+2023-03-04 09:04:36,842:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-04 09:04:36,842:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,650:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-04 07:24:55,650:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -150,207 +86,27 @@ json.decoder.JSONDecodeError: Invalid control character at: line 61 column 47 (c
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 61
     "content": "你们两个，直到现在都觉得我们是毫无价值的人渣吧，不是吗？
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-04 07:24:55,747:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_YiSang.json
+2023-03-04 09:04:36,973:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,749:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbnormalityGuides.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,749:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopItemCount.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,749:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_13.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,750:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-3.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,751:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Sinclair.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,751:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,782:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Outis.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,823:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Faust.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,823:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_27.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,823:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S210B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,824:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_HongLu_6.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,824:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,825:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D103B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:55,931:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 84, in merge
-    for i in fin["CN"]["dataList"]:
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 87, in transform
+    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 KeyError: 'dataList'
 
-2023-03-04 07:24:56,307:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309B.json
+2023-03-04 09:04:37,099:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-04 09:04:37,099:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 103, in check
-    for j in out[i]["CN"]:
-KeyError: 'CN'
-
-2023-03-04 07:24:56,308:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 103, in check
-    for j in out[i]["CN"]:
-KeyError: 'CN'
-
-2023-03-04 07:24:56,310:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 103, in check
-    for j in out[i]["CN"]:
-KeyError: 'CN'
-
-2023-03-04 07:24:56,311:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_LCB_11001.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 103, in check
-    for j in out[i]["CN"]:
-KeyError: 'CN'
-
-2023-03-04 07:24:56,312:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_StoryDungeon.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 103, in check
-    for j in out[i]["CN"]:
-KeyError: 'CN'
-
-2023-03-04 07:24:56,312:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-04 07:24:56,312:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -365,142 +121,20 @@ json.decoder.JSONDecodeError: Invalid control character at: line 7 column 30 (ch
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 7
     "content": "不好意思！我有个问题！
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-04 07:24:56,348:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ishmael.json
+2023-03-04 09:04:37,174:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,348:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Heathcliff.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,349:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Mission.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,349:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,350:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LCB_11201.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,351:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc0-4.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,351:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D307B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,683:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_DonQuixote.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,684:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Tutorial.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,685:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_GCorp_11203.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,685:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StagePartText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,711:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ryoshu.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 07:24:56,712:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_MirrorDungeon.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 151, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in transform
+    for q in h.keys():
+AttributeError: 'str' object has no attribute 'keys'
 
