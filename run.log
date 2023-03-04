@@ -1,693 +1,133 @@
-2023-03-04 04:31:10,895:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_19.json
+2023-03-04 06:09:57,800:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_19.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:10,899:[critical]	./LimbusLocalize/assets/Localize/CN/CN_SkillTag.json
+2023-03-04 06:09:57,814:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Rodion.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,899:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TKS2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,900:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ChoiceEventTarget.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,901:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10804.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,902:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309I1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,903:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Items.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,905:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ActionEvents.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,906:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10902.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,906:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Rodion.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,907:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_YiSang_1.json
+2023-03-04 06:09:57,814:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_YiSang_1.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,909:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEventsResultLog.json
+2023-03-04 06:09:57,816:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEventsResultLog.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,911:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S216B.json
+2023-03-04 06:09:57,833:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_HongLu.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,912:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S311B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,913:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D101A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,915:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BgmLyrics_Cromer2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,915:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ryoshu_LCB_10401.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,916:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D102A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,917:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_HongLu.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,917:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Enemy.json
+2023-03-04 06:09:57,833:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Enemy.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,918:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10603.json
+2023-03-04 06:09:57,853:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_22.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,923:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D306A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,925:[critical]	./LimbusLocalize/assets/Localize/CN/CN_IntroductionPreset.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,926:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,926:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-0.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,927:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_22.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:10,927:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D306B.json
+2023-03-04 06:09:57,983:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_6.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,928:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D308B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,929:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_9.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,929:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonNode1-1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,931:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S212A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,931:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Quest.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,932:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Heathcliff_RCorp4_10703.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,933:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Egos.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,934:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Heathcliff_7.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,934:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Characters.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,937:[critical]	./LimbusLocalize/assets/Localize/CN/CN_2D306A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,938:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D101A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,939:[critical]	./LimbusLocalize/assets/Localize/CN/CN_IntegrateAccountUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,940:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S322B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,945:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattleKeywords.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,946:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309I.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,947:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D105A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,948:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonNode1-3.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,948:[critical]	./LimbusLocalize/assets/Localize/CN/CN_GachaTitle.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,949:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11202.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,950:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,950:[critical]	./LimbusLocalize/assets/Localize/CN/CN_IAPProduct.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,951:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Ishmael_8.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,951:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10403.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,952:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S207B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,953:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LiuAsso6_11202.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,954:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S109B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,954:[critical]	./LimbusLocalize/assets/Localize/CN/CN_SDUMMY.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,955:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattleHint_NormalBattle.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,956:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,957:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11103.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,958:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10402.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,962:[critical]	./LimbusLocalize/assets/Localize/CN/CN_2D306B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,963:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11102.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,964:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Abnormality.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,965:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_6.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:10,965:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11002.json
+2023-03-04 06:09:58,004:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_16.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,967:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S219B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,974:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S203B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,974:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_16.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:10,976:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc.json
+2023-03-04 06:09:58,071:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,978:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S001A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,979:[critical]	./LimbusLocalize/assets/Localize/CN/CN_CN_settings-ui-donttranslate.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,979:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Kurokumo_10902.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,981:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S208B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,993:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialMainUIText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,994:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ishmael_LCB_10801.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,995:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D305B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,996:[critical]	./LimbusLocalize/assets/Localize/CN/CN_UserInfo_Friends.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,997:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,997:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Meursault_5.json
+2023-03-04 06:09:58,071:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Meursault_5.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:10,998:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10203.json
+2023-03-04 06:09:58,078:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_7.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:10,998:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_7.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:10,998:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_8.json
+2023-03-04 06:09:58,078:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_8.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,001:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_29.json
+2023-03-04 06:09:58,097:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_1.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,003:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309I2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,003:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,004:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Outis_11.json
+2023-03-04 06:09:58,102:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
+2023-03-04 06:09:58,103:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,004:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
-2023-03-04 04:31:11,005:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 71, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -702,198 +142,51 @@ json.decoder.JSONDecodeError: Expecting value: line 25 column 18 (char 405)
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 75, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 25
     "content": 与迄今为止所撞见的人都不同，那些人的身上有一部分看起来就像昆虫一样。"
                             ^
 SyntaxError: invalid character '，' (U+FF0C)
 
-2023-03-04 04:31:11,006:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10102.json
+2023-03-04 06:09:58,140:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_4.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,006:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_Mariachi_11004.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,007:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S104B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,009:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S309B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,010:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Honglu_Kongkong_10603.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,011:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_21.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,011:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_4.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,011:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D201B.json
+2023-03-04 06:09:58,172:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_2_1.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,029:[critical]	./LimbusLocalize/assets/Localize/CN/CN_MainUIText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,029:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_2_1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,030:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_10.json
+2023-03-04 06:09:58,173:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_10.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,030:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S110B.json
+2023-03-04 06:09:58,246:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_14.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,039:[INFO]:	{'level': 1, 'name': '防御', 'desc': '频点胜利时，对方的混乱阈值前移'} check chinese error
-2023-03-04 04:31:11,039:[INFO]:	{'level': 1, 'name': '闪避', 'desc': '拼点成功时，自身的混乱阈值后移'} check chinese error
-2023-03-04 04:31:11,039:[INFO]:	{'level': 1, 'name': '反击', 'desc': '受到攻击后进行不可被拦截的反击'} check chinese error
-2023-03-04 04:31:11,040:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,040:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_28.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,041:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S304B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,041:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10802.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,042:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,043:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S218B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,044:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S302A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,044:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10202.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,045:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D103A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,045:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_14.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,045:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-04 04:31:11,046:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+2023-03-04 06:09:58,246:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-04 06:09:58,246:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 71, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -908,245 +201,45 @@ json.decoder.JSONDecodeError: Invalid control character at: line 9 column 27 (ch
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 75, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 9
     "place": "梅菲斯托费勒斯 内部
              ^
 SyntaxError: unterminated string literal (detected at line 9)
 
-2023-03-04 04:31:11,046:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10303.json
+2023-03-04 06:09:58,260:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Merusault.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,047:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S316B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,047:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Merusault.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,048:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10302.json
+2023-03-04 06:09:58,296:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_12.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,049:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattleHint.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,050:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ishmael_RCorp4_10802.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,053:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D301B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,054:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D306I2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,054:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_12.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,054:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_11.json
+2023-03-04 06:09:58,296:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_11.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,055:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Sinclair_10.json
+2023-03-04 06:09:58,430:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-04 06:09:58,431:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,056:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,057:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S302B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,059:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S111B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,061:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S307B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,062:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_Wcorp_10503.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,063:[critical]	./LimbusLocalize/assets/Localize/CN/CN_FileDownloadDesc.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,063:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Gregor_12.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,064:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryTheaterMain.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,065:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Donquixote_Shi_10303.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,066:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S004A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,072:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_DonQuixote_3.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,073:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S321B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,074:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_LCB_10501.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,076:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Personality_Get_Condition.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,076:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BgmLyrics_Credit.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,077:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ResistText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,078:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S107B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,078:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-04 04:31:11,079:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 71, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -1161,773 +254,229 @@ json.decoder.JSONDecodeError: Invalid control character at: line 61 column 47 (c
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 75, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 61
     "content": "你们两个，直到现在都觉得我们是毫无价值的人渣吧，不是吗？
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-04 04:31:11,079:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_3.json
+2023-03-04 06:09:58,431:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_3.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,080:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S202B.json
+2023-03-04 06:09:58,487:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_5.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,080:[critical]	./LimbusLocalize/assets/Localize/CN/CN_IntroduceCharacter.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,082:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D303B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,083:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Faust_2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,083:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonArea1-2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,084:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ryoshu_Seven6_10402.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,085:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Banner.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,085:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_5.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,085:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D102B.json
+2023-03-04 06:09:58,488:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D102B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,086:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S003A.json
+2023-03-04 06:09:58,513:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_YiSang.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,087:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10103.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,088:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D301B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,089:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_YiSang.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,091:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbnormalityGuides.json
+2023-03-04 06:09:58,516:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbnormalityGuides.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,091:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopItemCount.json
+2023-03-04 06:09:58,516:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopItemCount.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,092:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_13.json
+2023-03-04 06:09:58,516:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_13.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,092:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-3.json
+2023-03-04 06:09:58,517:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-3.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,093:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Sinclair.json
+2023-03-04 06:09:58,518:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Sinclair.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,093:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-1.json
+2023-03-04 06:09:58,518:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-1.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,094:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S004B.json
+2023-03-04 06:09:58,551:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Outis.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,094:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,095:[critical]	./LimbusLocalize/assets/Localize/CN/CN_2D202B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,096:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryDungeonUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,096:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Outis.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,097:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D304B.json
+2023-03-04 06:09:58,595:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Faust.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,103:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Enemy.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,108:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattleUIText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,109:[critical]	./LimbusLocalize/assets/Localize/CN/CN_UserAgreements.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,109:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Faust.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,109:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_27.json
+2023-03-04 06:09:58,596:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_27.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,110:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S210B.json
+2023-03-04 06:09:58,596:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S210B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,110:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_HongLu_6.json
+2023-03-04 06:09:58,597:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_HongLu_6.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,110:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer.json
+2023-03-04 06:09:58,597:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,111:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D103B.json
+2023-03-04 06:09:58,598:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D103B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,112:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D306B.json
+2023-03-04 06:09:58,671:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_18.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,113:[critical]	./LimbusLocalize/assets/Localize/CN/CN_SuccessRate.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,114:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialPopUpDesc.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,116:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,116:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryTheaterMirrorWorld.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,117:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Heathcliff_ShiAsso4_10702.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,118:[critical]	./LimbusLocalize/assets/Localize/CN/CN_LoginUIText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,119:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,120:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_18.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,120:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S306A.json
+2023-03-04 06:09:58,705:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,121:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Faust_LCB_10201.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,127:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Abnormality.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,128:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 80, in merge
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 84, in merge
     for i in fin["CN"]["dataList"]:
 KeyError: 'dataList'
 
-2023-03-04 04:31:11,129:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11004.json
+2023-03-04 06:09:58,753:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108A.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,130:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S107A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,132:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S317B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,133:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TKS1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,135:[critical]	./LimbusLocalize/assets/Localize/CN/CN_FAQ.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,135:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,136:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10803.json
+2023-03-04 06:09:59,013:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_23.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,142:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Enemies.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,143:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Outis_LCB_11101.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,143:[critical]	./LimbusLocalize/assets/Localize/CN/CN_KeywordDictionary.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,144:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10602.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,145:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Donquixote_LCB_10301.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,146:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,146:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D104B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,147:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S206B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,149:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ChoiceEventEffect.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,151:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S315B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,153:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S301B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,154:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattleHint_AbnorBattle.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,155:[critical]	./LimbusLocalize/assets/Localize/CN/CN_2D306I.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,155:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S106B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,158:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D203B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,159:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer_Gregor_2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,160:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D303B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,161:[critical]	./LimbusLocalize/assets/Localize/CN/CN_MirrorDungeonUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,164:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryTheaterPersonality.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,166:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S313A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,168:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D304B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,169:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Yisang_SwordGroup_10103.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,170:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D202A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,170:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_23.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,171:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D302B.json
+2023-03-04 06:09:59,036:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_26.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,171:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_25.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,172:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_26.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,173:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S207A.json
+2023-03-04 06:09:59,086:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,174:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_LiuAsso6_10502.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,177:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Ego.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,178:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Heathcliff_LCB_10701.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,179:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
+    id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,179:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryText.json
+2023-03-04 06:09:59,136:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-04 06:09:59,136:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,182:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,183:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_LCB_11001.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,184:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_StoryDungeon.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,184:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-04 04:31:11,185:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 71, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
   File "/usr/lib/python3.10/json/__init__.py", line 293, in load
     return loads(fp.read(),
@@ -1942,787 +491,182 @@ json.decoder.JSONDecodeError: Invalid control character at: line 7 column 30 (ch
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 75, in fetch_json
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 78, in fetch_json
     fin[i] = eval(f.read())
   File "<string>", line 7
     "content": "不好意思！我有个问题！
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-04 04:31:11,186:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D105B.json
+2023-03-04 06:09:59,175:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ishmael.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,187:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_SwordGroup_11002.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,189:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D305B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,189:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ishmael.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,190:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Heathcliff.json
+2023-03-04 06:09:59,176:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Heathcliff.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,190:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Mission.json
+2023-03-04 06:09:59,176:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Mission.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,191:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215B.json
+2023-03-04 06:09:59,177:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,191:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LCB_11201.json
+2023-03-04 06:09:59,178:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LCB_11201.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,192:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc0-4.json
+2023-03-04 06:09:59,179:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc0-4.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,193:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D307B.json
+2023-03-04 06:09:59,180:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D307B.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,194:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S105B.json
+2023-03-04 06:09:59,543:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_DonQuixote.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,195:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10903.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,196:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer_Charon_3.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,197:[critical]	./LimbusLocalize/assets/Localize/CN/CN_UserInfoBannerDesc.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,197:[critical]	./LimbusLocalize/assets/Localize/CN/CN_MirrorDungeonName.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,198:[critical]	./LimbusLocalize/assets/Localize/CN/CN_2D301B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,201:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S201B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,201:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S323B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,202:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11003.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,203:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S320B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,203:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageChapterText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,204:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Outis_SwordGroup_11102.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,205:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10503.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,206:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S320A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,206:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AttributeText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,207:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S304A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,207:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S213B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,208:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ChoiceEventKeyword.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,210:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S310B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,211:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryTheaterMirrorWorldStoryTitle.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,212:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer_Dante_1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,212:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGO_Get_Condition.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,213:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Faust_WCorp6_10202.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,214:[critical]	./LimbusLocalize/assets/Localize/CN/CN_UserBanner.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,215:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D202B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,216:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D302B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,219:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,219:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_Zwei_11003.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,220:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_DonQuixote.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,221:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Tutorial.json
+2023-03-04 06:09:59,544:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Tutorial.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,222:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_GCorp_11203.json
+2023-03-04 06:09:59,545:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_GCorp_11203.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,222:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StagePartText.json
+2023-03-04 06:09:59,545:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StagePartText.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
     if is_Chinese(CN):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,222:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_20.json
+2023-03-04 06:09:59,547:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_20.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
-KeyError: 'id'
-
-2023-03-04 04:31:11,224:[critical]	./LimbusLocalize/assets/Localize/CN/CN_MirrorDungeonAbName.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 04:31:11,224:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ryoshu.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 04:31:11,225:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_MirrorDungeon.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 04:31:11,226:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S318A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 97, in check
-    if is_Chinese(CN):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
-    for ch in word:
-TypeError: 'int' object is not iterable
-
-2023-03-04 04:31:11,227:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
-KeyError: 'id'
-
-2023-03-04 04:31:11,236:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S002B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,236:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Honglu_Kurokumo_10602.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,237:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passive_Ego.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,238:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_Bufs.json load error
-2023-03-04 04:31:11,247:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Bufs.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,248:[critical]	./LimbusLocalize/assets/Localize/CN/CN_kr_settings-ui-donttranslate.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,250:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryTheaterUIText.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,250:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10502.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,251:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonNode1-2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,252:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Epi_10903.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,252:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Rodion_9.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,253:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_17.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
-KeyError: 'id'
-
-2023-03-04 04:31:11,255:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S308B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,258:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S001B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,259:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Filter.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,261:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ActionEvents_Mirror.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,261:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_15.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
-    if j["id"] == id:
-KeyError: 'id'
-
-2023-03-04 04:31:11,265:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,266:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ChoiceEventUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,266:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_24.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,267:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10703.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,270:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S303B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,271:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Donquixote_WCorp5_10302.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,272:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-2.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,273:[critical]	./LimbusLocalize/assets/Localize/CN/CN_MirrorDungeonNode1-1.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,273:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S003B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,276:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D102A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,277:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S318B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,278:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Personalities.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,279:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ishmael_ShiAsso5_10803.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,280:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Outis_GCorpBoss_11103.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,281:[critical]	./LimbusLocalize/assets/Localize/CN/CN_UpgradeCharacterUI.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,281:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D308A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,282:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P11203.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,283:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ryoshu_Kurokumo_10403.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,283:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S202A.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in merge
     id = i["id"]
 KeyError: 'id'
 
-2023-03-04 04:31:11,284:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Honglu_LCB_10601.json
+2023-03-04 06:09:59,561:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ryoshu.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
+    if is_Chinese(CN):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
+    for ch in word:
+TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,285:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Ryoshu_4.json
+2023-03-04 06:09:59,563:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_MirrorDungeon.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 105, in check
+    if is_Chinese(CN):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 17, in is_Chinese
+    for ch in word:
+TypeError: 'int' object is not iterable
 
-2023-03-04 04:31:11,286:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Ishmael_Sode_10804.json
+2023-03-04 06:09:59,578:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_2.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
+    id = i["id"]
+KeyError: 'id'
 
-2023-03-04 04:31:11,286:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Yisang_Seven6_10102.json
+2023-03-04 06:09:59,740:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_17.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
+    id = i["id"]
+KeyError: 'id'
 
-2023-03-04 04:31:11,287:[critical]	./LimbusLocalize/assets/Localize/CN/CN_DungeonArea1-3.json
+2023-03-04 06:09:59,806:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_15.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
+    id = i["id"]
+KeyError: 'id'
 
-2023-03-04 04:31:11,288:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_LCB_10901.json
+2023-03-04 06:10:00,108:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S202A.json
 	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,289:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Yisang_LCB_10101.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,289:[critical]	./LimbusLocalize/assets/Localize/CN/CN_1D306I.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,290:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Faust_Yuri_10203.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
-
-2023-03-04 04:31:11,292:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S313B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 108, in main
-    last = check(merge(fetch_json(i)), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 99, in check
-    last[out[i][key][j]] = CN
-KeyError: 'JP'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 85, in merge
+    id = i["id"]
+KeyError: 'id'
 
