@@ -3,7 +3,9 @@ on:
   push:
     branches:
     - main
-
+  schedule:
+    - cron: '0 21 * * *'
+    
 jobs:
   main-to-gh-pages:
     runs-on: ubuntu-latest
