@@ -1,0 +1,1994 @@
+{
+  "dataList": [
+    {
+      "id": 2010111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "烏瞰刀",
+          "abName": "イサン",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 攻撃威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターン、全味方へクイック1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "烏瞰刀",
+          "abName": "イサン",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 攻撃威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターン、全味方へクイック3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 火傷2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "願いの石",
+          "abName": "塔右饒",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 怠惰脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "願いの石",
+          "abName": "塔右饒",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 怠惰脆弱2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "願いの石",
+          "abName": "塔右饒",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 怠惰脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "願いの石",
+          "abName": "塔右饒",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 怠惰脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに束縛3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "表象放出機",
+          "abName": "ファウスト",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 全味方の精神力を6回復"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "表象放出機",
+          "abName": "ファウスト",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 全味方の精神力を12回復"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 全味方の精神力を10回復"
+                },
+                {
+                  "desc": "[EndSkill] 全味方の体力を、最大値の10%回復"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 全味方の精神力を15回復"
+                },
+                {
+                  "desc": "[EndSkill] 全味方の体力を、最大値の15%回復"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 精神力に10ダメージ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 精神力に20ダメージ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "呪いの釘",
+          "abName": "痛がるテディ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 貫通脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 嫉妬脆弱1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "呪いの釘",
+          "abName": "痛がるテディ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 貫通脆弱3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 嫉妬脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 呪い3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "呪いの釘",
+          "abName": "痛がるテディ",
+          "desc": "[CantIdentify]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 貫通脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 嫉妬脆弱1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "呪いの釘",
+          "abName": "痛がるテディ",
+          "desc": "[CantIdentify]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 貫通脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 嫉妬脆弱3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 呪い3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ラ・サングレ・デ・サンチョ",
+          "abName": "ドンキホーテ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 出血4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ラ・サングレ・デ・サンチョ",
+          "abName": "ドンキホーテ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] ダメージ量の50%分体力を回復。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 精神力に15ダメージ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 精神力に25ダメージ"
+                },
+                {
+                  "desc": "対象が混乱、士気低下、パニック状態なら与ダメージ量30%分の追加ダメージを与える"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[CantIdentify]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜5を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "水袋",
+          "abName": "断首魚",
+          "desc": "[CantIdentify]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動7を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜7を付与"
+                },
+                {
+                  "desc": "対象が混乱、士気低下、パニック状態でないなら与ダメージ量50%分の追加ダメージを与える"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "森羅炎象",
+          "abName": "良秀",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "森羅炎象",
+          "abName": "良秀",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "対象に火傷がある場合、スキル威力+2\n[EnemyKill] 次のターンに攻撃威力増加1を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "対象に斬撃脆弱がある場合、スキル威力+2\n[EnemyKill] 次のターンに攻撃威力増加2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify]\n足しように火傷があればスキル威力+2\n[EnemyKill] 次のターンに攻撃威力増加2を得る\n[EnemyKillFail] 次のターンに火傷10を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify]\n足しように火傷があればスキル威力+4\n[EnemyKill] 次のターンに攻撃威力増加2を得る\n[EnemyKillFail] 次のターンに攻撃威力増加3、火傷10を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "他人の鎖",
+          "abName": "ムルソー",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛3を得る"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少2を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "他人の鎖",
+          "abName": "ムルソー",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛5を得る"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少4を得る"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに保護2を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ネジの外れた一撃",
+          "abName": "お前ぶたれたい？しこたま？",
+          "desc": "[EndSkill] 保護3を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ネジの外れた一撃",
+          "abName": "お前ぶたれたい？しこたま？",
+          "desc": "[EndSkill] 保護3を得る\n[EndSkill] 次のターンに施術1を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ネジの外れた一撃",
+          "abName": "お前ぶたれたい？しこたま？",
+          "desc": "[EndSkill] 次のターンに施術2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ネジの外れた一撃",
+          "abName": "お前ぶたれたい？しこたま？",
+          "desc": "[EndSkill] 次のターンに施術2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺3を付与"
+                },
+                {
+                  "desc": "ダメージ量の30%分、混乱区間を前進"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "執行",
+          "abName": "天の執行官の補佐",
+          "desc": "[EndSkill] 自分を除く、現時点での体力が最も低い味方2名の体力を、最大値の15%回復",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動爆発"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "執行",
+          "abName": "天の執行官の補佐",
+          "desc": "[EndSkill] 自分を除く、現時点での体力が最も低い味方2名の体力を、最大値の30%回復。次のターンに保護2を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動爆発"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "執行",
+          "abName": "天の執行官の補佐",
+          "desc": "[CantIdentify][Wide]\n[EndSkill] 自分を除く、現時点での体力が最も低い味方2名へ、次のターンに脆弱1を付与。次のターンにダメージ量増加2を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動爆発"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "執行",
+          "abName": "天の執行官の補佐",
+          "desc": "[CantIdentify][Wide]\n[EndSkill] 自分を除く、現時点での体力が最も低い味方2名へ、次のターンに脆弱2を付与。次のターンにダメージ量増加3を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動爆発"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "虚幻境",
+          "abName": "ホンル",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 沈潜2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "虚幻境",
+          "abName": "ホンル",
+          "desc": "[Wide][EndSkill] 精神力を15回復",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 沈潜5を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 守備威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 防御力量減少1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 守備威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 防御力量減少2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "[CantIdentify]\n速度が最も速い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 守備威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 防御力量減少1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 次のターンに束縛4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "[CantIdentify]\n速度が最も速い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 守備威力減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 防御力量減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "死体袋",
+          "abName": "ヒースクリフ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに攻撃威力増加1を得る"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンにクイック2を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "死体袋",
+          "abName": "ヒースクリフ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力増加1を得る"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンにクイック3を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "電信柱",
+          "abName": "路地の番犬",
+          "desc": "[Wide] 充電回数5を消耗し、スキル威力+3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] 自分の充電回数が3増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "電信柱",
+          "abName": "路地の番犬",
+          "desc": "[WhenUse] 嫉妬共鳴数だけ自分の充電回数を増加\n充電回数5を消耗し、スキル威力+3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] 自分の充電回数が5増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "電信柱",
+          "abName": "路地の番犬",
+          "desc": "[CantIdentify][Wide] 充電回数を全て消耗し、スキル威力+6",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱3を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "電信柱",
+          "abName": "路地の番犬",
+          "desc": "[CantIdentify][Wide][WhenUse] 嫉妬共鳴数だけ自分の充電回数を増加\n充電回数を全て消耗し、スキル威力+10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱3を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "銛穿ち",
+          "abName": "イシュメール",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 振動1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "銛穿ち",
+          "abName": "イシュメール",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 振動3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 攻撃レベル減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 攻撃レベル減少4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "[CantIdentify]\n速度が最も速い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 攻撃レベル減少2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに束縛4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "桃色の欲望",
+          "abName": "桃色の靴",
+          "desc": "[CantIdentify]\n速度が最も速い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 攻撃レベル減少4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに束縛4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "紅炎殺",
+          "abName": "紅炎蛾",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "(憤怒共鳴数÷2)だけ火傷を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] ランダムな敵3名に火傷3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "紅炎殺",
+          "abName": "紅炎蛾",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ダメージ量の40%分、混乱区間を前進"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 憤怒共鳴数だけ火傷を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] ランダムな敵3名に破裂3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "紅炎殺",
+          "abName": "紅炎蛾",
+          "desc": "[CantIdentify]\n[WhenUse] 体力を最大値の10%減少",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 全キャラクターに憤怒共鳴数だけ火傷を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "紅炎殺",
+          "abName": "紅炎蛾",
+          "desc": "[CantIdentify]\n[WhenUse] 体力を最大値の10%減少",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 全キャラクターに(憤怒共鳴数×2)だけ火傷を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ダメージ量の60%分、混乱区間を前進"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "投げられたもの",
+          "abName": "ロージャ",
+          "desc": "対象の体力が50%以上のとき、ダメージ量+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "投げられたもの",
+          "abName": "ロージャ",
+          "desc": "対象の体力が50%以上のとき、ダメージ量+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに憤怒脆弱3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに憤怒脆弱3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "氷の橋",
+          "abName": "バーバヤーガ",
+          "desc": "対象の体力が50%以上のとき、ダメージ量+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜回数が2増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "氷の橋",
+          "abName": "バーバヤーガ",
+          "desc": "対象の体力が50%以上のとき、ダメージ量+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜回数が3増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "氷の橋",
+          "abName": "バーバヤーガ",
+          "desc": "[CantIdentify][Wide]\n体力が最も多い対象を攻撃\n対象の体力が50%以上のとき、ダメージ量+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜回数が4増加"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "氷の橋",
+          "abName": "バーバヤーガ",
+          "desc": "[CantIdentify][Wide]\n体力が最も多い対象を攻撃\n対象の体力が50%以上のとき、ダメージ量+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 沈潜回数が6増加"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "知識の木の枝",
+          "abName": "シンクレア",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 破裂6を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少3を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "知識の木の枝",
+          "abName": "シンクレア",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 破裂12を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少2を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "迫り来る日",
+          "abName": "終末カレンダー",
+          "desc": "対象の体力が25%未満のとき、ダメージ量+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 全味方の体力を、最大値の10%回復"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "迫り来る日",
+          "abName": "終末カレンダー",
+          "desc": "対象の体力が25%未満のとき、ダメージ量+20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 次のターンに攻撃威力増加1を得る\n全味方の体力を、最大値の15%回復"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "迫り来る日",
+          "abName": "終末カレンダー",
+          "desc": "[CantIdentify] 対象の体力が25%未満のとき、与ダメージ量+15%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKillFail] 次のターンに出血10を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "迫り来る日",
+          "abName": "終末カレンダー",
+          "desc": "[CantIdentify] 対象の体力が25%未満のとき、与ダメージ量+25%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKillFail] 次のターンに出血10を得る"
+                },
+                {
+                  "desc": "[EnemyKillFail] 次のターンに攻撃威力増加3を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ト・パソス・マソス",
+          "abName": "ウーティス",
+          "desc": "対象の体力が50%未満のとき、ダメージ量+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ト・パソス・マソス",
+          "abName": "ウーティス",
+          "desc": "対象の体力が50%未満のとき、ダメージ量+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "黒い枝",
+          "abName": "黒檀女王の林檎",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 出血2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "黒い枝",
+          "abName": "黒檀女王の林檎",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 出血2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 暴食脆弱2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "黒い枝",
+          "abName": "黒檀女王の林檎",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂3を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 出血3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "黒い枝",
+          "abName": "黒檀女王の林檎",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 出血5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 暴食脆弱3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "空即是色",
+          "abName": "我、無に至れり",
+          "desc": "[EndSkill] 精神力を12回復",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 色欲脆弱1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "空即是色",
+          "abName": "我、無に至れり",
+          "desc": "[EndSkill] 精神力を18回復\n[EndSkill] 本人を除くランダムな味方2名に攻撃威力増加1を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 色欲脆弱2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "空即是色",
+          "abName": "我、無に至れり",
+          "desc": "[CantIdentify]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 色欲脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 脆弱1を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 脆弱1を得る"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "空即是色",
+          "abName": "我、無に至れり",
+          "desc": "[CantIdentify]\n[EndSkill] 本人を除くランダムな味方2名に攻撃威力増加1を付与",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 色欲脆弱2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 脆弱2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 脆弱2を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ある日突然",
+          "abName": "グレゴール",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷、出血、振動、破裂、沈潜中からランダムに1つを3付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ある日突然",
+          "abName": "グレゴール",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 火傷、出血、振動、破裂、沈潜中からランダムに1つを6付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "まやかし",
+          "abName": "황금빛의 거짓사과",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "まやかし",
+          "abName": "황금빛의 거짓사과",
+          "desc": "[Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "振動爆発"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 振動4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "まやかし",
+          "abName": "황금빛의 거짓사과",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "まやかし",
+          "abName": "황금빛의 거짓사과",
+          "desc": "[CantIdentify][Wide]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺4を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 蛆虫4を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "提灯",
+          "abName": "妖精提灯",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ダメージ量の40%分、自分の体力を回復。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "提灯",
+          "abName": "妖精提灯",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ダメージ量の60%分、自分の体力を回復。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "提灯",
+          "abName": "妖精提灯",
+          "desc": "[CantIdentify][Wide]\n体力が最も高い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ダメージ量の20%分、自分の体力を回復。"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 破裂3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "提灯",
+          "abName": "妖精提灯",
+          "desc": "[CantIdentify][Wide]\n体力が最も高い対象を攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ダメージ量の30%分、自分の体力を回復。"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 破裂5を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
