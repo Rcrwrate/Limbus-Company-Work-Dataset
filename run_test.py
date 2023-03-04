@@ -1,6 +1,7 @@
 import os
 import json
 import traceback
+import copy
 from log import Log
 
 l = Log("run", log_path="output")
@@ -14,6 +15,8 @@ def get_or(di, name, default=None):
 
 
 def is_Chinese(word):
+    if isinstance(word, int):
+        return False
     for ch in word:
         try:
             if '\u4e00' <= ch <= '\u9fff':
@@ -79,6 +82,35 @@ def fetch_json(ori):
     return fin
 
 
+def transform(data):
+    keys = list(data.keys())
+    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
+        out = copy.deepcopy(data)
+        for i in keys:
+            j = 0
+            remove = []
+            while j < len(data[i]["dataList"]):
+                out[i]["dataList"][j]["id"] = j
+                for k in data[i]["dataList"][j]:
+                    if isinstance(data[i]["dataList"][j][k], (str, int)):
+                        pass
+                    elif isinstance(data[i]["dataList"][j][k], list):
+                        for h in data[i]["dataList"][j][k]:
+                            for q in h.keys():
+                                out[i]["dataList"][j][f"{k}-{q}"] = h[q]
+                        remove.append({"i": i, "j": j, "k": k})
+                    elif isinstance(data[i]["dataList"][j][k], dict):  # 未经过测试
+                        for q in data[i]["dataList"][j][k].keys():
+                            out[i]["dataList"][j][f"{k}-{q}"] = data[i]["dataList"][j][k][q]
+                        remove.append({"i": i, "j": j, "k": k})
+                j += 1
+            for one in remove:
+                del out[one["i"]]["dataList"][one["j"]][one["k"]]
+        return out
+    else:
+        return data  # 不修改
+
+
 def merge(fin, out: dict = {}):
     "融合翻译,根据ID(存在ID不存在的问题和列表嵌套的问题)"
     for i in fin["CN"]["dataList"]:
@@ -116,7 +148,7 @@ def main():
     for i in NL:
         print(i)
         try:
-            last = check(merge(fetch_json(i)), last)
+            last = check(merge(transform(fetch_json(i))), last)
         except Exception as e:
             l.critical(f"[critical]\t{i}\n\t{traceback.format_exc()}")
         print(len(last))
@@ -130,8 +162,6 @@ def save(fin_dict, PATH=os.path.join("output", "Substitutions.txt")):
                      fin_dict[i].replace("\n", "\\n")+"\n")
 
 
-f = "./LimbusLocalize/assets/Localize/CN/CN_S0_23.json"
-
-# print(get_path(f))
-print(check(merge(fetch_json(f))))
-# main()
+if __name__ == "__main__":
+    f = "./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json"
+    check(merge(transform(fetch_json(f))))
