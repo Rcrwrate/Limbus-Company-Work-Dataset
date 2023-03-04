@@ -20,7 +20,8 @@ def is_Chinese(word):
                 return True
         except:
             # l.info(f"[INFO]:\t{ch} check chinese error")
-            pass # 存在列表嵌套的问题
+            # 存在列表嵌套的问题
+            pass
     return False
 
 
@@ -129,5 +130,8 @@ def save(fin_dict, PATH=os.path.join("output", "_Substitutions")):
             fn.write(i+"="+fin_dict[i]+"\n")
 
 
-# print(check(merge(fetch_json("./LimbusLocalize/assets/Localize/CN/CN_S0_17.json"))))
-main()
+f = "./LimbusLocalize/assets/Localize/CN/CN_S0_17.json"
+
+print(get_path(f))
+print(check(merge(fetch_json(f))))
+# main()
