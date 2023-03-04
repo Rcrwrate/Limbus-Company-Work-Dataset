@@ -126,7 +126,8 @@ def main():
 def save(fin_dict, PATH=os.path.join("output", "Substitutions.txt")):
     with open(PATH, "w", encoding="utf-8") as fn:
         for i in fin_dict:
-            fn.write(i+"="+fin_dict[i]+"\n")
+            fn.write(i.replace("\n", "\\n")+"=" +
+                     fin_dict[i].replace("\n", "\\n")+"\n")
 
 
 f = "./LimbusLocalize/assets/Localize/CN/CN_S0_23.json"
