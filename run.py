@@ -1,6 +1,6 @@
-from types import FunctionType
 import os
 import json
+import traceback
 from log import Log
 
 l = Log("run", log_path="output")
@@ -11,6 +11,16 @@ def get_or(di, name, default=None):
         return di[name]
     except KeyError:
         return default
+
+
+def is_Chinese(word):
+    for ch in word:
+        try:
+            if '\u4e00' <= ch <= '\u9fff':
+                return True
+        except:
+            l.info(f"[INFO]:\t{ch} check chinese error")
+    return False
 
 
 def get_list_json(path: str, li: dict):
@@ -60,6 +70,7 @@ def fetch_json(ori):
             with open(fin[i], "r", encoding="utf-8") as f:
                 fin[i] = json.load(f)
         except:  # 你很神奇，为什么这还能报个错
+            l.error(f"[ERROR]\t{fin[i]} load error")
             with open(fin[i], "r", encoding="utf-8") as f:
                 fin[i] = eval(f.read())
     return fin
@@ -79,4 +90,33 @@ def merge(fin, out: dict = {}):
     return out
 
 
-print(merge(fetch_json("./LimbusLocalize/assets/Localize/CN/CN_Bufs.json")))
+def check(out, last={}):
+    for i in out:
+        for j in out[i]["CN"]:
+            CN = out[i]["CN"][j]
+            if is_Chinese(CN):
+                for key in ["EN", "JP", "KR"]:
+                    last[out[i][key][j]] = CN
+    return last
+
+
+def main():
+    last = {}
+    for i in NL:
+        print(i)
+        try:
+            last = check(merge(fetch_json(i)), last)
+        except Exception as e:
+            l.critical(f"[critical]\t{i}\n\t{traceback.format_exc()}")
+        print(len(last))
+    save(last)
+
+
+def save(fin_dict, PATH=os.path.join("output", "_Substitutions")):
+    with open(PATH, "w", encoding="utf-8") as fn:
+        for i in fin_dict:
+            fn.write(i+"="+fin_dict[i]+"\n")
+
+
+# print(check(merge(fetch_json("./LimbusLocalize/assets/Localize/CN/CN_Bufs.json"))))
+main()
