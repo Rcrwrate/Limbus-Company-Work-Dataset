@@ -1,4 +1,4 @@
-2023-03-04 06:35:15,544:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Rodion.json
+2023-03-04 06:46:03,037:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Rodion.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -8,7 +8,7 @@
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,544:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_YiSang_1.json
+2023-03-04 06:46:03,038:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_YiSang_1.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -18,7 +18,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,547:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEventsResultLog.json
+2023-03-04 06:46:03,040:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEventsResultLog.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -28,7 +28,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,563:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_HongLu.json
+2023-03-04 06:46:03,055:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_HongLu.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -38,7 +38,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,563:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Enemy.json
+2023-03-04 06:46:03,055:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives_Enemy.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -48,7 +48,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,806:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json
+2023-03-04 06:46:03,282:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -58,7 +58,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,806:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Meursault_5.json
+2023-03-04 06:46:03,282:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_Meursault_5.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -68,8 +68,8 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:15,851:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
-2023-03-04 06:35:15,853:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
+2023-03-04 06:46:03,323:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json load error
+2023-03-04 06:46:03,324:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S108B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
@@ -95,8 +95,8 @@ Traceback (most recent call last):
                             ^
 SyntaxError: invalid character '，' (U+FF0C)
 
-2023-03-04 06:35:16,016:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-04 06:35:16,016:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+2023-03-04 06:46:03,474:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-04 06:46:03,475:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
@@ -122,7 +122,7 @@ Traceback (most recent call last):
              ^
 SyntaxError: unterminated string literal (detected at line 9)
 
-2023-03-04 06:35:16,029:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Merusault.json
+2023-03-04 06:46:03,487:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Merusault.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -132,8 +132,8 @@ SyntaxError: unterminated string literal (detected at line 9)
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,224:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-04 06:35:16,224:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
+2023-03-04 06:46:03,654:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-04 06:46:03,654:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
@@ -159,7 +159,7 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-04 06:35:16,328:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_YiSang.json
+2023-03-04 06:46:03,750:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_YiSang.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -169,7 +169,7 @@ SyntaxError: unterminated string literal (detected at line 61)
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,331:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbnormalityGuides.json
+2023-03-04 06:46:03,752:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbnormalityGuides.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -179,7 +179,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,331:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopItemCount.json
+2023-03-04 06:46:03,753:[critical]	./LimbusLocalize/assets/Localize/CN/CN_ShopItemCount.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -189,7 +189,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,331:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_13.json
+2023-03-04 06:46:03,753:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_13.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -199,7 +199,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,332:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-3.json
+2023-03-04 06:46:03,753:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-3.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -209,7 +209,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,333:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Sinclair.json
+2023-03-04 06:46:03,754:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Sinclair.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -219,7 +219,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,333:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-1.json
+2023-03-04 06:46:03,754:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StageNode1-1.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -229,7 +229,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,366:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Outis.json
+2023-03-04 06:46:03,784:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Outis.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -239,7 +239,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,410:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Faust.json
+2023-03-04 06:46:03,825:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Faust.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -249,7 +249,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,411:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_27.json
+2023-03-04 06:46:03,826:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S0_27.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -259,7 +259,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,411:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S210B.json
+2023-03-04 06:46:03,826:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S210B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -269,7 +269,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,411:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_HongLu_6.json
+2023-03-04 06:46:03,827:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_EGO_HongLu_6.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -279,7 +279,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,412:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer.json
+2023-03-04 06:46:03,827:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Announcer.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -289,7 +289,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,413:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D103B.json
+2023-03-04 06:46:03,828:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D103B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -299,7 +299,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,526:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
+2023-03-04 06:46:03,934:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -307,7 +307,7 @@ TypeError: 'int' object is not iterable
     for i in fin["CN"]["dataList"]:
 KeyError: 'dataList'
 
-2023-03-04 06:35:16,931:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309B.json
+2023-03-04 06:46:04,305:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D309B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -315,7 +315,7 @@ KeyError: 'dataList'
     for j in out[i]["CN"]:
 KeyError: 'CN'
 
-2023-03-04 06:35:16,932:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryText.json
+2023-03-04 06:46:04,305:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StoryText.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -323,7 +323,7 @@ KeyError: 'CN'
     for j in out[i]["CN"]:
 KeyError: 'CN'
 
-2023-03-04 06:35:16,934:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives.json
+2023-03-04 06:46:04,308:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Passives.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -331,7 +331,7 @@ KeyError: 'CN'
     for j in out[i]["CN"]:
 KeyError: 'CN'
 
-2023-03-04 06:35:16,935:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_LCB_11001.json
+2023-03-04 06:46:04,309:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Sinclair_LCB_11001.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -339,7 +339,7 @@ KeyError: 'CN'
     for j in out[i]["CN"]:
 KeyError: 'CN'
 
-2023-03-04 06:35:16,936:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_StoryDungeon.json
+2023-03-04 06:46:04,310:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_StoryDungeon.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -347,8 +347,8 @@ KeyError: 'CN'
     for j in out[i]["CN"]:
 KeyError: 'CN'
 
-2023-03-04 06:35:16,936:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-04 06:35:16,937:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
+2023-03-04 06:46:04,310:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-04 06:46:04,310:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 74, in fetch_json
     fin[i] = json.load(f)
@@ -374,7 +374,7 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-04 06:35:16,976:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ishmael.json
+2023-03-04 06:46:04,345:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ishmael.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -384,7 +384,7 @@ SyntaxError: unterminated string literal (detected at line 7)
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,976:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Heathcliff.json
+2023-03-04 06:46:04,345:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Heathcliff.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -394,7 +394,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,977:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Mission.json
+2023-03-04 06:46:04,346:[critical]	./LimbusLocalize/assets/Localize/CN/CN_BattlePass_Mission.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -404,7 +404,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,977:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215B.json
+2023-03-04 06:46:04,346:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S215B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -414,7 +414,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,978:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LCB_11201.json
+2023-03-04 06:46:04,347:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_LCB_11201.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -424,7 +424,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,979:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc0-4.json
+2023-03-04 06:46:04,348:[critical]	./LimbusLocalize/assets/Localize/CN/CN_TutorialDesc0-4.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -434,7 +434,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:16,980:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D307B.json
+2023-03-04 06:46:04,349:[critical]	./LimbusLocalize/assets/Localize/CN/CN_3D307B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -444,7 +444,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,349:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_DonQuixote.json
+2023-03-04 06:46:04,676:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_DonQuixote.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -454,7 +454,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,350:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Tutorial.json
+2023-03-04 06:46:04,676:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Skills_Tutorial.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -464,7 +464,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,351:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_GCorp_11203.json
+2023-03-04 06:46:04,677:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Gregor_GCorp_11203.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -474,7 +474,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,352:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StagePartText.json
+2023-03-04 06:46:04,678:[critical]	./LimbusLocalize/assets/Localize/CN/CN_StagePartText.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -484,7 +484,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,382:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ryoshu.json
+2023-03-04 06:46:04,703:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Ryoshu.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
@@ -494,7 +494,7 @@ TypeError: 'int' object is not iterable
     for ch in word:
 TypeError: 'int' object is not iterable
 
-2023-03-04 06:35:17,383:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_MirrorDungeon.json
+2023-03-04 06:46:04,705:[critical]	./LimbusLocalize/assets/Localize/CN/CN_EGOgift_MirrorDungeon.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 119, in main
     last = check(merge(fetch_json(i)), last)
