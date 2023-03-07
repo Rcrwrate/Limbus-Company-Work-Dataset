@@ -1,5 +1,5 @@
-2023-03-06 21:10:39,002:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
-2023-03-06 21:10:39,004:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
+2023-03-07 13:00:18,003:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
+2023-03-07 13:00:18,004:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -25,7 +25,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
 
-2023-03-06 21:10:39,053:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
+2023-03-07 13:00:18,053:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -33,7 +33,7 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-03-06 21:10:39,135:[critical]	./LimbusLocalize/assets/Localize/CN/CN_CN_settings-ui-donttranslate.json
+2023-03-07 13:00:18,135:[critical]	./LimbusLocalize/assets/Localize/CN/CN_CN_settings-ui-donttranslate.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -41,8 +41,8 @@ AttributeError: 'str' object has no attribute 'keys'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-06 21:10:39,245:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json load error
-2023-03-06 21:10:39,245:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json
+2023-03-07 13:00:18,243:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json load error
+2023-03-07 13:00:18,244:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -65,8 +65,8 @@ Traceback (most recent call last):
     "dataList": [
 IndentationError: unexpected indent
 
-2023-03-06 21:10:39,253:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-06 21:10:39,253:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+2023-03-07 13:00:18,252:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-07 13:00:18,252:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -92,8 +92,8 @@ Traceback (most recent call last):
              ^
 SyntaxError: unterminated string literal (detected at line 9)
 
-2023-03-06 21:10:39,312:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-06 21:10:39,312:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
+2023-03-07 13:00:18,308:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-07 13:00:18,308:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -119,7 +119,7 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-06 21:10:39,434:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
+2023-03-07 13:00:18,428:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -127,8 +127,8 @@ SyntaxError: unterminated string literal (detected at line 61)
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 KeyError: 'dataList'
 
-2023-03-06 21:10:39,554:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-06 21:10:39,554:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
+2023-03-07 13:00:18,546:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-07 13:00:18,546:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -154,7 +154,7 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-06 21:10:39,624:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
+2023-03-07 13:00:18,614:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
