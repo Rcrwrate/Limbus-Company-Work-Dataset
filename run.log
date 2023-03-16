@@ -1,4 +1,4 @@
-2023-03-15 21:10:14,556:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10504.json
+2023-03-16 21:09:56,942:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10504.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -6,40 +6,16 @@
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-15 21:10:14,639:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
+2023-03-16 21:09:56,971:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 88, in transform
-    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
-KeyError: 'dataList'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 100, in transform
+    for q in h.keys():
+AttributeError: 'str' object has no attribute 'keys'
 
-2023-03-15 21:10:14,739:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json load error
-2023-03-15 21:10:14,741:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
-    fin[i] = json.load(f)
-  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
-    return loads(fp.read(),
-  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-  File "/usr/lib/python3.10/json/decoder.py", line 340, in decode
-    raise JSONDecodeError("Extra data", s, end)
-json.decoder.JSONDecodeError: Extra data: line 2 column 13 (char 13)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
-    last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
-    fin[i] = eval(f.read())
-  File "<string>", line 2
-    "dataList": [
-IndentationError: unexpected indent
-
-2023-03-15 21:10:14,869:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-15 21:10:14,869:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
+2023-03-16 21:09:56,977:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-16 21:09:56,978:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -65,7 +41,31 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-15 21:10:14,884:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Ncorp_10904.json
+2023-03-16 21:09:56,992:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json load error
+2023-03-16 21:09:56,992:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S205B.json
+	Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
+    fin[i] = json.load(f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 13 (char 13)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
+    fin[i] = eval(f.read())
+  File "<string>", line 2
+    "dataList": [
+IndentationError: unexpected indent
+
+2023-03-16 21:09:57,061:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_Ncorp_10504.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -73,78 +73,16 @@ SyntaxError: unterminated string literal (detected at line 61)
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-15 21:10:14,982:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
-2023-03-15 21:10:14,982:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
-    fin[i] = json.load(f)
-  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
-    return loads(fp.read(),
-  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
-    obj, end = self.scan_once(s, idx)
-json.decoder.JSONDecodeError: Expecting ',' delimiter: line 21 column 40 (char 367)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
-    last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
-    fin[i] = eval(f.read())
-  File "<string>", line 21
-    "content": "听到以实玛利的话，良秀摇了摇头，摆出一副"看好了"的表情。"
-               ^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-2023-03-15 21:10:15,019:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
+2023-03-16 21:09:57,099:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10904.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 100, in transform
-    for q in h.keys():
-AttributeError: 'str' object has no attribute 'keys'
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 88, in transform
+    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
+IndexError: list index out of range
 
-2023-03-15 21:10:15,147:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
-    last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 100, in transform
-    for q in h.keys():
-AttributeError: 'str' object has no attribute 'keys'
-
-2023-03-15 21:10:15,154:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-15 21:10:15,155:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
-	Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
-    fin[i] = json.load(f)
-  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
-    return loads(fp.read(),
-  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
-    obj, end = self.scan_once(s, idx)
-json.decoder.JSONDecodeError: Invalid control character at: line 9 column 27 (char 126)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
-    last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
-    fin[i] = eval(f.read())
-  File "<string>", line 9
-    "place": "梅菲斯托费勒斯 内部
-             ^
-SyntaxError: unterminated string literal (detected at line 9)
-
-2023-03-15 21:10:15,253:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-15 21:10:15,254:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
+2023-03-16 21:09:57,243:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-16 21:09:57,244:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -170,7 +108,42 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-15 21:10:15,363:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_Ncorp_10504.json
+2023-03-16 21:09:57,246:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-16 21:09:57,246:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+	Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
+    fin[i] = json.load(f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 9 column 27 (char 126)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
+    fin[i] = eval(f.read())
+  File "<string>", line 9
+    "place": "梅菲斯托费勒斯 内部
+             ^
+SyntaxError: unterminated string literal (detected at line 9)
+
+2023-03-16 21:09:57,298:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
+	Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 88, in transform
+    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
+KeyError: 'dataList'
+
+2023-03-16 21:09:57,555:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Ncorp_10904.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -178,11 +151,38 @@ SyntaxError: unterminated string literal (detected at line 7)
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-15 21:10:15,430:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10904.json
+2023-03-16 21:09:57,584:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
+2023-03-16 21:09:57,584:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
+	Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
+    fin[i] = json.load(f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 21 column 40 (char 367)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
+    last = check(merge(transform(fetch_json(i))), last)
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 81, in fetch_json
+    fin[i] = eval(f.read())
+  File "<string>", line 21
+    "content": "听到以实玛利的话，良秀摇了摇头，摆出一副"看好了"的表情。"
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2023-03-16 21:09:57,736:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
-  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 88, in transform
-    if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
-IndexError: list index out of range
+  File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 100, in transform
+    for q in h.keys():
+AttributeError: 'str' object has no attribute 'keys'
 
