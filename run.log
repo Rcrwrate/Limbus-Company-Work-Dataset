@@ -1,4 +1,4 @@
-2023-03-30 21:09:23,982:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10504.json
+2023-03-31 21:07:55,420:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10504.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -6,7 +6,7 @@
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,020:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
+2023-03-31 21:07:55,460:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -14,8 +14,8 @@ IndexError: list index out of range
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-03-30 21:09:24,028:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
-2023-03-30 21:09:24,040:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
+2023-03-31 21:07:55,468:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json load error
+2023-03-31 21:07:55,475:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S204B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -41,7 +41,7 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 61)
 
-2023-03-30 21:09:24,102:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AttendanceRewardsText.json
+2023-03-31 21:07:55,534:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AttendanceRewardsText.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -49,7 +49,7 @@ SyntaxError: unterminated string literal (detected at line 61)
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,141:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Heathcliff_Ncorp_10704.json
+2023-03-31 21:07:55,575:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Heathcliff_Ncorp_10704.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -57,7 +57,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,161:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_Ncorp_10504.json
+2023-03-31 21:07:55,595:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Meursault_Ncorp_10504.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -65,7 +65,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,215:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10904.json
+2023-03-31 21:07:55,648:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10904.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -73,7 +73,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,217:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10204.json
+2023-03-31 21:07:55,650:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10204.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -81,7 +81,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,217:[critical]	./LimbusLocalize/assets/Localize/CN/CN_SeasonTitle.json
+2023-03-31 21:07:55,650:[critical]	./LimbusLocalize/assets/Localize/CN/CN_SeasonTitle.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -89,8 +89,8 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,393:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
-2023-03-30 21:09:24,393:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
+2023-03-31 21:07:55,828:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json load error
+2023-03-31 21:07:55,829:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S102B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -116,8 +116,8 @@ Traceback (most recent call last):
                ^
 SyntaxError: unterminated string literal (detected at line 7)
 
-2023-03-30 21:09:24,396:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
-2023-03-30 21:09:24,396:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
+2023-03-31 21:07:55,832:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json load error
+2023-03-31 21:07:55,832:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S101B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -143,7 +143,7 @@ Traceback (most recent call last):
              ^
 SyntaxError: unterminated string literal (detected at line 9)
 
-2023-03-30 21:09:24,460:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
+2023-03-31 21:07:55,906:[critical]	./LimbusLocalize/assets/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -151,7 +151,7 @@ SyntaxError: unterminated string literal (detected at line 9)
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 KeyError: 'dataList'
 
-2023-03-30 21:09:24,589:[critical]	./LimbusLocalize/assets/Localize/CN/CN_RewardDungeonUI.json
+2023-03-31 21:07:56,049:[critical]	./LimbusLocalize/assets/Localize/CN/CN_RewardDungeonUI.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -159,7 +159,7 @@ KeyError: 'dataList'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,795:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Ncorp_10904.json
+2023-03-31 21:07:56,283:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Rodion_Ncorp_10904.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -167,8 +167,8 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:24,837:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
-2023-03-30 21:09:24,838:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
+2023-03-31 21:07:56,323:[ERROR]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json load error
+2023-03-31 21:07:56,323:[critical]	./LimbusLocalize/assets/Localize/CN/CN_S209B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 77, in fetch_json
     fin[i] = json.load(f)
@@ -194,7 +194,7 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
 
-2023-03-30 21:09:25,037:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
+2023-03-31 21:07:56,557:[critical]	./LimbusLocalize/assets/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -202,7 +202,7 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-03-30 21:09:25,101:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Faust_Ncorp_10204.json
+2023-03-31 21:07:56,624:[critical]	./LimbusLocalize/assets/Localize/CN/CN_Voice_Faust_Ncorp_10204.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -210,7 +210,7 @@ AttributeError: 'str' object has no attribute 'keys'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-03-30 21:09:25,125:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10704.json
+2023-03-31 21:07:56,654:[critical]	./LimbusLocalize/assets/Localize/CN/CN_P10704.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 153, in main
     last = check(merge(transform(fetch_json(i))), last)
