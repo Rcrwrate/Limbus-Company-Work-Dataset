@@ -5472,9 +5472,9 @@ All enemies (save for Abnormalities) can Panic when their Sanity falls below a c
 Sinners with low Sanity will be corroded by E.G.O.=理智值过低的罪人会被E.G.O侵蚀。
 精神力が最低値になった囚人は、E.G.Oに侵蝕されます。=理智值过低的罪人会被E.G.O侵蚀。
 정신력이 최저 수치가 된 수감자는 E.G.O에 침식됩니다.=理智值过低的罪人会被E.G.O侵蚀。
-Corroded Sinners will lash out indiscriminately, so be careful.=被侵蚀的罪人无差别地进行攻击，请多加留意。
-E.G.Oに侵蝕された囚人は、敵味方を区別せずに攻撃しますのご注意ください。=被侵蚀的罪人无差别地进行攻击，请多加留意。
-E.G.O에 침식된 수감자는 아군과 적군을 구별 없이 공격하니 주의하세요.=被侵蚀的罪人无差别地进行攻击，请多加留意。
+Corroded Sinners will lash out indiscriminately, so be careful.=被侵蚀的罪人会无差别地进行攻击，请多加留意。
+E.G.Oに侵蝕された囚人は、敵味方を区別せずに攻撃しますのご注意ください。=被侵蚀的罪人会无差别地进行攻击，请多加留意。
+E.G.O에 침식된 수감자는 아군과 적군을 구별 없이 공격하니 주의하세요.=被侵蚀的罪人会无差别地进行攻击，请多加留意。
 A status ailment’s power indicates how much damage it will deal.=状态效果的强度决定了其会造成多少伤害。
 状態異常にて付与するダメージ量は「威力」として表示されます。=状态效果的强度决定了其会造成多少伤害。
 상태 이상의 위력은 상태 이상이 주는 피해량을 표시합니다.=状态效果的强度决定了其会造成多少伤害。
