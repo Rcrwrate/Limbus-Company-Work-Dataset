@@ -3834,9 +3834,9 @@ The next {1} time(s) this unit tosses an attack skill Coin, take {0} fixed damag
 Tremor=震颤
 振動=震颤
 진동=震颤
-When hit by attacks that burst Tremor, raise the Stagger Threshold by {0}. Lasts {1} turn(s).=受到引爆震颤的攻击时，混乱阈值前移{0}。持续{1}回合。
-{1}ターンの間、振動爆発スキルで被ダメージ時に{0}の精神力ダメージ=受到引爆震颤的攻击时，混乱阈值前移{0}。持续{1}回合。
-{1}턴 동안 진동 폭발 스킬로 피격 시 {0}만큼 흐트러짐 손상=受到引爆震颤的攻击时，混乱阈值前移{0}。持续{1}回合。
+When hit by attacks that burst Tremor, raise the Stagger Threshold by {0}. Lasts {1} turn(s).=在{1}回合内，受到引爆震颤的攻击时，混乱阈值前移{0}。
+{1}ターンの間、振動爆発スキルで被ダメージ時に{0}の精神力ダメージ=在{1}回合内，受到引爆震颤的攻击时，混乱阈值前移{0}。
+{1}턴 동안 진동 폭발 스킬로 피격 시 {0}만큼 흐트러짐 손상=在{1}回合内，受到引爆震颤的攻击时，混乱阈值前移{0}。
 Raise stagger threshold by {0}=混乱阈值前移{0}
 混乱区間を{0}前進=混乱阈值前移{0}
 {0}만큼 흐트러짐 손상=混乱阈值前移{0}
