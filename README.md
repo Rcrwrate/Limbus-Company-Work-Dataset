@@ -2,7 +2,7 @@
 
 Limbus-Company自动工具库，定时提取民间汉化，并自动整合至XUnity.AutoTranslator汉化列表
 
-本仓库旨在为XUnity.AutoTranslator提供汉化文件，**我的**关联仓库[Limbus-Company-zh_CN](https://github.com/Rcrwrate/Limbus-Company-zh_CN)
+本仓库旨在为XUnity.AutoTranslator提供汉化文件，**我的史前遗址**[Limbus-Company-zh_CN](https://github.com/Rcrwrate/Limbus-Company-zh_CN)
 
 # 前情提要
 
@@ -19,7 +19,7 @@ Limbus-Company自动工具库，定时提取民间汉化，并自动整合至XUn
 
 ### 相关代码遵循如下MIT License
 
-Copyright (c) 2022-2023 Phantom-sea-limited, Rcrwrate
+Copyright (c) 2022-2023 Phantom-sea-limited
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

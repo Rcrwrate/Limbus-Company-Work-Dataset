@@ -42,7 +42,8 @@ def get_list_new(path: str, li: list):
         for dirname in dirnames:
             pass
         for filename in filenames:
-            li.append("{}{}".format(parent, filename))
+            # li.append("{}{}".format(parent, filename))
+            li.append(os.path.join(parent, filename))
 
 
 OL = {}

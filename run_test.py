@@ -42,7 +42,8 @@ def get_list_new(path: str, li: list):
         for dirname in dirnames:
             pass
         for filename in filenames:
-            li.append("{}{}".format(parent, filename))
+            # li.append("{}{}".format(parent, filename))
+            li.append(os.path.join(parent, filename))
 
 
 OL = {}
@@ -65,7 +66,7 @@ def get_path(new_path):
 
 
 NL = []
-get_list_new("./LimbusLocalize/assets/Localize/CN/", NL)
+get_list_new("./LimbusLocalize/Localize/CN/", NL)
 
 
 def fetch_json(ori):
@@ -166,4 +167,5 @@ def save(fin_dict, PATH=os.path.join("output", "Substitutions.txt")):
 
 if __name__ == "__main__":
     f = "./LimbusLocalize/assets/Localize/CN/CN_AbDlg_Gregor.json"
-    check(merge(transform(fetch_json(f))))
+    # check(merge(transform(fetch_json(f))))
+    print(fetch_json(f))
