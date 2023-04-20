@@ -466,7 +466,7 @@
     },
     {
       "id": "continuous_turn",
-      "content": "Count"
+      "content": "Turns"
     },
     {
       "id": "status_buff_list",
@@ -474,7 +474,7 @@
     },
     {
       "id": "stack",
-      "content": "Potency"
+      "content": "Count"
     },
     {
       "id": "slash_resistance",
@@ -515,6 +515,42 @@
     {
       "id": "auto_coinToss",
       "content": "Auto Cointoss"
+    },
+    {
+      "id": "babayaga_alert",
+      "content": "You have {0} chances left."
+    },
+    {
+      "id": "battle_operation_offset",
+      "content": "Offset"
+    },
+    {
+      "id": "oneside_defense",
+      "content": "One-sided Guard"
+    },
+    {
+      "id": "cantIdentify",
+      "content": "<color=#ff0000>[Indiscriminate]</color>"
+    },
+    {
+      "id": "popup_message_ego_irrevocable",
+      "content": "E.G.O Skills generated on previous turns cannot be canceled."
+    },
+    {
+      "id": "stock",
+      "content": "Owned"
+    },
+    {
+      "id": "stable",
+      "content": "Stable"
+    },
+    {
+      "id": "un_stable",
+      "content": "Unstable"
+    },
+    {
+      "id": "vibration_explosion",
+      "content": "Tremor Burst!"
     }
   ]
 }

@@ -354,21 +354,21 @@
       "id": 10307,
       "name": "[Hel. P. Me. He. Lp.]",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "You hear snappy mechanical noises through the closed door.\n\n\"Sounds like a cry for help...\"\n\nAs you focus your attention, you begin to hear footsteps.\n\n\"Steel... Those are clangs of steel...\"\n\nSinclair froze.\nIt looks like an inquisitor is coming for them.\nWhat will you do?",
+      "desc": "You hear snappy mechanical noises through the closed door.\n\n“Sounds like a cry for help…”\n\nAs you focus your attention, you begin to hear footsteps.\n\n“Steel… Those are clangs of steel…”\n\nSinclair froze.\nIt looks like an Inquisitor is coming for them.\nWhat will you do?",
       "options": [
         {
           "message": "Free the prosthetic.",
           "messageDesc": "Sinclair heals SP. Begin a combat encounter. Win to gain an E.G.O Gift.",
           "result": [
-            "\"...I knew I could count on you.\"\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were tied to a rope.\n\n\"You should run, quickly!\"\n\nAs soon as Sinclair untied them, they hurriedly ran out of the room.\n\n\"Tch... Heretics!\"\n\nWe were a little late to leave; the inquisitors shouted as they entered the room.\nIt seems conflict is unavoidable.",
-            "\"...I knew I could count on you.\"\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were tied to a rope.\n\n\"You should run, quickly!\"\n\nAs soon as Sinclair untied them, they hurriedly ran out of the room.\n\n\"Bastards, not even a simple 'thanks'.\"\n\nSome Sinners complained,\nbut Sinclair looked satisfied with the deed.\n\nCalming them down, we left the room."
+            "“…I knew I could count on you.”\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were bound by ropes.\n\n“Get out of here, quickly!”\n\nAs soon as he untied them, they hurriedly ran out of the room.\n\n“Tch… The heretics!”\n\nWe were a little late to leave; the Inquisitors shouted as they entered the room.\nIt seems conflict is unavoidable.",
+            "“…I knew I could count on you.”\n\nSinclair jumped in as soon as you told him what to do.\nAs you expected, a number of prosthetic people were bound by ropes.\n\n“Get out of here, quickly!”\n\nAs soon as he untied them, they hurriedly ran out of the room.\n\n“Bastards, not even a simple thank you.”\n\nSome of the Sinners complained,\nbut Sinclair looked satisfied with the deed.\n\nCalming them down, we left the room."
           ]
         },
         {
           "message": "Leave the prosthetic.",
           "messageDesc": "Sinclair loses SP.",
           "result": [
-            "\"N-No... How could...\"\n\nSinclair seems to be shocked by your answer.\nAs unfortunate as this is for him, losing Sinners while trying to save those people will be a fatal detriment in the coming fights.\n\n[H, He. Help. H. Hel...]\n\nWe left in a hurry, leaving behind the cries."
+            "“N—No… How could…”\n\nSinclair seems to be shocked by your answer.\nAs unfortunate as this is, losing manpower while trying to save those people would be a fatal detriment for the coming engagements.\n\n[H. He. Help. H. Hel…]\n\nWe left in a hurry, leaving behind their plaintive cries."
           ]
         }
       ]
@@ -377,13 +377,13 @@
       "id": 10308,
       "name": "Rite of Suppuration",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "The passage was heated red.\n\n\"Yeesh, that'd melt my shoes.\"\n\nSinners carefully approached the road, only to retreat from the overwhelming heat.\nSomething was written on the sign in front of the passage,\n\n\"Prove your humanity through weakness and suppuration.\nCreate a path with seared feet.\"\n\nIt took no time at all to figure out what this meant.\n...What will you do?",
+      "desc": "The passage was red-hot.\n\n“Yeesh, that’d melt my shoes.”\n\nThe Sinners carefully approached the road, only to retreat from the overwhelming heat.\nSomething was written on the sign in front of the passage:\n\nProve your humanity \nAnd through weakness and suppuration\nSear a path with mobilization\n\nIt took no time at all to figure out what that meant.\n…What will you do?",
       "options": [
         {
-          "message": "Present the N Corp. seal.",
-          "messageDesc": "Only available if the E.G.O Gift 'N Corp. Seal' is in possession.",
+          "message": "Present the N Corp. Seal.",
+          "messageDesc": "Only available if the E.G.O Gift [N Corp. Seal] is in possession.",
           "result": [
-            "\"We proved ourselves already, haven't we?\"\n\nA Sinner suggested.\nIt remined you that you owned a proof.\n\n\"Right... The seal!\"\n\nTagging the seal on the sign caused the passage to cool down in an instant.\nWe were able to tread the path without a problem."
+            "“We’ve proved ourselves already, haven’t we?”\n\nA Sinner suggested.\nIt reminded you that you bore proof.\n\n“Right… The seal!”\n\nTagging the seal on the sign caused the passage to cool in an instant.\nWe were able to tread without a problem."
           ]
         },
         {
@@ -394,8 +394,8 @@
           "message": "Look for another way.",
           "messageDesc": "50% chance for a 3-wave combat encounter.",
           "result": [
-            "It seems too dangerous to make a Sinner cross this searing passage.\nNot to mention, you don't know if there's anything to make the trip any easier for the rest even if one managed to cross it.\nYou figure you might be able to take another route as long as you're careful not to get spotted.\n\nUnfortunately, a group of patrolling inquisitors noticed you.",
-            "It seems too dangerous to make a Sinner cross this searing passage.\nNot to mention, you don't know if there's anything to make the trip any easier for the rest even if one managed to cross it.\nYou figure you might be able to take another route as long as you're careful not to get spotted.\n\nFortunately, you managed to get through without being noticed."
+            "It seems too dangerous to make any Sinner cross this searing passage.\n\nNot to mention that you don’t know if there’s anything to make the trip easier for the rest, even if someone managed to cross it.\nYou figure you might be able to take another route as long as you’re careful not to get spotted.\n\nUnfortunately, a group of patrolling Inquisitors noticed you.",
+            "It seems too dangerous to make any Sinner cross this searing passage.\n\nNot to mention that you don’t know if there’s anything to make the trip easier for the rest, even if someone managed to cross it.\nYou figure you might be able to take another route as long as you’re careful not to get spotted.\n\nFortunately, you managed to get through without being noticed."
           ]
         }
       ]
@@ -404,19 +404,19 @@
       "id": 10309,
       "name": "A Vessel of Zeal",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "You see a pedestal adorned with engravings of a nail and a hammer.\n\n\"Must be something to do with N Corp.\"\n\nA Sinner mutters, and you agree.\nShould you try to get some info on N Corp? Or...",
+      "desc": "You see a pedestal adorned with the engravings of a nail and hammer.\n\n“Must have something to do with N Corp.”\n\nA Sinner mutters, and you agree.\nShould you try to get some info on N Corp? Or…",
       "options": [
         {
           "message": "Examine the book on the pedestal.",
           "messageDesc": "Gain an E.G.O Gift",
           "result": [
-            "Placed on the pedestal was the tome N Corp. inquisitors were often seen carrying.\nYou take this chance to peek at a few pages of it...\n\n'Ugh...'\n\nThe indecipherable content only gave you a headache.\nYou decide to keep it for now and read it later."
+            "Upon the pedestal was a tome N Corp. Inquisitors were often seen carrying.\nYou take this chance to peek at a few pages of it…\n\n“Ugh…”\n\nThe indecipherable content only gave you a headache.\nYou decide to hold onto it for now and read it later."
           ]
         },
         {
           "message": "Stay away from the noise and leave.",
           "result": [
-            "We know enough already.\nIt's not worth snooping around suspicious areas."
+            "We know enough already.\nIt’s not worth snooping around suspicious areas."
           ]
         }
       ]
@@ -425,16 +425,16 @@
       "id": 10310,
       "name": "Rite of Confrontation",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "A passage carved above the closed gate reads:\n\n\"Confront your fear and terror, and prove that you have feelings.\n\nFill this vessel with tears.\"\n\nLooking around, you find the supposed vessel next to an unpleasant-looking chair.\nWhat will you do?",
+      "desc": "An inscription above the closed gate reads:\n\nProve your terror and fears\nFill this vessel with tears\n\nLooking around, you find the supposed vessel next to an unpleasant-looking chair.\nWhat will you do?",
       "options": [
         {
           "message": "Perform the rite.",
-          "messageDesc": "Run a Gloom check. Selected Identitiy loses SP. Pass to gain an E.G.O Gift."
+          "messageDesc": "Run a Gloom check. Selected Identity loses SP. Pass to gain an E.G.O Gift."
         },
         {
           "message": "Leave the room.",
           "result": [
-            "It's too dangerous to attempt a rite when you aren't even sure how it might work.\nWe left the room."
+            "It’s too dangerous to attempt a rite when you aren’t even sure of how it works.\nWe left the room."
           ]
         }
       ]
@@ -443,33 +443,33 @@
       "id": 10311,
       "name": "Exhibit of Human Parts",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "You find a row of glass containers in a corner of the main area.\nInside them are dried organs and pieces of life showing active movement.\n\n\"A tragic display...\"\n\nThe containers can be opened easily. You might take one of the pieces if you wanted to.\nWhat will you do?",
+      "desc": "You find a row of glass containers in a corner of the main area.\nInside them are dried organs and pieces of life showing active movement.\n\n“A tragic display…”\n\nThe containers can be opened easily. You could take one of the pieces if you want to.\nWhat will you do?",
       "options": [
         {
           "message": "Take the glowing skull.",
           "messageDesc": "Gain an E.G.O Gift that provides healing at low health.",
           "result": [
-            "You took the glowing skull.\nIt radiates gently, and you feel a strange warmth from it.\n\nThe other containers won't open. It looks like you can take only one.\nYou took your leave with the item you got."
+            "You took the glowing skull.\nIt radiates gently, and you feel a strange warmth from it.\n\nThe other containers won’t open. It seems that you can take only one.\nYou took your leave with the item you chose."
           ]
         },
         {
           "message": "Take the bleeding hand.",
           "messageDesc": "Gain an E.G.O Gift that provides power-ups at low health.",
           "result": [
-            "The bloody fingers caught your attention.\nWhen you open the container to hold it, you notice that blood continues to drip from the section.\nYou took the perpetually flinching finger.\n\nThe other containers won't open. It looks like you can take only one.\nYou took your leave with the item you got."
+            "The bloody fingers caught your attention.\nWhen you open the container to hold it, you notice that blood continues to drip from the section.\nYou pick it up by a perpetually flinching digit.\n\nThe other containers won’t open. It seems that you can take only one.\nYou took your leave with the item you chose."
           ]
         },
         {
           "message": "Take the wriggling tongue.",
-          "messageDesc": "Gain an E.G.O Gift that provides benefits after winning a clash",
+          "messageDesc": "Gain an E.G.O Gift that provides benefits after winning a Clash.",
           "result": [
-            "The slithering tongue attracts your eyes.\nWhen you open the container and grab it, it flaps in your palm.\n\nYou feel as though the tongue is mocking you, so you tried to pick another one, but...\nThe other containers won't open. It looks like you can take only one.\nYou took your leave with the item you got."
+            "The slithering tongue attracts your eyes.\nWhen you open the container and grab it, it flaps in your palm.\n\nYou feel as though the tongue is mocking you, so you try to pick another one, but…\n\nThe other containers won’t open. It seems that you can take only one.\nYou have to take your leave with the item you chose."
           ]
         },
         {
-          "message": "Don't take anything.",
+          "message": "Don’t take anything.",
           "result": [
-            "You decide not to take anything.\nYou'd rather not bother touching creepy organs.\nLike that, we left the place."
+            "You decide not to take anything.\n\nYou’d rather not bother with touching creepy organs.\nLike that, we left the place."
           ]
         }
       ]
@@ -478,42 +478,42 @@
       "id": 10312,
       "name": "Rite of Penance",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "A passage is written above the large gate.\n\n\"Pierce yourself with the thorns, and atone through suffering.\"\n\nIt looks like it wants us to impale ourselves on spikes.\nWhat will you do?",
+      "desc": "A passage is written above the large gate:\n\nOnly those who repent may find motion\nThorn yourself, atone through flagellation\n\nIt looks like it wants us to impale ourselves on spikes.\nWhat will you do?",
       "options": [
         {
           "message": "Perform the rite.",
-          "messageDesc": "Run a Wrath check. Selected Identitiy loses HP. Pass to gain an E.G.O Gift."
+          "messageDesc": "Run a Wrath check. Selected Identity loses HP. Pass to gain an E.G.O Gift."
         },
         {
           "message": "Leave the room.",
           "result": [
-            "There's simply too much risk involved.\nYou don't see a point in giving an order to jump into spikes.\n\nWe left the room."
+            "There’s simply too much risk involved.\nYou don’t see a point in giving the order to fling someone onto the spikes.\n\nWe left the room."
           ]
         }
       ]
     },
     {
       "id": 10314,
-      "name": "The Final Rite",
+      "name": "Rite of Conclusion",
       "subDesc": "subDesc가 뭘까?",
-      "desc": "Hideously transformed N Corp. inquisitors stood guard at the gate.\nYou tried to attack, but they don't appear hostile in any capacity.\n\n\"Only. Exceptional...ones. Are allowed. In, this place.\"\n\n\"To...pass. You, will. Prove yourself. Worthy.\"\n\nYou aren't sure what they mean by proving yourself worthy.\nWhat should you do?",
+      "desc": "Hideously transformed N Corp. Inquisitors stood guard at the gate.\nYou moved to attack, but they don’t appear to be hostile in any capacity.\n\n“Only. Exceptional… ones. Are allowed. In, this place.”\n\n“To… pass. You, will. Prove yourself. Worthy.”\n\nYou aren’t exactly sure what they mean by “proving yourself”.\nWhat should you do?",
       "options": [
         {
-          "message": "Present the proof of passing the rites.",
-          "messageDesc": "Only available if the E.G.O Gift 'N Corp. Seal' or all three Tokens of Innocence, Tears, and Atonement are in possession.",
+          "message": "Present proof of passing the rites.",
+          "messageDesc": "Only available if the E.G.O Gift [N Corp. Seal] or all three Tokens of Innocence, Tears, and Atonement are in possession.",
           "result": [
-            "You remembered that you've been collecting these tokens.\nIf those rites your group went through were tests, then the tokens must be the proof of your 'worth'.\n\n\"...You may, pass.\"\n\nThe inquisitors opened the gate, wailing in a bizarre voice.\n\n\"Take, this. With...you.\"\n\nReceiving the item, we walked through the door."
+            "You remembered what you’ve been collecting.\nIf the things your group went through were tests, then what you received must be the proof of your “worth”.\n\n“…You may, pass.”\n\nThe Inquisitors opened the gate, wailing in bizarre voices.\n\n“Take, this. With… you.”\n\nReceiving the item, we walked through the door."
           ]
         },
         {
           "message": "Use words.",
-          "messageDesc": "Run a Lust check. Pass to proceed. Fail, and begin a difficult combat encounter."
+          "messageDesc": "Run a Lust check. Pass to proceed. Fail to begin a difficult combat encounter."
         },
         {
           "message": "Use violence.",
-          "messageDesc": "Gain 'A Sign'. Begin a difficult combat encounter.",
+          "messageDesc": "Gain ‘A Sign’. Begin a difficult combat encounter.",
           "result": [
-            "It seems violence will be our most straightforward solution.\n\n'...Heretic.'\n\nThe voice spilling out of that shaking jaw must be one of pure hostility.\n\n'Allow me to help... Manager.'\n\nSinclair tightened the grip on his weapon, determination burning quietly in his eyes."
+            "It seems violence will be our most straightforward solution.\n\n“…Here-tic.”\n\nThe voice spilling out of that shaking jaw must be one of pure hostility.\n\n“Allow me to help… Manager.”\n\nSinclair tightened the grip on his weapon, determination burning quietly in his eyes."
           ]
         }
       ]
@@ -522,24 +522,24 @@
       "id": 103001,
       "name": "Inquisition",
       "subDesc": "사용 안하는 선택지",
-      "desc": "You met an N Corp. inquisitor.\nInstead of attacking, they ask us if you loathe prosthetics.\nWhat should you say?",
+      "desc": "You met an N Corp. Inquisitor.\n\nInstead of attacking, they ask us if we loathe prosthetics.\nWhat should you say?",
       "options": [
         {
-          "message": "Agree with the inquisitor.",
+          "message": "Agree with the Inquisitor.",
           "result": [
-            "You agreed with the inquisitor.\nThey laughed and walked away."
+            "You agreed with the Inquisitor.\nThey laughed and walked away."
           ]
         },
         {
-          "message": "Deny the inquisitor's claim.",
+          "message": "Refuse the Inquisitor’s claim.",
           "result": [
-            "You disagreed with the inquisitor.\nSinclair quietly nodded at you.\nThe angered inquisitor called in their subordinates."
+            "You disagreed with the Inquisitor.\nSinclair quietly nodded to you.\nThe angered Inquisitor called their subordinates."
           ]
         },
         {
           "message": "Keep quiet.",
           "result": [
-            "You give the inquisitor a silent glare.\nThey lost interest in you and walked away."
+            "You gave the Inquisitor a silent glare.\nThey lost interest in you and walked away."
           ]
         }
       ]
@@ -548,7 +548,7 @@
       "id": 103002,
       "name": "Fanaticism",
       "subDesc": "사용 안하는 선택지",
-      "desc": "N Corp's inquisitors are torturing prosthetic people.\nYou see Sinclair tremble with fear and anger.\nWhat will you do?",
+      "desc": "N Corp. Inquisitors are torturing prosthetic people.\nYou see Sinclair tremble with fear and anger.\nWhat will you do?",
       "options": [
         {
           "message": "Wait for the torture to end.",
@@ -559,21 +559,21 @@
         {
           "message": "Stop the torture.",
           "result": [
-            "We can't just sit back and watch, even if it means getting into a fight we could avoid.\nDetermined, Sinclair gripped his weapon."
+            "We can’t just sit back and watch, even if it means getting into a fight we could avoid.\nDetermined, Sinclair gripped his weapon."
           ]
         }
       ]
     },
     {
       "id": 103006,
-      "name": "Test of Worth",
+      "name": "Test of Worthiness",
       "subDesc": "사용 안하는 선택지",
-      "desc": "Strangely shaped inquisitors of N Corp. guard the gate.\n\n'Only...those with worth...may enter.'\n\n'To pass...you will show...your worth.'\n\nWhat will you do?",
+      "desc": "Strangely shaped N Corp. Inquisitors guard the gate.\n\n“Only… those with worth… may enter.”\n\n“To pass… you will show… your worth.”\n\nWhat will you do?",
       "options": [
         {
-          "message": "Present the proof of passing the rites.",
+          "message": "Present proof of passing the rites.",
           "result": [
-            "You showed the inquisitors the tokens you got from those rituals.\nThey silently opened the door for us.\nAs we passed through, they gave you something."
+            "You showed the Inquisitors the tokens you got from those rituals.\n\nThey silently opened the door.\nAs you passed through, they gave you something."
           ]
         },
         {
@@ -582,7 +582,7 @@
         {
           "message": "Use violence.",
           "result": [
-            "All we can do is fight.\nLet's handle this with violence."
+            "All we can do is fight.\nLet’s handle this with violence."
           ]
         }
       ]
@@ -611,7 +611,7 @@
       "id": 800203,
       "name": "아즈텍원판 선택지3",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "To weaken the flame, you'll need cool water.\nSince we aren't carrying any buckets of water, we should offer up someone cool instead.",
+      "desc": "To weaken the flame, you’ll need cool water.\nSince we aren’t carrying any buckets of water, we should offer up someone cool instead.",
       "options": [
         {
           "message": "Offer a clay doll.",
@@ -631,7 +631,7 @@
       "id": 800205,
       "name": "아즈텍원판 선택지5",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "The stars are twinkling.\nWhen they shine, they'll rob us all of our sight.\nWhat gift would the stars like?",
+      "desc": "The stars are twinkling.\nWhen they shine, they’ll rob us all of our sight.\nWhat gift would the stars like?",
       "options": [
         {
           "message": "Offer a Sinner.",
@@ -645,18 +645,18 @@
       "id": 801201,
       "name": "강화인간 선택지1",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "How do those cyborgs keep coming back?\nThe Sinners were discussing.\n\n\"Perhapse those beings are not alive.\nThat way, they would not be able to die.\"\n\n\"No, we're not getting philosophical here.\"\n\n\"Hmm~ To me, it looked like rebuiling a brick wall.\"\n\n\"...I think I'm hearing something from that factory in the back.\"\n\nThe group turned their gaze to the factory behind the cyborgs.\nClanks of steel could be heard from the place that was quiet until moments ago.\n\nMaybe you should take a look at that shady facility?",
+      "desc": "How do those cyborgs keep coming back?\nThe Sinners were discussing.\n\n“Perhaps those beings are not alive.\nThat way, they would not be able to die.”\n\n“No, we’re not getting philosophical here.”\n\n“Hmm~ To me, it looked like rebuilding a brick wall.”\n\n“…I think I’m hearing something from that factory in the back.”\n\nThe group turned their gaze to the factory behind the cyborgs.\nMetallic clanking could be heard from the place that was quiet until moments ago.\n\nMaybe you should take a look at that shady facility?",
       "options": [
         {
           "message": "Investigate the factory.",
           "result": [
-            "You decided to check out the factory.\nBut, you might want to do something about the cyborgs first just to be safe.\n\nPerhaps you could earn enough time to get through by incapacitating the biggest one?"
+            "You decided to check out the factory.\nBut, you might want to do something about the cyborgs first, just to be safe.\n\nPerhaps you could earn enough time to get through by incapacitating the biggest one?"
           ]
         },
         {
-          "message": "We can't walk into danger like that. Keep fighting them.",
+          "message": "We can’t walk into unknown danger like that. Keep fighting them.",
           "result": [
-            "\"Do we really have to crawl into a place like that?\"\n\nOne Sinner spoke bluntly.\nThat's a good point. No need to take risks.\n\nIf they keep coming back, we'll just keep beating them until they don't."
+            "“Do we really have to crawl into a place like that?”\n\nOne Sinner spoke bluntly.\nThey make a good point. No need to take risks.\n\nIf they keep coming back, we’ll just keep on beating them until they don’t."
           ]
         }
       ]
@@ -665,14 +665,14 @@
       "id": 801202,
       "name": "강화인간 선택지2",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "Pinning the largest cyborg down as planned, you got to the factory in time.\n\n\"Huh, this is...\"\n\n\"Looks like some kind of toy factory.\"\n\nThe Sinners comment on the huge mechanism.\n\n\"Ah! Come behold this curiosity!\"\n\nThe Sinner pointed to a control panel with several buttons attached to it.\n\n<DO YOU LOVE THE CITY YOU LIVE IN?>\n\nWhat should you press?",
+      "desc": "Pinning down the largest cyborg as planned, you got to the factory in time.\n\n“Huh, this is…”\n\n“Looks like some kind of toy plant.”\n\nThe Sinners comment on the huge mechanism.\n\n“Ah! Come behold this curiosity!”\n\nThe Sinner pointed to a control panel with several buttons attached to it.\n\n<DO YOU LOVE THE CITY YOU LIVE IN?>\n\nWhat should you press?",
       "options": [
         {
           "message": "Yes.",
           "messageDesc": "Press the button to proceed.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?"
           ]
         },
         {
@@ -680,8 +680,8 @@
           "messageDesc": "Press the button to stop.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?",
-            "Detected three inputs.\nOperating emergency protocol 3: facility shutdown.\n\n\"Looks like it's stopped.\"\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\nLet's step outside the factory, shall we?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?",
+            "Detected three inputs.\nOperating Emergency Protocol #3: Facility Shutdown.\n\n“Looks like it’s stopped.”\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\n\nLet’s step outside the factory, shall we?"
           ]
         }
       ]
@@ -690,14 +690,14 @@
       "id": 801203,
       "name": "강화인간 선택지2-그렇다",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "Continuing the augmentation.\n\nYou\nmust\nbecome\nstrong.\n\nPlease proceed with the input.\n\n<DO YOU LOVE THE CITY YOU LIVE IN?>\n\nWhat should you press?",
+      "desc": "Continuing augmentation.\n\nYou\nmust\nbecome\nstrong.\n\nPlease proceed with the input.\n\n<DO YOU LOVE THE CITY YOU LIVE IN?>\n\nWhat should you press?",
       "options": [
         {
           "message": "Yes.",
           "messageDesc": "Press the button to proceed.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?"
           ]
         },
         {
@@ -705,8 +705,8 @@
           "messageDesc": "Press the button to stop.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?",
-            "Detected three inputs.\nOperating emergency protocol 3: facility shutdown.\n\n\"Looks like it's stopped.\"\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\nLet's step outside the factory, shall we?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?",
+            "Detected three inputs.\nOperating Emergency Protocol #3: Facility Shutdown.\n\n“Looks like it’s stopped.”\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\n\nLet’s step outside the factory, shall we?"
           ]
         }
       ]
@@ -722,7 +722,7 @@
           "messageDesc": "Press the button to proceed.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?"
           ]
         },
         {
@@ -730,8 +730,8 @@
           "messageDesc": "Press the button to stop.",
           "result": [
             "",
-            "Abnormal input.\n\n\"Huh? I can't press any of these...\"\n\nCommencing site burial in 3, 2...\n\n\"Outta here!!\"\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don't you think?",
-            "Detected three inputs.\nOperating emergency protocol 3: facility shutdown.\n\n\"Looks like it's stopped.\"\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\nLet's step outside the factory, shall we?"
+            "Abnormal input.\n\n“Huh? Now I can’t press any of these…”\n\nCommencing site burial in 3, 2…\n\n“Outta here!!”\n\nAfter a short notice, the factory exploded with a massive bang.\nYou managed to stop it from working, but the Sinners were caught up in the explosion as well.\n\nLooks like you should get out of here first, don’t you think?",
+            "Detected three inputs.\nOperating Emergency Protocol #3: Facility Shutdown.\n\n“Looks like it’s stopped.”\n\nThe machines whirred for a short while before stopping.\nWith that, the cyborgs should no longer revive.\n\nLet’s step outside the factory, shall we?"
           ]
         }
       ]
@@ -740,12 +740,12 @@
       "id": 801501,
       "name": "분홍신 선택지1",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "A voice travels between the fluttering ribbons.\n\n\"What is your desire?\"\n\n\"Put on me.\"\n\n\"I'll take you wherever you want to go.\"\n\nThe suggestions are incredibly suspicious, but for some reason, the Sinners are struggling to decide what to do.\n\nWhat do you say?",
+      "desc": "A voice travels between the fluttering ribbons.\n\n“What is your desire?”\n\n“Put me on.”\n\n“I’ll carry you wherever you wish to go.”\n\nThe suggestions are incredibly suspicious, but for some reason, the Sinners are struggling to decide what to do.\n\nWhat do you say?",
       "options": [
         {
           "message": "Put on the shoes.",
           "result": [
-            "\"Yeah... This is good.\"\n\n\"It's all smooth.\"\n\nThe Sinners expressed their fascination.\nThose ribbons had turned into shiny pairs of pink shoes.\n\nNow, everyone will be able to go where they want.\n\nProbably."
+            "“Yeah… This is good.”\n\n“It’s all smooth.”\n\nThe Sinners expressed their fascination.\nThose ribbons had turned into shiny pairs of pink shoes.\n\nNow, everyone will be able to go wherever they want.\n\nProbably."
           ]
         },
         {
@@ -760,31 +760,87 @@
       "id": 201001,
       "name": "Vending Machine and Oceanic Waves",
       "subDesc": "사용 안하는 텍스트",
-      "desc": "You see an empty lot ahead where the Sinners can take rest.\n\nThere, you find a vending machine with a number of buttons on it.\nYou see drinks as well, but you can't recognize what they're supposed to depict.\nWhat will you do?",
+      "desc": "You see an empty lot ahead where the Sinners can take a rest.\n\nThere, you find a vending machine with a number of buttons on it.\nYou see drinks as well, but you can’t recognize what they’re supposed to depict.\nWhat will you do?",
       "options": [
         {
           "message": "No need to take risks. Just rest here with the Sinners.",
           "result": [
-            "Some time passed.\n\nThanks to the respite,\nthe group seems well-rested."
+            "Some time passed.\n\nThanks to the respite, the group seems to have some energy back."
           ]
         },
         {
           "message": "Get some drinks they might like, as a treat.",
           "result": [
-            "운이 좋게도,\n골라갔던 음료가 모두의 입에 맞은 모양이다.\n\n쉬고 일어난 수감자들의 모습에 활력이 넘치는 것 같다.\n아무래도 괴상한 음료를 뽑은 것 같다.\n표정을 잔뜩 구기면서 저마다 음료를 내뱉거나 하고 있다. \n쉬고 일어난 수감자들의 모습도 무언가 찌뿌둥해보인다. \n탈이라도 안나서 다행이야..."
+            "With just a single press,\nthe machine ejected one can after another.\n\nAll the cans are purple.\n\nYou can’t fathom the meaning of the ships and grapes doodled on them,\nbut they somehow feel familiar, and well… cheery.\n\nThey should be okay to drink.\n\nYou passed the cans out to the Sinners."
           ]
         }
       ]
     },
     {
       "id": 201002,
-      "name": "거울의 방",
+      "name": "Mirror Room",
       "subDesc": "사용 안하는 텍스트"
     },
     {
       "id": 201003,
       "name": "강화앰플교환삽입소",
       "subDesc": "사용 안하는 텍스트"
+    },
+    {
+      "id": 910301,
+      "name": "The Chicken Strife",
+      "desc": "Some folks are blocking the way.\nThey’re sitting on a deck, yelling at each other.\n“Look at this succulent piece! The rich juice running down the fibers of luscious meat… This is what chicken is about!”\n“Wrong. This piece has a clean taste, with not an ounce of grease tainting the tongue. This is the real deal.”\nThe two turn around at the same time to face you.\n“You there! Tell us which is better!”",
+      "options": [
+        {
+          "message": "Chicken’s chicken, duh.",
+          "messageDesc": "Gain an E.G.O Gift.",
+          "result": [
+            "“That’s… true.”\n“An irrefutable point.”\nThey lowered their hands and settled down.\n“What a strange thing we were fighting over.”\n“They’re right… The one truth is that the chicken is always right.”\nAfter a passionate handshake, the two gave you their bucket of chicken.\n“A wise gourmet such as yourself deserves both pieces. Please, take this, we insist.”"
+          ]
+        },
+        {
+          "message": "Gotta be the drumsticks, all rich and juicy.",
+          "messageDesc": "Gain an E.G.O Gift.",
+          "result": [
+            "“You see! The drumsticks are better!”\n“You don’t know what good taste is.”\nThe person holding a chicken breast let out a baffled sigh.\n“Ey! Here’s your reward. You deserve a drumstick of your own.”\nSatisfied, the one with a drumstick handed you another from the bucket.\n“I’m counting on you to keep that leg up!”\nUnsure of what you’re being trusted with, you left the table with the drumstick."
+          ]
+        },
+        {
+          "message": "The breast, of course, unsullied and spotless.",
+          "messageDesc": "Gain an E.G.O Gift.",
+          "result": [
+            "“There ain’t no way! You’d give up this banquet of juiciness…?”\n“It’s fat, not just juice. The breast is healthy, light, comes in hefty servings, and is easy to eat—it’s obviously the reasonable choice.”\nThe person holding a piece of chicken breast pleasantly remarked.\n“Here, a reward for you. Take this breast.”\nA sizable piece was brought out of the bucket.\n“Best of luck with your gains. I hope you stay healthy.”\nUnsure of what you’re supposed to gain, you left the table with the chicken breast."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910302,
+      "name": "Tango of Poultry Passion",
+      "desc": "A bright spotlight shines on a portion of the noisy area.\nIt seems as though the chickens are attending a… ball.\n“That’s the tango.”\nLooking at their movements which might be a dance or a tussle, you notice sauce leaking from one of them.\nIt doesn’t seem to be aware of this…",
+      "options": [
+        {
+          "message": "Alert it truthfully.",
+          "messageDesc": "Gain an E.G.O Gift.",
+          "result": [
+            "“Heed me!!!!! Sauce is leaking from thy body!!!!!!”\n“Don’t shout it that loud, you dummy…”\nNotified of its leakage, the chicken quickly ran its wings over its back—or what appeared to be its back, rather.\nSadly, the knot had loosened on its stitching.\n“Kieegh, kiiierg…”\nDoes it mean it can’t do it on its own? Approaching with a trail of sauce dripping behind, it held some thread and a needle in its hands, er, wings.\nDoes it want you to stitch its back?"
+          ]
+        },
+        {
+          "message": "You saw nothing.",
+          "messageDesc": "Gain an E.G.O Gift.",
+          "result": [
+            "“Should we not inform them?”\n“Yeah, but~ They look pretty happy right now, don’t they? Couldn’t hurt to sit and watch just a bit longer, right?”\n“What will become of it when it loses all its sauce?”\n“Maybe it’ll just become an underseasoned chicken.”\nIn time, the leakage ceased.\n“Kiehg!”\nPerhaps it noticed that it’s become lighter? It suddenly performed a highly technical move.\n“Astonishing.”\nThe chickens around it stopped their dances and watched its performance, mesmerized. Soon enough, they approached the performer, letting out screams that sounded like cheers.\nThey walked out of the light, tossing the special one up and down as a celebration.\nAll that remained… was the spilled sauce."
+          ]
+        },
+        {
+          "message": "Give a few subtle hints.",
+          "messageDesc": "50% chance to gain an E.G.O Gift.",
+          "result": [
+            "“Mm-mmm~ Boy, I smell something tasty! I sure wonder where this smell’s coooming frooom~?!”\n“…I suppose it would be foolish of me to expect more believable acting.”\nThe Sinner’s voice caused the chickens to stop their passionate dance at once.\nExamining each other’s backs, they soon found the source of the leakage.\n“Kieh, kierg.”\n“Giiegh.”\nWithout panicking, they brought some thread and a needle to sew up its back—or what appears to be its back.\nThey were unsullied in their expertise.\nOnce the stitching was done, they scuttled into the dark.\nAll that remained was the thread and needle they used."
+          ]
+        }
+      ]
     }
   ]
 }

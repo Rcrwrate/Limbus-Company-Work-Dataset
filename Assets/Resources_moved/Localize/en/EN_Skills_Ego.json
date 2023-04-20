@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttackHead] Inflict 2 Attack Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Give 1 Haste to all allies next turn"
+                  "desc": "[OnSucceedAttack] Apply 1 Haste to all allies next turn"
                 }
               ]
             }
@@ -33,7 +33,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Attack Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Give 3 Haste to all allies next turn"
+                  "desc": "[OnSucceedAttack] Apply 3 Haste to all allies next turn"
                 }
               ]
             }
@@ -48,7 +48,7 @@
           "level": 1,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -63,7 +63,7 @@
           "level": 3,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -83,7 +83,7 @@
           "level": 1,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -98,7 +98,7 @@
           "level": 3,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -118,7 +118,7 @@
           "level": 1,
           "name": "Wishing Cairn",
           "abName": "Pagoda Veneration",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -126,7 +126,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Sloth Fragility"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze"
                 }
               ]
             }
@@ -136,7 +136,7 @@
           "level": 3,
           "name": "Wishing Cairn",
           "abName": "Pagoda Veneration",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -144,7 +144,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Sloth Fragility"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze"
                 }
               ]
             }
@@ -159,7 +159,7 @@
           "level": 1,
           "name": "Wishing Cairn",
           "abName": "Pagoda Veneration",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -167,7 +167,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Sloth Fragility"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze"
                 }
               ]
             }
@@ -177,7 +177,7 @@
           "level": 3,
           "name": "Wishing Cairn",
           "abName": "Pagoda Veneration",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -185,7 +185,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Sloth Fragility"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 2 Paralyze"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 3 Bind next turn"
@@ -203,7 +203,7 @@
           "level": 1,
           "name": "Representation Emitter",
           "abName": "Faust",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -218,7 +218,7 @@
           "level": 3,
           "name": "Representation Emitter",
           "abName": "Faust",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -238,7 +238,7 @@
           "level": 1,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 5 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -246,7 +246,7 @@
                   "desc": "[EndSkill] Heal 10 SP for all allies"
                 },
                 {
-                  "desc": "[EndSkill] Heal all allies for 10% of max HP"
+                  "desc": "[EndSkill] Heal all allies for 10% of Max HP"
                 }
               ]
             }
@@ -256,7 +256,7 @@
           "level": 3,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 5 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
                   "desc": "[EndSkill] Heal 15 SP for all allies"
                 },
                 {
-                  "desc": "[EndSkill] Heal all allies for 15% of max HP"
+                  "desc": "[EndSkill] Heal all allies for 15% of Max HP"
                 }
               ]
             }
@@ -279,7 +279,7 @@
           "level": 1,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 5 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -297,7 +297,7 @@
           "level": 3,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 5 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -364,7 +364,7 @@
           "level": 1,
           "name": "Hex Nail",
           "abName": "Hurting Teddy Bear",
-          "desc": "[CantIdentify]",
+          "desc": "[CantIdentify]\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -382,7 +382,7 @@
           "level": 3,
           "name": "Hex Nail",
           "abName": "Hurting Teddy Bear",
-          "desc": "[CantIdentify]",
+          "desc": "[CantIdentify]\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -475,7 +475,7 @@
                   "desc": "[OnSucceedAttack] Deal 25 SP damage"
                 },
                 {
-                  "desc": "If target is staggered, in low morale, or in panic, deal 30% of damage dealt as bonus damage"
+                  "desc": "If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage"
                 }
               ]
             }
@@ -490,7 +490,7 @@
           "level": 1,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[CantIdentify]",
+          "desc": "[CantIdentify]\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -508,7 +508,7 @@
           "level": 3,
           "name": "Fluid Sac",
           "abName": "Headless Ichthys",
-          "desc": "[CantIdentify]",
+          "desc": "[CantIdentify]\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -519,7 +519,7 @@
                   "desc": "[OnSucceedAttack] Inflict 7 Sinking"
                 },
                 {
-                  "desc": "If target is NOT staggered, in low morale, or in panic, deal 50% of damage dealt as bonus damage"
+                  "desc": "If target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage"
                 }
               ]
             }
@@ -607,7 +607,7 @@
           "level": 1,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify]\nSkill Power +2 against units with Burn\n[EnemyKill] Gain 2 Attack Power Up next turn\n[EnemyKillFail] Apply 10 Burn to self next turn",
+          "desc": "[CantIdentify]\nTargets randomly\nSkill Power +2 against units with Burn\n[EnemyKill] Gain 2 Attack Power Up next turn\n[EnemyKillFail] Gain 10 Burn next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -622,7 +622,7 @@
           "level": 3,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify]\nSkill Power +4 against units with Burn\n[EnemyKill] Gain 2 Attack Power Up next turn\n[EnemyKillFail] Apply 3 Attack Power Up and 10 Burn to self next turn",
+          "desc": "[CantIdentify]\nTargets randomly\nSkill Power +4 against units with Burn\n[EnemyKill] Gain 2 Attack Power Up next turn\n[EnemyKillFail] Gain 3 Attack Power Up and 10 Burn next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -650,13 +650,13 @@
                   "desc": "[OnSucceedAttack] Inflict 3 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 Bind to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 3 Bind next turn"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 Attack Power Down next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 Attack Power Down to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 Attack Power Down next turn"
                 }
               ]
             }
@@ -674,13 +674,13 @@
                   "desc": "[OnSucceedAttack] Inflict 5 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 5 Bind to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 5 Bind next turn"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 4 Attack Power Down next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 4 Attack Power Down to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 4 Attack Power Down next turn"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gain 2 Protection next turn"
@@ -703,7 +703,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze"
                 }
               ]
             }
@@ -718,7 +718,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze"
                 }
               ]
             }
@@ -738,7 +738,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze"
                 }
               ]
             }
@@ -753,10 +753,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze"
                 },
                 {
-                  "desc": "Raise stagger threshold by 30% of damage dealt"
+                  "desc": "Raise Stagger Threshold by 30% of damage dealt"
                 }
               ]
             }
@@ -771,7 +771,7 @@
           "level": 1,
           "name": "Pursuance",
           "abName": "Heavenly Executor’s Scribe",
-          "desc": "[EndSkill] Heal 2 other allies with the lowest HP for 15% of max HP",
+          "desc": "[EndSkill] Heal 2 other allies with the lowest HP for 15% of Max HP",
           "coinlist": [
             {
               "coindescs": [
@@ -786,7 +786,7 @@
           "level": 3,
           "name": "Pursuance",
           "abName": "Heavenly Executor’s Scribe",
-          "desc": "[EndSkill] Heal 2 other allies with the lowest HP for 30% of max HP; Give them 2 Protection next turn",
+          "desc": "[EndSkill] Heal 2 other allies with the lowest HP for 30% of Max HP; Apply 2 Protection next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -806,7 +806,7 @@
           "level": 1,
           "name": "Pursuance",
           "abName": "Heavenly Executor’s Scribe",
-          "desc": "[CantIdentify] [Wide]\n[EndSkill] Apply 1 Fragile to the ally with the lowest HP next turn; Apply 2 Damage Up to them next turn",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly\n[EndSkill] Apply 1 Fragile to the ally with the lowest HP next turn; Apply 2 Damage Up next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -821,7 +821,7 @@
           "level": 3,
           "name": "Pursuance",
           "abName": "Heavenly Executor’s Scribe",
-          "desc": "[CantIdentify] [Wide]\n[EndSkill] Apply 2 Fragile to the ally with the lowest HP next turn; Apply 3 Damage Up to them next turn",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly\n[EndSkill] Apply 2 Fragile to the ally with the lowest HP next turn; Apply 3 Damage Up next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -841,7 +841,7 @@
           "level": 1,
           "name": "Land of Illusion",
           "abName": "Hong Lu",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -856,7 +856,7 @@
           "level": 3,
           "name": "Land of Illusion",
           "abName": "Hong Lu",
-          "desc": "[Wide] [EndSkill] Heal 15 SP",
+          "desc": "[Wide] Targets 3 slots\n[EndSkill] Heal 15 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -884,7 +884,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Defense Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Defense Down"
+                  "desc": "[OnSucceedAttack] Inflict 1 Defense Level Down"
                 }
               ]
             }
@@ -902,7 +902,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Defense Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Defense Down"
+                  "desc": "[OnSucceedAttack] Inflict 2 Defense Level Down"
                 }
               ]
             }
@@ -917,7 +917,7 @@
           "level": 1,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "[CantIdentify]\nTargets the unit with the highest speed",
+          "desc": "[CantIdentify]\nTarget the unit with the highest Speed",
           "coinlist": [
             {
               "coindescs": [
@@ -925,7 +925,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Defense Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Defense Down"
+                  "desc": "[OnSucceedAttack] Inflict 1 Defense Level Down"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Inflict 4 Bind next turn"
@@ -938,7 +938,7 @@
           "level": 3,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "[CantIdentify]\nTargets the unit with the highest speed",
+          "desc": "[CantIdentify]\nTarget the unit with the highest Speed",
           "coinlist": [
             {
               "coindescs": [
@@ -946,7 +946,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Defense Power Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Defense Down"
+                  "desc": "[OnSucceedAttack] Inflict 2 Defense Level Down"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 4 Bind next turn"
@@ -1005,12 +1005,12 @@
           "level": 1,
           "name": "Telepole",
           "abName": "Alleyway Watchdog",
-          "desc": "[Wide] Spend 5 Charge count to gain +3 Skill Power",
+          "desc": "[Wide] Targets 3 slots\nSpend 5 Charge to gain +3 Skill Power",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Gain +3 Charge count"
+                  "desc": "[OnSucceedAttackTail] Gain +3 Charge Count"
                 }
               ]
             }
@@ -1020,12 +1020,12 @@
           "level": 3,
           "name": "Telepole",
           "abName": "Alleyway Watchdog",
-          "desc": "[Wide] [WhenUse] Gain Charge count by Envy Res.\nSpend 5 Charge count to gain +3 Skill Power",
+          "desc": "[Wide] Targets 3 slots\n[WhenUse] Gain Charge Count by Envy Res.\nSpend 5 Charge to gain +3 base power",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Gain +5 Charge count"
+                  "desc": "[OnSucceedAttackTail] Gain +5 Charge Count"
                 }
               ]
             }
@@ -1040,12 +1040,12 @@
           "level": 1,
           "name": "Telepole",
           "abName": "Alleyway Watchdog",
-          "desc": "[CantIdentify] [Wide] Spend all Charge count to gain +6 Skill Power",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly\nSpend all Charge to gain +6 Skill Power",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply 3 Fragile to self next turn"
+                  "desc": "[OnSucceedAttackHead] Gain 3 Fragile next turn"
                 }
               ]
             }
@@ -1055,12 +1055,12 @@
           "level": 3,
           "name": "Telepole",
           "abName": "Alleyway Watchdog",
-          "desc": "[CantIdentify] [Wide] [WhenUse]Gain Charge count by Envy Res.\nSpend all Charge count to gain +10 Skill Power",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly\n[WhenUse] Gain Charge Count by Envy Reson.\nSpend all Charge to gain +10 Skill Power",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply 3 Fragile to self next turn"
+                  "desc": "[OnSucceedAttackHead] Gain 3 Fragile next turn"
                 }
               ]
             }
@@ -1075,7 +1075,7 @@
           "level": 1,
           "name": "Snagharpoon",
           "abName": "Ishmael",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -1093,7 +1093,7 @@
           "level": 3,
           "name": "Snagharpoon",
           "abName": "Ishmael",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -1116,7 +1116,7 @@
           "level": 1,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -1124,7 +1124,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Offense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 2 Paralyze"
                 }
               ]
             }
@@ -1134,7 +1134,7 @@
           "level": 3,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -1142,7 +1142,7 @@
                   "desc": "[OnSucceedAttack] Inflict 4 Offense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
                 }
               ]
             }
@@ -1157,7 +1157,7 @@
           "level": 1,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "[CantIdentify]\nTargets the unit with the highest speed",
+          "desc": "[CantIdentify]\nTarget the unit with the highest Speed",
           "coinlist": [
             {
               "coindescs": [
@@ -1165,7 +1165,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Offense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 2 Paralyze"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 4 Bind next turn"
@@ -1178,7 +1178,7 @@
           "level": 3,
           "name": "Roseate Desire",
           "abName": "Pink Shoes",
-          "desc": "[CantIdentify]\nTargets the unit with the highest speed",
+          "desc": "[CantIdentify]\nTarget the unit with the highest Speed",
           "coinlist": [
             {
               "coindescs": [
@@ -1186,7 +1186,7 @@
                   "desc": "[OnSucceedAttack] Inflict 4 Offense Level Down"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 4 Bind next turn"
@@ -1204,7 +1204,7 @@
           "level": 1,
           "name": "Ardor Blossom Star",
           "abName": "Ardor Blossom Moth",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
@@ -1212,7 +1212,7 @@
                   "desc": "Inflict Burn by half of Wrath Res."
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Burn to 3 random enemies"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Burn on 3 random enemies"
                 }
               ]
             }
@@ -1222,18 +1222,18 @@
           "level": 3,
           "name": "Ardor Blossom Star",
           "abName": "Ardor Blossom Moth",
-          "desc": "",
+          "desc": "Targets the rearmost unit",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Raise stagger threshold by 40% of damage dealt"
+                  "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 40% of damage dealt"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict Burn by Wrath Res."
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Burn to 3 random enemies"
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Burn on 3 random enemies"
                 }
               ]
             }
@@ -1248,12 +1248,12 @@
           "level": 1,
           "name": "Ardor Blossom Star",
           "abName": "Ardor Blossom Moth",
-          "desc": "[CantIdentify]\n[WhenUse] Lose HP by 10% of max HP",
+          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Lose HP by 10% of Max HP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Burn by Wrath Res. to all units"
+                  "desc": "[OnSucceedAttack] Inflict Burn by Wrath Res. on all units"
                 }
               ]
             }
@@ -1263,15 +1263,15 @@
           "level": 3,
           "name": "Ardor Blossom Star",
           "abName": "Ardor Blossom Moth",
-          "desc": "[CantIdentify]\n[WhenUse] Lose HP by 10% of max HP",
+          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Lose HP by 10% of Max HP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Burn by (2x Wrath Res.) to all units"
+                  "desc": "[OnSucceedAttack] Inflict Burn by (2x) Wrath Res. on all units"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise stagger threshold by 60% of damage dealt"
+                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 60% of damage dealt"
                 }
               ]
             }
@@ -1286,7 +1286,7 @@
           "level": 1,
           "name": "What is Cast",
           "abName": "Rodion",
-          "desc": "+10% Damage if target's HP is above 50%",
+          "desc": "If target’s HP is above 50%, +10% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1301,7 +1301,7 @@
           "level": 3,
           "name": "What is Cast",
           "abName": "Rodion",
-          "desc": "+30% Damage if target's HP is above 50%",
+          "desc": "If target’s HP is above 50%, +30% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1359,7 +1359,7 @@
           "level": 1,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1374,7 +1374,7 @@
           "level": 3,
           "name": "4th Match Flame",
           "abName": "Scorched Girl",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1397,7 +1397,7 @@
           "level": 1,
           "name": "Rime Shank",
           "abName": "Baba Yaga",
-          "desc": "+10% Damage if target's HP is above 50%",
+          "desc": "[Wide] Targets 3 slots\nIf target’s HP is above 50%, +10% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1405,7 +1405,7 @@
                   "desc": "[OnSucceedAttackHead] Burst Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply +2 Sinking count"
+                  "desc": "[OnSucceedAttack] Inflict +2 Sinking Count"
                 }
               ]
             }
@@ -1415,7 +1415,7 @@
           "level": 3,
           "name": "Rime Shank",
           "abName": "Baba Yaga",
-          "desc": "+30% Damage if target's HP is above 50%",
+          "desc": "[Wide] Targets 3 slots\nIf target’s HP is above 50%, +30% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1423,7 +1423,7 @@
                   "desc": "Burst Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply +3 Sinking count"
+                  "desc": "[OnSucceedAttack] Inflict +3 Sinking Count"
                 }
               ]
             }
@@ -1438,7 +1438,7 @@
           "level": 1,
           "name": "Rime Shank",
           "abName": "Baba Yaga",
-          "desc": "[CantIdentify][Wide]\nTargets the unit with most health\n+10% Damage if target's HP is above 50%",
+          "desc": "[CantIdentify]\nTarget the unit with the most health\nIf target’s HP is above 50%, +10% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1446,7 +1446,7 @@
                   "desc": "[OnSucceedAttackHead] Burst Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply +4 Sinking count"
+                  "desc": "[OnSucceedAttack] Inflict +4 Sinking Count"
                 }
               ]
             }
@@ -1456,7 +1456,7 @@
           "level": 3,
           "name": "Rime Shank",
           "abName": "Baba Yaga",
-          "desc": "[CantIdentify][Wide]\nTargets the unit with most health\n+30% Damage if target's HP is above 50%",
+          "desc": "[CantIdentify]\nTarget the unit with the most health\nIf target’s HP is above 50%, +30% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1464,7 +1464,7 @@
                   "desc": "[OnSucceedAttack] Burst Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply +6 Sinking count"
+                  "desc": "[OnSucceedAttack] Inflict +6 Sinking Count"
                 }
               ]
             }
@@ -1487,7 +1487,7 @@
                   "desc": "[OnSucceedAttackHead] Inflict 6 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 Attack Power Down to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 3 Attack Power Down next turn"
                 }
               ]
             }
@@ -1505,7 +1505,7 @@
                   "desc": "[OnSucceedAttackHead] Inflict 12 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 Attack Power Down to self next turn"
+                  "desc": "[OnSucceedAttack] Gain 2 Attack Power Down next turn"
                 }
               ]
             }
@@ -1520,12 +1520,12 @@
           "level": 1,
           "name": "Impending Day",
           "abName": "Doomsday Calendar",
-          "desc": "+10% Damage if target's HP is below 25%",
+          "desc": "If target’s HP is below 25%, deal +10% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Heal all allies for 10% of max HP"
+                  "desc": "[EnemyKill] Heal all allies for 10% of Max HP"
                 }
               ]
             }
@@ -1535,12 +1535,12 @@
           "level": 3,
           "name": "Impending Day",
           "abName": "Doomsday Calendar",
-          "desc": "+20% Damage if target's HP is below 25%",
+          "desc": "If target’s HP is below 25%, deal +20% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain 1 Attack Power Up next turn\nHeal all allies for 15% of max HP"
+                  "desc": "[EnemyKill] Gain 1 Attack Power Up next turn\nHeal all allies for 15% of Max HP"
                 }
               ]
             }
@@ -1555,12 +1555,12 @@
           "level": 1,
           "name": "Impending Day",
           "abName": "Doomsday Calendar",
-          "desc": "[CantIdentify]\n+15% Damage if target's HP is below 25%",
+          "desc": "[CantIdentify]\nTargets randomly\nIf target’s HP is below 25%, +15% Damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKillFail] Apply 10 Bleed to self next turn"
+                  "desc": "[EnemyKillFail] Gain 10 Bleed next turn"
                 }
               ]
             }
@@ -1570,12 +1570,12 @@
           "level": 3,
           "name": "Impending Day",
           "abName": "Doomsday Calendar",
-          "desc": "[CantIdentify]\n+25% Damage if target's HP is below 25%",
+          "desc": "[CantIdentify]\nTargets randomly\nIf target’s HP is below 25%, +25% Damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKillFail] Apply 10 Bleed to self next turn"
+                  "desc": "[EnemyKillFail] Gain 10 Bleed next turn"
                 },
                 {
                   "desc": "[EnemyKillFail] Gain 3 Attack Power Up next turn"
@@ -1593,7 +1593,7 @@
           "level": 1,
           "name": "To Páthos Máthos",
           "abName": "Outis",
-          "desc": "+10% Damage if target's HP is below 50%",
+          "desc": "If target’s HP is below 50%, +10% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1608,7 +1608,7 @@
           "level": 3,
           "name": "To Páthos Máthos",
           "abName": "Outis",
-          "desc": "+30% Damage if target's HP is below 50%",
+          "desc": "If target’s HP is below 50%, +30% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1628,7 +1628,7 @@
           "level": 1,
           "name": "Ebony Stem",
           "abName": "Ebony Queen’s Apple",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 5 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -1646,7 +1646,7 @@
           "level": 3,
           "name": "Ebony Stem",
           "abName": "Ebony Queen’s Apple",
-          "desc": "[Wide]",
+          "desc": "[Wide] Targets 5 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -1672,7 +1672,7 @@
           "level": 1,
           "name": "Ebony Stem",
           "abName": "Ebony Queen’s Apple",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 5 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1690,7 +1690,7 @@
           "level": 3,
           "name": "Ebony Stem",
           "abName": "Ebony Queen’s Apple",
-          "desc": "[CantIdentify][Wide]",
+          "desc": "[CantIdentify][Wide] Targets 5 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1731,7 +1731,7 @@
           "level": 3,
           "name": "Ya Śūnyatā Tad Rūpam",
           "abName": "My Form Empties",
-          "desc": "[EndSkill] Heal 18 SP\n[EndSkill] Give 1 Attack Power Up to 2 random other allies",
+          "desc": "[EndSkill] Heal 18 SP\n[EndSkill] Apply 1 Attack Power Up to 2 random other allies",
           "coinlist": [
             {
               "coindescs": [
@@ -1751,7 +1751,7 @@
           "level": 1,
           "name": "Ya Śūnyatā Tad Rūpam",
           "abName": "My Form Empties",
-          "desc": "[CantIdentify]",
+          "desc": "[CantIdentify]\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1762,7 +1762,7 @@
                   "desc": "[OnSucceedAttackTail] Inflict 1 Fragile"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Apply 1 Fragile to self"
+                  "desc": "[OnSucceedAttackTail] Gain 1 Fragile"
                 }
               ]
             }
@@ -1772,7 +1772,7 @@
           "level": 3,
           "name": "Ya Śūnyatā Tad Rūpam",
           "abName": "My Form Empties",
-          "desc": "[CantIdentify]\n[EndSkill] Give 1 Attack Power Up to 2 random other allies",
+          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Apply 1 Attack Power Up to 2 random other allies",
           "coinlist": [
             {
               "coindescs": [
@@ -1783,7 +1783,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Fragile"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Apply 2 Fragile to self"
+                  "desc": "[OnSucceedAttackTail] Gain 2 Fragile"
                 }
               ]
             }
@@ -1803,7 +1803,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 stacks of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
+                  "desc": "[OnSucceedAttack] Inflict 3 of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
                 }
               ]
             }
@@ -1818,7 +1818,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 stacks of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
+                  "desc": "[OnSucceedAttack] Inflict 6 of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
                 }
               ]
             }
@@ -1832,8 +1832,8 @@
         {
           "level": 1,
           "name": "Legerdemain",
-          "abName": "Golden False Apple",
-          "desc": "[Wide]",
+          "abName": "Golden Apple",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -1841,7 +1841,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze"
                 }
               ]
             }
@@ -1850,8 +1850,8 @@
         {
           "level": 3,
           "name": "Legerdemain",
-          "abName": "Golden False Apple",
-          "desc": "[Wide]",
+          "abName": "Golden Apple",
+          "desc": "[Wide] Targets 3 slots",
           "coinlist": [
             {
               "coindescs": [
@@ -1862,7 +1862,7 @@
                   "desc": "[OnSucceedAttack] Inflict 4 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 4 Paralyze"
                 }
               ]
             }
@@ -1876,8 +1876,8 @@
         {
           "level": 1,
           "name": "Legerdemain",
-          "abName": "Golden False Apple",
-          "desc": "[CantIdentify][Wide]",
+          "abName": "Golden Apple",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1885,7 +1885,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralysis"
+                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze"
                 }
               ]
             }
@@ -1894,8 +1894,8 @@
         {
           "level": 3,
           "name": "Legerdemain",
-          "abName": "Golden False Apple",
-          "desc": "[CantIdentify][Wide]",
+          "abName": "Golden Apple",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets randomly",
           "coinlist": [
             {
               "coindescs": [
@@ -1903,7 +1903,7 @@
                   "desc": "[OnSucceedAttack] Inflict 4 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Paralysis"
+                  "desc": "[OnSucceedAttack] Inflict 4 Paralyze"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 4 Maggots"
@@ -1956,7 +1956,7 @@
           "level": 1,
           "name": "Lantern",
           "abName": "Faelantern",
-          "desc": "[CantIdentify] [Wide]\nTargets the unit with most health",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTarget the units with the most health",
           "coinlist": [
             {
               "coindescs": [
@@ -1974,7 +1974,7 @@
           "level": 3,
           "name": "Lantern",
           "abName": "Faelantern",
-          "desc": "[CantIdentify] [Wide]\nTargets the unit with most health",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTarget the units with the most health",
           "coinlist": [
             {
               "coindescs": [
@@ -1983,6 +1983,316 @@
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 5 Rupture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +10 Charge Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +10 Charge Count"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Give Charge Count to all allies by Envy Res."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +10 Charge Count and 10 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +10 Charge Count and 10 Rupture"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Give +10 Charge Count, 5 Fragile, and 10 Rupture to all allies"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +5 Charge Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +7 Charge Count"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Apply 1 Envy Power Up and 1 Haste to 2 random allies next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 5 Paralyze"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +7 Charge Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Telepole",
+          "abName": "Alleyway Watchdog",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 5 Paralyze"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +10 Charge Count"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflict 2 Paralyze and 2 Bind on 2 random units next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[BeforeAttack] Boost damage based on current Lust resources (Up to 25%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 Burn Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[BeforeAttack] Boost damage based on current Lust resources (Up to 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 Burn Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify]\nTargets the unit with the most HP\n\n[BeforeAttack] Boost damage based on current Lust resources (Up to 25%)\nThen spend Lust resources by (Lust Reson.); further boost damage by 5% per resource spent",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Burn Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify]\nTargets the unit with the most HP\n\n[BeforeAttack] Boost damage based on current Lust resources (Up to 50%)\nThen spend Lust resources by (Lust Reson.); further boost damage by 10% per resource spent",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +4 Burn Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets the unit with the least HP\nIf the target is an ally, this deals 0 damage",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] If the target is an ally, heal them for 5% of user’s Max HP"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflict 7 Burn; if target is an ally, give 2 Haste next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets the unit with the least HP\nIf the target is an ally, this deals 0 damage",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] If the target is an ally, heal them for 10% of user’s Max HP"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">E.G.O Resource Amp</color></link></u> next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100321,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets the unit with the least HP\n\n[BeforeAttack] Spend 3 random E.G.O resources to boost damage by 10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Burn Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoup",
+          "desc": "[CantIdentify][Wide] Targets 3 slots\nTargets the unit with the least HP\n\n[BeforeAttack] Spend 3 random E.G.O resources to boost damage by 20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Burn Count"
                 }
               ]
             }

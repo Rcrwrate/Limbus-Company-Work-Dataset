@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_11001_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "I’m Sinclair… Emil Sinclair. Oh, my number is, uhm… eleven."
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_11001_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "I feel the most comfortable at this time of the day. Have a nice afternoon, Manager."
     },
     {
@@ -22,27 +22,27 @@
     },
     {
       "id": "smalltalk_11001_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "I don’t think I could ever have imagined doing this… Oh, it’s not that I dislike my job or anything, it’s just… something that randomly occurred to me."
     },
     {
       "id": "smalltalk_11001_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "You really are amazing, Manager… I’m still struggling to adjust, and you’re leading us like a pro despite your memory loss."
     },
     {
       "id": "smalltalk_11001_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "Look, Rodya gave me some snacks. I’m gonna save some for later. Hehe."
     },
     {
       "id": "smalltalk_11001_4",
-      "desc": "Chat 4",
+      "desc": "Chatter #4",
       "dlg": "Say, Dante… Do you… really feel nothing having that for your head? Is the world… still normal to you?"
     },
     {
       "id": "smalltalk_11001_5",
-      "desc": "Chat 5",
+      "desc": "Chatter #5",
       "dlg": "So, if you don’t remember your past, I guess that means you don’t have regrets either, right, Dante? It might be rude of me to say this, but… I envy that. You get to completely focus on the present."
     },
     {
@@ -52,17 +52,17 @@
     },
     {
       "id": "formation_11001_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "Umm… You want me? Mmh… I will do my best…"
     },
     {
       "id": "battleentry_11001_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "I guess this is for the best, right…?"
     },
     {
       "id": "battle_select_11001_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "Did I do something wrong…?"
     },
     {
@@ -72,12 +72,12 @@
     },
     {
       "id": "battle_enemy_break_11001_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "I did it, right…?"
     },
     {
       "id": "battle_break_11001_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Ngh…!"
     },
     {
@@ -102,17 +102,17 @@
     },
     {
       "id": "battle_clear_11001_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "Umm… Did we make it? I’m so relieved."
     },
     {
       "id": "battle_clear_ex_11001_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "I don’t really think it’s thanks to me. I appreciate the compliment, though. I was reminded of my mother for a moment."
     },
     {
       "id": "battle_defeat_11001_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "Sorry. I should have done better… I still have a lot of room for improvement."
     }
   ]

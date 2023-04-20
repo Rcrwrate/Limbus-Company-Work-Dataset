@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_11201_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "Mm… It’s Gregor. Well, feel free to talk to me unless I’m asleep."
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_11201_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "C’mon, I know you’re busy, but you gotta eat sometime."
     },
     {
@@ -22,27 +22,27 @@
     },
     {
       "id": "smalltalk_11201_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "So, what do you usually do in your free time, Manager Bud? I’d lend you a cig… but I guess it won’t be useful for you."
     },
     {
       "id": "smalltalk_11201_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "My least favorite things? Those dark-shelled critters with a long pair of antennae. I especially hate the tenacity of those bugs, refusing to die even in water."
     },
     {
       "id": "smalltalk_11201_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "Hey, Manager Bud, you got some lens cleaner…? Nevermind, forget I asked. Just be glad if you don’t have to wear glasses."
     },
     {
       "id": "smalltalk_11201_4",
-      "desc": "Chat 4",
+      "desc": "Chatter #4",
       "dlg": "I know it’s not the most flattering thing to say to a pal suffering from amnesia…\nBut, I sometimes think there are a few memories I could do without. You get what I’m saying? It’s like waiting for the end of a war that’ll never come."
     },
     {
       "id": "smalltalk_11201_5",
-      "desc": "Chat 5",
+      "desc": "Chatter #5",
       "dlg": "This thing would keep on regrowing every time I tried to cut it off. My arm, I mean. Or should I call it a leg…\nIt’s basically like family now. Well, that’s to say I had to accept that I’m stuck with it, like it or hate it."
     },
     {
@@ -52,17 +52,17 @@
     },
     {
       "id": "formation_11201_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "Aight, I’ll do what I can."
     },
     {
       "id": "battleentry_11201_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "Go? You want me to…? Gah… Well, I guess I’ll give it my all."
     },
     {
       "id": "battle_select_11201_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "What’s up? You got something to say?"
     },
     {
@@ -72,12 +72,12 @@
     },
     {
       "id": "battle_enemy_break_11201_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "Whoa, that was a pretty clean hit."
     },
     {
       "id": "battle_break_11201_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Ah, shoot…"
     },
     {
@@ -97,17 +97,17 @@
     },
     {
       "id": "battle_clear_11201_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "Phew~ We beat ‘em somehow. Nice work, Manager Bud."
     },
     {
       "id": "battle_clear_ex_11201_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "Won’t take any medals. Cigarettes, on the other hand, are completely welcome."
     },
     {
       "id": "battle_defeat_11201_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "Sorry ‘bout that. Couldn’t really keep my head in the game. Just one of those days, I guess."
     }
   ]

@@ -3,11 +3,11 @@
     {
       "id": 1001,
       "name": "Mask of a Devotee",
-      "desc": "All allies gain +5 Defense.",
+      "desc": "All allies gain +5 Defense Level.",
       "simpleDesc": [
         {
           "abilityID": 1001,
-          "simpleDesc": "DEF +5"
+          "simpleDesc": "Defense Level +5"
         }
       ]
     },
@@ -36,11 +36,11 @@
     {
       "id": 1004,
       "name": "Bloodied Mask of a Devotee",
-      "desc": "All allies gain +5 Offense Level and +5 Defense.",
+      "desc": "All allies gain +5 Offense Level and +5 Defense Level.",
       "simpleDesc": [
         {
           "abilityID": 1004,
-          "simpleDesc": "Offense Level +5, DEF +5"
+          "simpleDesc": "Offense & Defense Levels +5"
         }
       ]
     },
@@ -103,7 +103,7 @@
     {
       "id": 1014,
       "name": "Rainbow Mainspring",
-      "desc": "At the start of the turn, apply 2 Protect to the ally with the lowest HP.",
+      "desc": "At the start of the turn, apply 2 Protection to the ally with the lowest HP.",
       "simpleDesc": [
         {
           "abilityID": 1014,
@@ -114,7 +114,7 @@
     {
       "id": 1015,
       "name": "Rusty Mainspring",
-      "desc": "At the start of the turn, apply 1 Protect to the ally with the lowest HP.",
+      "desc": "At the start of the turn, apply 1 Protection to the ally with the lowest HP.",
       "simpleDesc": [
         {
           "abilityID": 1015,
@@ -377,6 +377,61 @@
         {
           "abilityID": 10511,
           "simpleDesc": "Pride skill damage +5%"
+        }
+      ]
+    },
+    {
+      "id": 1052,
+      "name": "Hot ‘n Juicy Drumstick",
+      "desc": "When inflicting Burn with skill effects, inflict +5 Burn Count.",
+      "simpleDesc": [
+        {
+          "abilityID": 1052,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "Dry-to-the-Bone Breast",
+      "desc": "When inflicting Rupture with skill effects, inflict +5 Rupture Count.",
+      "simpleDesc": [
+        {
+          "abilityID": 1053,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 1054,
+      "name": "Tango Marinade",
+      "desc": "Allies gain Clash Power by half their Speed against opponents with lower Speed.",
+      "simpleDesc": [
+        {
+          "abilityID": 1054,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 1055,
+      "name": "Contaminated Needle & Thread",
+      "desc": "Each turn, the first skill to deal damage to an enemy inflicts Bleed by 1/3 of the damage dealt.",
+      "simpleDesc": [
+        {
+          "abilityID": 1055,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 1056,
+      "name": "Sharp Needle & Thread",
+      "desc": "Each turn, the first skill to deal damage to an enemy deals bonus fixed damage by half of the damage dealt.",
+      "simpleDesc": [
+        {
+          "abilityID": 1056,
+          "simpleDesc": ""
         }
       ]
     }

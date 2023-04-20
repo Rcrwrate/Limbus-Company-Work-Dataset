@@ -78,7 +78,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +3 Bleed count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +3 Bleed Count next turn"
                 }
               ]
             }
@@ -93,7 +93,7 @@
           "level": 1,
           "name": "Shared Pain",
           "desc": [
-            "[wide]"
+            "[Wide]"
           ],
           "coinlist": [
             {
@@ -122,7 +122,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bite",
+          "name": "Nibble",
           "coinlist": [
             {},
             {}
@@ -135,7 +135,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Greedy Glutton",
+          "name": "Greedy Gluttons",
           "coinlist": [
             {
               "coindescs": [
@@ -275,7 +275,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +3 Bleed count next turn"
+                  "desc": "[OnSucceedAttack] Inflict +3 Bleed Count next turn"
                 }
               ]
             }
@@ -325,12 +325,12 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stab",
+          "name": "Lunge",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Bleed count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count next turn"
                 }
               ]
             }
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Bleed count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count next turn"
                 }
               ]
             }
@@ -362,15 +362,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Severe Stab",
+          "name": "Severe Lunge",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Bleed count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Burn count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Burn Count next turn"
                 }
               ]
             }
@@ -389,10 +389,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Bleed count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Apply +1 Burn count next turn"
+                  "desc": "[OnSucceedAttackHead] Inflict +1 Burn Count next turn"
                 }
               ]
             }
@@ -438,7 +438,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[DefeatDuel] Deal 20 damage to self"
+                  "desc": "[DefeatDuel] Take 20 damage"
                 },
                 {
                   "desc": "[DefeatDuel] Lose 1 Golden Sheen"
@@ -491,7 +491,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +3 Bleed count next turn"
+                  "desc": "[OnSucceedAttack] Inflict +3 Bleed Count next turn"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 Fragile next turn"
@@ -529,7 +529,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let's Get to Work...",
+          "name": "Let’s Get to Work…",
           "coinlist": [
             {},
             {}
@@ -555,7 +555,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Busy...",
+          "name": "So Busy…",
           "coinlist": [
             {}
           ]
@@ -567,7 +567,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Better Get Done With It...",
+          "name": "Best Get It Over With…",
           "coinlist": [
             {},
             {}
@@ -595,7 +595,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Busy...",
+          "name": "So Busy…",
           "coinlist": [
             {}
           ]
@@ -607,7 +607,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to Work!",
+          "name": "Worktime!",
           "coinlist": [
             {}
           ]
@@ -642,14 +642,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttack] Take 3 damage"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttack] Take 3 damage"
                 }
               ]
             }
@@ -681,21 +681,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttack] Take 3 damage"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttack] Take 3 damage"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttack] Take 3 damage"
                 }
               ]
             }
@@ -708,7 +708,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don't Stop Me?!",
+          "name": "Don’t Stop Me?!",
           "coinlist": [
             {},
             {}
@@ -746,7 +746,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pink Dance",
+          "name": "Rosy Dance",
           "coinlist": [
             {
               "coindescs": [
@@ -796,7 +796,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pink Dance",
+          "name": "Rosy Dance",
           "coinlist": [
             {
               "coindescs": [
@@ -814,7 +814,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to Earn!",
+          "name": "Breadwinning!",
           "coinlist": [
             {}
           ]
@@ -849,14 +849,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttackHead] Take 3 damage"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Deal 3 damage to self"
+                  "desc": "[OnSucceedAttackHead] Take 3 damage"
                 }
               ]
             }
@@ -869,7 +869,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Twinkle☆Sprinkle Spin Around!?",
+          "name": "Twinkle☆Sprinkle Spinny!?",
           "desc": "[WhenUse] Lose 10 HP; Skill Power +2",
           "coinlist": [
             {
@@ -930,7 +930,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Piercing Desire",
+          "name": "Piercing Lust",
           "coinlist": [
             {
               "coindescs": [
@@ -960,7 +960,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prideful Crush",
+          "name": "Prideful Runover",
           "coinlist": [
             {
               "coindescs": [
@@ -1098,7 +1098,7 @@
         {
           "level": 1,
           "name": "Imperfect Imitation",
-          "desc": "Takes after a skill that hit this unit.\n[WhenUse] Deal 10 SP damage",
+          "desc": "Copies a skill that hit this unit\n[WhenUse] Deal 10 SP damage",
           "coinlist": [
             {
               "coindescs": [
@@ -1121,7 +1121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10% of max HP; Gain 1 Instincts"
+                  "desc": "[OnSucceedAttack] Heal 10% of Max HP; Gain 1 Instincts"
                 }
               ]
             }
@@ -1139,7 +1139,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10% of max HP"
+                  "desc": "[OnSucceedAttack] Heal 10% of Max HP"
                 }
               ]
             },
@@ -1272,10 +1272,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +6 Bleed count next turn"
+                  "desc": "[OnSucceedAttack] Inflict +6 Bleed Count next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply +6 Rupture count next turn"
+                  "desc": "[OnSucceedAttack] Inflict +6 Rupture Count next turn"
                 }
               ]
             }
@@ -1319,7 +1319,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "On the Lookout",
+          "name": "Lookout",
           "coinlist": [
             {}
           ]
@@ -1362,7 +1362,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze next turn"
                 }
               ]
             }
@@ -1382,7 +1382,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20 HP; Apply +5 Bleed count"
+                  "desc": "[OnSucceedAttack] Heal 20 HP; Inflict +5 Bleed Count"
                 }
               ]
             }
@@ -1401,21 +1401,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed and 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 2 Bleed and 1 Paralyze next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed and 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 2 Bleed and 1 Paralyze next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Bleed and 2 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 4 Bleed and 2 Paralyze next turn"
                 }
               ]
             }
@@ -1434,7 +1434,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Raise stagger threshold by 10; Inflict 5 Bind next turn"
+                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 10; Inflict 5 Bind next turn"
                 }
               ]
             }
@@ -1461,7 +1461,7 @@
         {
           "level": 1,
           "name": "Pained Writhing",
-          "desc": "[WhenUse] Lose 12 HP; Apply 5 Bleed to self next turn",
+          "desc": "[WhenUse] Lose 12 HP; Gain 5 Bleed next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1494,19 +1494,19 @@
         {
           "level": 1,
           "name": "Pained Struggle",
-          "desc": "[WhenUse] Lose 12 HP; Apply +3 Bleed count to self next turn",
+          "desc": "[WhenUse] Lose 12 HP; Gain +3 Bleed Count next turn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 6 Paralyze next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 6 Paralyze next turn"
                 }
               ]
             }
@@ -1551,7 +1551,7 @@
         {
           "level": 1,
           "name": "The Gripping",
-          "desc": "[StartBattle] Gazes into the target for the next turn",
+          "desc": "[StartBattle] Gaze into the target for the next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1569,7 +1569,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Maniacal Laugh",
+          "name": "Cackle",
           "desc": "[WhenUse] Deal 10 SP damage",
           "coinlist": [
             {},
@@ -1589,26 +1589,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sin-Skewering Nail",
+          "name": "Sin-skewering Nail",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
                 }
               ]
             }
@@ -1622,33 +1622,33 @@
         {
           "level": 1,
           "name": "Purify",
-          "desc": "[WhenUse] If target's HP is below 30%, Skill Power +2",
+          "desc": "[WhenUse] If target’s HP is below 30%, Skill Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Nails"
+                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ Nails, stagger them and remove the Nails"
+                  "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, Stagger them and remove the Nails"
                 }
               ]
             }
@@ -1662,12 +1662,12 @@
         {
           "level": 1,
           "name": "I Shall Claim Your Life!",
-          "desc": "[WhenUse] If target's HP is below 30%, Skill Power +2",
+          "desc": "[WhenUse] If target’s HP is below 30%, Skill Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ Nails, stagger them"
+                  "desc": "[OnSucceedAttack] If target has 5+ Nails, Stagger them"
                 }
               ]
             },
@@ -1688,12 +1688,12 @@
         {
           "level": 1,
           "name": "I Shall Claim Your Life!",
-          "desc": "[DefeatDuel] User becomes staggered",
+          "desc": "[DefeatDuel] User becomes Staggered",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Stagger target, and inflict 10 Fragile next turn"
+                  "desc": "[OnSucceedAttack] Stagger target and inflict 10 Fragile next turn"
                 }
               ]
             }
@@ -1719,7 +1719,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You're Nothing",
+          "name": "You Are Nothing",
           "desc": "[OnSucceedEvade] Deal 5 SP damage",
           "coinlist": [
             {}
@@ -1732,7 +1732,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Protoplast's Wings",
+          "name": "Protoplast’s Wings",
           "coinlist": [
             {}
           ]
@@ -1744,7 +1744,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Protoplast's Wings",
+          "name": "Protoplast’s Wings",
           "coinlist": [
             {},
             {}
@@ -1765,7 +1765,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             },
@@ -1775,7 +1775,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             },
@@ -1785,7 +1785,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             },
@@ -1795,7 +1795,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             }
@@ -1816,7 +1816,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             },
@@ -1826,7 +1826,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             }
@@ -1847,7 +1847,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             },
@@ -1857,7 +1857,7 @@
                   "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             }
@@ -1924,12 +1924,12 @@
         {
           "level": 1,
           "name": "Honorable Grip",
-          "desc": "[WhenUse] +100% Damage if target's HP is below 30%",
+          "desc": "[WhenUse] If target’s HP is below 30%, +100% Damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If target's HP is below 30%, kill them instantly and heal 30 HP\nGains 2 Attack Power Up next turn"
+                  "desc": "[OnSucceedAttackHead] If target’s HP is below 30%, kill them and heal 30 HP\nGain 2 Attack Power Up next turn"
                 }
               ]
             }
@@ -1943,7 +1943,7 @@
         {
           "level": 1,
           "name": "Repent!!",
-          "desc": "[WhenUse] +100% Damage if target's HP is below 30%",
+          "desc": "[WhenUse] If target’s HP is below 30%, +100% Damage",
           "coinlist": [
             {
               "coindescs": [
@@ -2095,7 +2095,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Clotted Blood",
+          "name": "Clotting",
           "keywords": [
             "Bleeding"
           ],
@@ -2122,7 +2122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed next turn."
+                  "desc": "[OnSucceedAttack] Inflict 2 Bleed next turn"
                 }
               ]
             }
@@ -2140,7 +2140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Rupture next turn."
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture next turn"
                 }
               ]
             }
@@ -2158,14 +2158,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Rupture next turn."
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 Rupture next turn."
+                  "desc": "[OnSucceedAttackHead] Inflict 4 Rupture next turn"
                 }
               ]
             }
@@ -2183,10 +2183,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind next turn."
+                  "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 Defense Power Down."
+                  "desc": "[OnSucceedAttackHead] Inflict 4 Defense Power Down"
                 }
               ]
             }
@@ -2204,7 +2204,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture next turn."
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture next turn"
                 }
               ]
             }
@@ -2217,15 +2217,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lightning Draw",
+          "name": "Lightning Rod",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Rupture next turn."
+                  "desc": "[OnSucceedAttack] Inflict 2 Rupture next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Rupture next turn."
+                  "desc": "[OnSucceedAttackHead] Inflict 5 Rupture next turn"
                 }
               ]
             },
@@ -2245,12 +2245,12 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Red Lightning",
+          "name": "Red Bolts",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Rupture next turn."
+                  "desc": "[OnSucceedAttack] Inflict 10 Rupture next turn"
                 }
               ]
             },
@@ -2278,7 +2278,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 4 Defense Power Down."
+                  "desc": "[OnSucceedAttackHead] Inflict 4 Defense Power Down"
                 }
               ]
             }
@@ -2296,7 +2296,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
                 }
               ]
             }
@@ -2315,14 +2315,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed and 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 3 Bleed and 1 Paralyze next turn"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed and 1 Paralysis next turn"
+                  "desc": "[OnSucceedAttack] Inflict 3 Bleed and 1 Paralyze next turn"
                 }
               ]
             }
@@ -2340,7 +2340,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bind next turn."
+                  "desc": "[OnSucceedAttack] Inflict 3 Bind next turn"
                 }
               ]
             }
@@ -2372,7 +2372,7 @@
         {
           "level": 1,
           "name": "Poison Spray",
-          "desc": "[WhenUse] Lose 6 HP; Apply 5 Bleed to self next turn",
+          "desc": "[WhenUse] Lose 6 HP; Gain 5 Bleed next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -2388,6 +2388,408 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bawkbawbawbawk",
+          "desc": "Targets the unit with the lowest SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Babawbawk",
+          "desc": "Targets the unit with the lowest SP",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Sinking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Keghgh",
+          "desc": "If user doesn’t take damage this turn, apply 2 Attack Power Up to all allies next turn",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Baaawkbawk",
+          "desc": "Targets the unit with the lowest HP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Fragile"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bawkbabawk",
+          "desc": "Targets the unit with the lowest HP",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 5 Bleed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khgh",
+          "desc": "[OnSucceedEvade] Target loses 15 SP",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khghgh!",
+          "desc": "If user took no damage last turn, Coin Power +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 3 Haste next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kawkbaawk!",
+          "desc": "If user took no damage last turn, Coin Power +3",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 2 Paralyze next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Krgh!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khgh",
+          "desc": "Targets the unit with the most HP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 Paralyze"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khgaawahk",
+          "desc": "Targets the unit with the most HP",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Heal 7 HP"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Paralyze"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khk!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kgh!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Bleed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Krgh!",
+          "desc": "Targets the unit with the lowest SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Sinking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Krgh…",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kgh!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Bleed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Tremor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khk",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Bleed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Tremor"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze and 5 Tremor"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Burst Tremor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Keghgh!",
+          "desc": "Targets the unit with the lowest SP\n[OnSucceedAttack] Spawn a Raw Chicken",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 5 Sinking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khghghghgk",
+          "desc": "[WinDuel] Final Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 5 Bleed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Burst Tremor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Keghgh…",
+          "desc": "",
+          "coinlist": [
+            {}
           ]
         }
       ]

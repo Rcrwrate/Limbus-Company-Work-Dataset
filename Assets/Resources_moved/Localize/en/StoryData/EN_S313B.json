@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": 0,
-      "place": "Kalf - Town Square",
+      "place": "Calw - Town Square",
       "content": "The smoke that was faintly visible through the bus windows covered the whole town."
     },
     {
@@ -145,7 +145,7 @@
       "model": "크로머목소리",
       "teller": "Kromer",
       "title": "Nagel und Hammer",
-      "content": "As you can see… this hallowed ground undergoing our nailing judgement. I hope you like the decorations I set up."
+      "content": "As you can see… this hallowed ground is undergoing our nailing judgement. I hope you like the decorations I set up."
     },
     {
       "id": 30,

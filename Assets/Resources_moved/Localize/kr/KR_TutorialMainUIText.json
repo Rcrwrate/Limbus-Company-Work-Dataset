@@ -110,7 +110,7 @@
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_01_desc_01",
-      "content": "인격의 체력, 속도 범위값, 방어력을 표시합니다."
+      "content": "인격의 체력, 속도 범위값, 방어 레벨을 표시합니다."
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_01_title_02",
@@ -226,11 +226,11 @@
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_06_title_04",
-      "content": "공격 레벨 성장 계수"
+      "content": "성장 계수"
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_06_desc_04",
-      "content": "공격 레벨은 인격의 레벨에 비례하여 증가합니다."
+      "content": "인격이 다음 레벨이 될 때 증가하는 스킬 레벨의 값입니다."
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_07_title_01",
@@ -907,6 +907,318 @@
     {
       "id": "tutorial_mainui_14_battlepass_page_04_desc_01",
       "content": "배틀 패스에서 보상 수령이 가능한 레벨을 초과한 뒤 레벨이 오를 시 초과 보상이 주어집니다. 림버스 패스를 사용한다면 더 많은 초과 보상이 주어집니다."
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_title",
+      "content": "경험치 채광"
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_01_title_01",
+      "content": "경험치 채광 목록"
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_01_desc_01",
+      "content": "추천 레벨에 맞는 경험치 채광 중 하나를 선택하여 입장합니다. 입장할 때 엔케팔린을 소모합니다."
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_02_title_01",
+      "content": "유효 속성"
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_02_desc_01",
+      "content": "경험치 채광에 등장하는 적들은 독특한 물리 내성과 속성 내성을 가지고 있습니다. 해당 스테이지에서 큰 효과를 볼 수 있는 공격 유형이 표기됩니다. "
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_03_title_01",
+      "content": "경험치 채광 보상"
+    },
+    {
+      "id": "tutorial_mainui_15_exp_dungeon_page_03_desc_01",
+      "content": "경험치 채광 클리어 시 전투 경험치와 인격 학습 티켓을 획득할 수 있으며, 매일 일정 횟수만큼 추가 보상을 얻을 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_title",
+      "content": "끈 채광"
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_01_title_01",
+      "content": "끈 채광 목록"
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_01_desc_01",
+      "content": "요일에 따라 등장하는 환상체가 변경됩니다. 입장할 때 엔케팔린을 소모합니다."
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_02_title_01",
+      "content": "유효 속성"
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_02_desc_01",
+      "content": "끈 채광에 등장하는 적들은 독특한 물리 내성과 속성 내성을 가지고 있습니다. 해당 스테이지에서 큰 효과를 볼 수 있는 죄악 속성이 표기됩니다."
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_03_title_01",
+      "content": "레벨 선택"
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_03_desc_01",
+      "content": "추천 레벨에 맞는 끈 채광 중 하나를 선택하여 입장합니다."
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_04_title_01",
+      "content": "끈 채광 보상"
+    },
+    {
+      "id": "tutorial_mainui_16_thread_dungeon_page_04_desc_01",
+      "content": "끈 채광 클리어 시 끈을 획득할 수 있으며, 매일 일정 횟수만큼 추가 보상을 얻을 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_title",
+      "content": "거울굴절철도"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_01_title_01",
+      "content": "거울굴절철도 개방"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_01_desc_01",
+      "content": "거울굴절철도 운행 기간 동안 입장할 수 있는 호선이 등장합니다.\n활성화된 노선을 선택하여 재화 소모 없이 자유롭게 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_02_title_01",
+      "content": "운행 기간"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_02_desc_01",
+      "content": "거울굴절철도 운행 기간이 노선 측면에 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_03_desc_01",
+      "content": "입장 시, 보유한 인격과 E.G.O를 선택하여 편성합니다. "
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_04_desc_01",
+      "content": "다른 전투 콘텐츠와 달리 편성을 완료하여 입장하게 되면, 이후에 진행된 레벨업이나 동기화, 환상 해석은 해당 편성에 반영되지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_05_desc_01",
+      "content": "편성은 스테이지 진행 도중에 교체할 수 없습니다.\n편성된 인격과 E.G.O의 레벨업, 동기화, 환상 해석을 반영하거나 다른 인격, E.G.O로 교체하기 위해서는 다시 입장하여 첫 스테이지부터 진행해야 합니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_06_title_01",
+      "content": "거울굴절철도 메인 화면"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_06_desc_01",
+      "content": "거울굴절철도에 등장하는 전투는 총 13개의 스테이지로 구성됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_07_title_01",
+      "content": "전투"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_07_desc_01",
+      "content": "거울굴절철도에 등장하는 모든 전투는 아군의 스킬을 직접 적 스킬과 대응하는, 환상체 전투와 동일한 방식으로 진행됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_08_title_01",
+      "content": "E.G.O 자원 현황"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_08_desc_01",
+      "content": "스테이지 클리어 후 남은 E.G.O 자원은 다음 스테이지에서 사용할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_09_title_01",
+      "content": "클리어 턴 및 누적 턴"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_09_desc_01",
+      "content": "스테이지 클리어 시, 해당 스테이지를 클리어하는 데 걸린 클리어 턴, 시작부터 해당 스테이지를 클리어하기까지 걸린 누적 턴이 기록됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_10_title_01",
+      "content": "인격 상태"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_10_desc_01",
+      "content": "편성한 인격의 체력, 정신력, 사망 상태가 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_11_title_01",
+      "content": "배너 획득 조건"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_11_desc_01",
+      "content": "이벤트 배너 획득 조건을 확인할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_11_desc_02",
+      "content": "획득 조건이 어려울수록 더욱 특별한 배너를 얻게 됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_12_title_01",
+      "content": "분실물 보관소"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_12_desc_01",
+      "content": "스테이지를 처음으로 클리어할 경우, 해당 스테이지의 보상이 분실물 보관소에 등록됩니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_12_desc_02",
+      "content": "이벤트 기간 중 스테이지를 최초로 클리어하면 그 보상이 분실물 보관소에 쌓입니다.\n분실물 보관소에서 보상을 수령하기 위해서는 최초 1회에 한하여 일정량의 엔케팔린 모듈을 지불해야 합니다.\n이후에 얻게 되는 보상은 별도의 추가 엔케팔린 모듈 소모 없이 언제든지 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_13_title_01",
+      "content": "누적 기록"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_13_desc_01",
+      "content": "최종 스테이지를 클리어할 경우 거울굴절철도 플레이 기록이 저장되며, 그 기록들을 최대 20개까지 확인할 수 있습니다.\n기록이 20개를 넘어갈 경우에는 누적 턴 수가 많은 기록이 먼저 사라지게 되며, 턴 수도 동일할 경우에는 인격 사망 수가 많은 기록이 삭제됩니다.\n이 역시 동일하다면 더 오래된 기록이 삭제됩니다. "
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_14_title_01",
+      "content": "휴식"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_14_desc_01",
+      "content": "전투에 참여한 인격의 체력과 정신력은 다음 스테이지 전투에 참가할 경우 그대로 유지됩니다.\n대신 해당 인격이 다음 스테이지 전투에 참가하지 않고 쉴 경우 그 다음 스테이지 진입 시, 체력이 완전히 회복되고 정신력이 0으로 초기화됩니다.\n단, 정신력이 0 이상일 경우에는 0으로 초기화되지 않습니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_15_title_01",
+      "content": "기록 경신"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_15_desc_01",
+      "content": "스테이지 진행 중 이전에 클리어한 특정 스테이지부터 다시 시작할 수 있습니다.\n특정 스테이지부터 다시 시작할 경우 해당 스테이지 입장 시점의 인격 상태와 E.G.O 자원 보유량이 반영된 상태로 전투를 시작하며, 그 이후 스테이지의 클리어 기록이 초기화되어 사라집니다."
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_16_title_01",
+      "content": "거울굴절철도 특별 장식 배너"
+    },
+    {
+      "id": "tutorial_mainui_17_railway_page_16_desc_01",
+      "content": "거울굴절철도 운행 기간이 종료되면 자신이 획득한 배너에 가장 높은 기록의 누적 턴 수가 표기됩니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_title",
+      "content": "헬스 치킨"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_01_title_01",
+      "content": "헬스 치킨 개방"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_01_desc_01",
+      "content": "[헬스 치킨 이벤트 페이지]는 주요 이야기의 3-22를 클리어할 경우 개방됩니다.\n유리창이나 운전석에 있는 이벤트 배너를 통해 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_02_title_01",
+      "content": "이벤트 기간"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_02_desc_01",
+      "content": "헬스 치킨 이벤트 기간이 표시됩니다. 이벤트 기간 동안 헬스 치킨 혹은 주요 이야기의 스테이지와 던전을 클리어하여 [봉이 인형]을 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_02_desc_02",
+      "content": "※ 단, 거울 던전, 채광, 거울 굴절 철도에서는 [봉이 인형]을 획득할 수 없습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_03_title_01",
+      "content": "이벤트 전투"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_03_desc_01",
+      "content": "헬스 치킨 전투는 총 8개의 스테이지와 2개의 던전으로 구성됩니다.\n헬스 치킨 전투에서는 클리어 보상과 별개로 EX 클리어 보상으로 [봉이 인형]을 획득할 수 있습니다. (1회 한정)"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_03_desc_02",
+      "content": "헬스 치킨 던전에서는 일반 스테이지보다 훨씬 많은 [봉이 인형]을 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_04_title_01",
+      "content": "이벤트 특화 대상"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_04_desc_01",
+      "content": "헬스 치킨 이벤트 인격 또는 E.G.O를 편성하여 스테이지, 던전을 클리어하면 [봉이 인형]의 획득량이 상승합니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_05_title_01",
+      "content": "쿠폰 교환"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_05_desc_01",
+      "content": "획득한 [봉이 인형]의 수에 비례하여 [쿠폰 교환]에서 다양한 보상을 얻을 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_06_title_01",
+      "content": "쿠폰 교환"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_06_desc_01",
+      "content": "[쿠폰 교환] 페이지에서 각종 재화와 이벤트 배포 인격, E.G.O를 획득할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_06_desc_02",
+      "content": "[쿠폰 교환] 에서 보상을 수령할 수 있는 기간이 표시됩니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_07_title_01",
+      "content": "이벤트 던전"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_07_desc_01",
+      "content": "헬스 치킨 던전은 거울 던전 플레이 방식으로 진행됩니다.\n헬스 치킨 던전의 난이도는 두 가지로, 큰 특징으로는 다음과 같이 구분할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_08_title_01",
+      "content": "E.G.O 기프트 선택"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_08_desc_01",
+      "content": "거울 던전 E.G.O 기프트 중 일부가 헬스 치킨 던전에서 등장합니다.\n이 E.G.O 기프트들은 이벤트 인격과 E.G.O를 효과적으로 활용할 수 있도록 돕습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_09_title_01",
+      "content": "이벤트 던전 편성"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_09_desc_01",
+      "content": "헬스 치킨 던전에서는 총 5명의 인격을 선택하여 데려갑니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_09_title_02",
+      "content": "프리셋"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_09_desc_02",
+      "content": "헬스 치킨 던전에서 편의성을 위한 프리셋 기능이 추가됩니다.\n프리셋 버튼을 통해 직전에 선택한 인격과 E.G.O의 목록을 불러와 빠르게 입장할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_10_title_01",
+      "content": "이벤트 던전 구성"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_10_desc_01",
+      "content": "헬스 치킨 던전에 입장할 때마다 거울 던전과 같이 방과 경로가 무작위로 생성됩니다.\n헬스 치킨 던전은 하나의 층으로 구성되어 있으며, 마지막 방에서는 헬스 치킨 최종 보스가 고정으로 등장합니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_11_title_01",
+      "content": "헬스 치킨 전용 이벤트"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_11_desc_01",
+      "content": "헬스 치킨 던전에서만 만날 수 있는 특별한 이벤트와 E.G.O 기프트가 있습니다.\n헬스 치킨 던전 전용 이벤트는 방 아래에 별도의 아이콘이 표시되므로 쉽게 구분할 수 있습니다."
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_12_title_01",
+      "content": "이벤트 이후"
+    },
+    {
+      "id": "tutorial_mainui_18_hells_chicken_12_desc_01",
+      "content": "이벤트가 종료된 이후에도 운전석 - [외전]과 상영관 - [그 밖의 이야기]를 통해 언제든지 헬스 치킨 전투를 다시 즐기거나 스토리를 다시 감상할 수 있습니다."
     }
   ]
 }

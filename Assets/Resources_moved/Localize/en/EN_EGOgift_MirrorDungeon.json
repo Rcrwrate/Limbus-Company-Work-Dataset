@@ -33,7 +33,7 @@
     {
       "id": 9003,
       "name": "Ashes to Ashes",
-      "desc": "At the start of the combat phase, if all enemies (or all Abnormality parts) have Burn, inflict 2 Burn to all enemies.",
+      "desc": "At the start of the combat phase, if all enemies (or all Abnormality parts) have Burn, inflict 2 Burn on all enemies.",
       "simpleDesc": [
         {
           "abilityID": 9003,
@@ -44,7 +44,7 @@
     {
       "id": 9004,
       "name": "Phlebotomy Pack",
-      "desc": "After dealing damage to enemies by using skills, heal 7.5% of the character’s missing HP (Once per character per turn).\n\nIf the skill’s Affinity was Wrath, heal 15% of missing HP instead.",
+      "desc": "After dealing damage to enemies by using skills, heal 7.5% of the character’s missing HP. (Once per character per turn.)\n\nIf the skill’s Affinity was Wrath, heal 15% of missing HP instead.",
       "simpleDesc": [
         {
           "abilityID": 9004,
@@ -100,15 +100,15 @@
     {
       "id": 9008,
       "name": "Grimy Iron Stake",
-      "desc": "After dealing damage using a single-Coin skill, inflict 1 Bleed and 1 Defense Down on the target.\n\nIf the target already has Bleed, inflict 3 Bleed in addition.",
+      "desc": "After dealing damage using a single-Coin skill, inflict 1 Bleed and 1 Defense Level Down on the target.\n\nIf the target already has Bleed, inflict 3 Bleed in addition.",
       "simpleDesc": [
         {
           "abilityID": 9008,
-          "simpleDesc": "Inflict 1 Bleed and 1 Defense Down"
+          "simpleDesc": "Inflict 1 Bleed & 1 Defense Level Down"
         },
         {
           "abilityID": 90081,
-          "simpleDesc": "Inflict 3 Bleed and 1 Defense Down"
+          "simpleDesc": "Inflict 3 Bleed & 1 Defense Level Down"
         }
       ]
     },
@@ -156,7 +156,7 @@
     {
       "id": 9012,
       "name": "Today’s Expression",
-      "desc": "After defeating an enemy by using a Sloth or Blunt damage skill, gain 2 Blunt Power Up for 2 turns.",
+      "desc": "After defeating an enemy by using a Sloth or Blunt damage skill, the ally’s Blunt Skill Power is boosted by 2 until the end of next turn.",
       "simpleDesc": [
         {
           "abilityID": 9012,
@@ -252,12 +252,12 @@
     },
     {
       "id": 9019,
-      "name": "Sticky Resin",
-      "desc": "After dealing damage by using a Gluttony or Pierce damage skill, inflict 1 Defense Down on the target.",
+      "name": "Sticky Muck",
+      "desc": "After dealing damage by using a Gluttony or Pierce damage skill, inflict 1 Defense Level Down on the target.",
       "simpleDesc": [
         {
           "abilityID": 9019,
-          "simpleDesc": "Inflict 1 Defense Down"
+          "simpleDesc": "Inflict 1 Defense Level Down"
         }
       ]
     },
@@ -286,7 +286,7 @@
     {
       "id": 9022,
       "name": "Phantom Pain",
-      "desc": "Skills deal +15% damage to single targets.\n\nWhen activating Gloom Absolute Resonance, apply 1 Attack Up to all allies at the start of combat.",
+      "desc": "Skills deal +15% damage to single targets.\n\nWhen activating Gloom Absolute Resonance, apply 1 Offense Level Up to all allies at the start of the combat phase.",
       "simpleDesc": [
         {
           "abilityID": 9022,
@@ -294,7 +294,7 @@
         },
         {
           "abilityID": 90221,
-          "simpleDesc": "Apply 1 Attack Up"
+          "simpleDesc": "Gain 1 Offense Level Up"
         }
       ]
     },
@@ -312,11 +312,11 @@
     {
       "id": 9024,
       "name": "Melty Eyeball",
-      "desc": "Inflict 3 Defense Down on enemies affected by Tremor’s burst.",
+      "desc": "Inflict 3 Defense Level Down on enemies affected by Tremor’s burst.",
       "simpleDesc": [
         {
           "abilityID": 9024,
-          "simpleDesc": "Inflict 3 Defense Down"
+          "simpleDesc": "Inflict 3 Defense Level Down"
         }
       ]
     },
@@ -338,11 +338,11 @@
     {
       "id": 9026,
       "name": "Late-bloomer’s Tattoo",
-      "desc": "After dealing damage with a Pride or single-Coin skill, self-apply 1 Attack Up and 1 Defense Up.",
+      "desc": "After dealing damage with a Pride or single-Coin skill, gain 1 Offense Level Up and 1 Defense Level Up.",
       "simpleDesc": [
         {
           "abilityID": 9026,
-          "simpleDesc": "Self-apply 1 Attack up and 1 Defense Up"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 Defense Level Up"
         }
       ]
     },
@@ -357,7 +357,7 @@
         },
         {
           "abilityID": 90271,
-          "simpleDesc": "Deal 8 SP damage"
+          "simpleDesc": "Deal +3 SP damage"
         }
       ]
     },
@@ -420,7 +420,7 @@
     {
       "id": 9032,
       "name": "Dreaming Electric Sheep",
-      "desc": "After defeating an enemy by using an Envy or Slash damage skill, gain 2 Slash Power Up for 2 turns.\n\nWhen activating Envy Absolute Resonance, apply 1 Attack Up and 1 Defense Up to all allies at the start of the combat phase.",
+      "desc": "After defeating an enemy by using an Envy or Slash damage skill, gain 2 Slash Power Up for 2 turns.\n\nWhen activating Envy Absolute Resonance, apply 1 Offense Level Up and 1 Defense Level Up to all allies at the start of the combat phase.",
       "simpleDesc": [
         {
           "abilityID": 9032,
@@ -428,7 +428,7 @@
         },
         {
           "abilityID": 90321,
-          "simpleDesc": "Apply 1 Attack Up and 1 Defense Up"
+          "simpleDesc": "Gain 1 Offense Level Up & 1 Defense Level Up"
         }
       ]
     },
@@ -450,7 +450,7 @@
     {
       "id": 9034,
       "name": "Pinpoint Logic Circuit",
-      "desc": "When dealing damage using an Envy or Burn-effect skill, inflict additional Burn by half the skill’s total Coins. (Rounded up)",
+      "desc": "When dealing damage using an Envy or Burn-effect skill, inflict additional Burn by half the skill’s total Coins. (Rounded up.)",
       "simpleDesc": [
         {
           "abilityID": 9034,

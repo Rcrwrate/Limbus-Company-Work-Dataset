@@ -62,12 +62,12 @@
     },
     {
       "id": "battle_enemy_break_10201_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "An opportunity has arrived."
     },
     {
       "id": "battle_break_10201_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Ugh!"
     },
     {
@@ -92,17 +92,17 @@
     },
     {
       "id": "battle_clear_10201_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "Is there a reason to be excited over this?"
     },
     {
       "id": "battle_clear_ex_10201_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "You’ve become more competent than once expected."
     },
     {
       "id": "battle_defeat_10201_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "Much wasn’t expected out of you."
     }
   ]

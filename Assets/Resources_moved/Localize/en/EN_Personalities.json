@@ -142,7 +142,7 @@
     },
     {
       "id": 10902,
-      "title": "Kurokumo Henchwoman",
+      "title": "Kurokumo Wakashu",
       "name": "Rodion",
       "nameWithTitle": "Rodion",
       "desc": "Rodion’s 2nd Identity"
@@ -261,10 +261,66 @@
     },
     {
       "id": 10303,
-      "title": "Shi Section 5",
+      "title": "Shi Section 5 Director",
       "name": "Don Quixote",
       "nameWithTitle": "Don Quixote",
       "desc": "Don Quixote’s 3rd Identity"
+    },
+    {
+      "id": 10504,
+      "title": "N Corp. Großhammer",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 4th Identity"
+    },
+    {
+      "id": 10904,
+      "title": "N Corp. Mittelhammer",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion’s 4th Identity"
+    },
+    {
+      "id": 10204,
+      "title": "The One Who Grips",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust’s 4th Identity"
+    },
+    {
+      "id": 10704,
+      "title": "N Corp. Kleinhammer",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff’s 4th Identity"
+    },
+    {
+      "id": 11104,
+      "title": "Seven Section 6 Director",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis’s 4th Identity"
+    },
+    {
+      "id": 10604,
+      "title": "Liu Section 5",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu’s 4th Identity"
+    },
+    {
+      "id": 10404,
+      "title": "R.B. Chef de Cuisine",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū’s 4th Identity"
+    },
+    {
+      "id": 11204,
+      "title": "R.B. Sous-chef",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor’s 4th Identity"
     }
   ]
 }

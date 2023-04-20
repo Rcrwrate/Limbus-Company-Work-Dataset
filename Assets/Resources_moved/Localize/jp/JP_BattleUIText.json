@@ -515,6 +515,42 @@
     {
       "id": "auto_coinToss",
       "content": "オートコイントス"
+    },
+    {
+      "id": "babayaga_alert",
+      "content": "{0}回のチャンスが残っている。"
+    },
+    {
+      "id": "battle_operation_offset",
+      "content": "相殺"
+    },
+    {
+      "id": "oneside_defense",
+      "content": "一方防御"
+    },
+    {
+      "id": "cantIdentify",
+      "content": "<color=#ff0000>[敵味方識別不可]</color>"
+    },
+    {
+      "id": "popup_message_ego_irrevocable",
+      "content": "前のターンにて生成したE.G.Oスキルはキャンセルすることができません。"
+    },
+    {
+      "id": "stock",
+      "content": "保有"
+    },
+    {
+      "id": "stable",
+      "content": "安定"
+    },
+    {
+      "id": "un_stable",
+      "content": "不安定"
+    },
+    {
+      "id": "vibration_explosion",
+      "content": "振動爆発!"
     }
   ]
 }

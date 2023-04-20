@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_10501_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "Meursault. Please refer to me as such, Manager."
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_10501_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "If you ask me how I intend to spend my afternoon… No rules state what to do."
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "id": "smalltalk_10501_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "Do you have any business with me, Manager? If there is a particular reason, do make it clear."
     },
     {
       "id": "smalltalk_10501_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "People suggest that I smile more often. Do you want that as well, Manager?"
     },
     {
       "id": "smalltalk_10501_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "…You continue to speak with me. Are you encouraged by the rules to do so?"
     },
     {
@@ -42,17 +42,17 @@
     },
     {
       "id": "formation_10501_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "Yes, if that is what you want."
     },
     {
       "id": "battleentry_10501_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "If the rules say so."
     },
     {
       "id": "battle_select_10501_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "Is there a problem, Manager?"
     },
     {
@@ -62,12 +62,12 @@
     },
     {
       "id": "battle_enemy_break_10501_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "I am awaiting your next order."
     },
     {
       "id": "battle_break_10501_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Ugh!"
     },
     {
@@ -92,17 +92,17 @@
     },
     {
       "id": "battle_clear_10501_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "I simply followed orders."
     },
     {
       "id": "battle_clear_ex_10501_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "It’s what should have been done; compliments are redundant."
     },
     {
       "id": "battle_defeat_10501_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "I implore you to revise the strategy."
     }
   ]

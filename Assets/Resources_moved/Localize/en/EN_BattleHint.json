@@ -10,7 +10,7 @@
     },
     {
       "id": "3",
-      "content": "A Coin’s power may increase or decrease depending on the face it lands on."
+      "content": "A Coin’s Power may increase or decrease depending on the face it lands on."
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
     },
     {
       "id": "8",
-      "content": "A status ailment’s power indicates how much damage it will deal."
+      "content": "A status effect’s Potency indicates how much damage it will deal."
     },
     {
       "id": "9",
@@ -134,7 +134,7 @@
     },
     {
       "id": "34",
-      "content": "Clashes occur when two attack skills of the same power target each other."
+      "content": "Clashes occur when two attack skills of the same Power target each other."
     }
   ]
 }

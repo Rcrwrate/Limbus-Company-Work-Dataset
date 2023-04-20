@@ -135,6 +135,10 @@
     {
       "id": "create_guest",
       "content": "ゲスト生成"
+    },
+    {
+      "id": "ask_to_remove_all_cache",
+      "content": "全てのキャッシュを削除しますか？"
     }
   ]
 }

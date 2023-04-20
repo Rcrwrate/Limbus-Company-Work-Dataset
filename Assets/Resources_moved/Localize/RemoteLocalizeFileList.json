@@ -27,7 +27,12 @@
     "ChoiceEventUI",
     "UpgradeCharacterUI",
     "IntegrateAccountUI",
-    "FAQ"
+    "FAQ",
+    "SeasonTitle",
+    "RewardDungeonUI",
+    "AttendanceRewardsText",
+    "RailwayDungeonUI",
+    "HellsChicken"
   ],
   "bgmLyrics": [
     "BgmLyrics_Credit",
@@ -41,7 +46,8 @@
     "Personalities"
   ],
   "enemy": [
-    "Enemies"
+    "Enemies",
+    "Enemies_Refraction"
   ],
   "ego": [
     "Egos"
@@ -51,12 +57,14 @@
     "Skills_Ego",
     "Skills_Enemy",
     "Skills_Abnormality",
+    "Skills_Abnormality_Refraction",
     "Skills_Tutorial"
   ],
   "passive": [
     "Passives",
     "Passives_Enemy",
     "Passives_Abnormality",
+    "Passives_Abnormality_Refraction",
     "Passive_Ego"
   ],
   "buf": [
@@ -116,15 +124,24 @@
     "StageNode1-0",
     "StageNode1-1",
     "StageNode1-2",
-    "StageNode1-3"
+    "StageNode1-3",
+    "StageNode91-3"
   ],
   "dungeonNodeInfo": [
-    "MirrorDungeonNode1-1"
+    "MirrorDungeonNode1-1",
+    "HellsChickenDungeonNode"
   ],
   "storyDungeonNodeInfo": [
     "DungeonNode1-1",
     "DungeonNode1-2",
-    "DungeonNode1-3"
+    "DungeonNode1-3",
+    "DungeonNode91-3"
+  ],
+  "railwayDungeon": [
+    "RailwayDungeon"
+  ],
+  "railwayDungeonNodeInfo": [
+    "RailwayDungeonNode1-1"
   ],
   "quest": [
     "Quest"
@@ -139,7 +156,8 @@
     "BattlePass_Banner"
   ],
   "storyTheater": [
-    "StoryTheaterMain"
+    "StoryTheaterMain",
+    "StoryTheaterOther"
   ],
   "normalBattleHint": [
     "BattleHint_NormalBattle"
@@ -162,6 +180,7 @@
     "Voice_Faust_LCB_10201",
     "Voice_Faust_WCorp6_10202",
     "Voice_Faust_Yuri_10203",
+    "Voice_Faust_Ncorp_10204",
     "Voice_Donquixote_LCB_10301",
     "Voice_Donquixote_WCorp5_10302",
     "Voice_Donquixote_Shi_10303",
@@ -171,12 +190,14 @@
     "Voice_Meursault_LCB_10501",
     "Voice_Meursault_LiuAsso6_10502",
     "Voice_Meursault_Wcorp_10503",
+    "Voice_Meursault_Ncorp_10504",
     "Voice_Honglu_LCB_10601",
     "Voice_Honglu_Kurokumo_10602",
     "Voice_Honglu_Kongkong_10603",
     "Voice_Heathcliff_LCB_10701",
     "Voice_Heathcliff_ShiAsso4_10702",
     "Voice_Heathcliff_RCorp4_10703",
+    "Voice_Heathcliff_Ncorp_10704",
     "Voice_Ishmael_LCB_10801",
     "Voice_Ishmael_RCorp4_10802",
     "Voice_Ishmael_ShiAsso5_10803",
@@ -184,6 +205,7 @@
     "Voice_Rodion_LCB_10901",
     "Voice_Rodion_Kurokumo_10902",
     "Voice_Rodion_Epi_10903",
+    "Voice_Rodion_Ncorp_10904",
     "Voice_Sinclair_LCB_11001",
     "Voice_Sinclair_SwordGroup_11002",
     "Voice_Sinclair_Zwei_11003",
@@ -193,7 +215,11 @@
     "Voice_Outis_GCorpBoss_11103",
     "Voice_Gregor_LCB_11201",
     "Voice_Gregor_LiuAsso6_11202",
-    "Voice_Gregor_GCorp_11203"
+    "Voice_Gregor_GCorp_11203",
+    "Voice_Honglu_LiuAsso5_10604",
+    "Voice_Outist_SevenAsso6_11104",
+    "Voice_Gregor_23GuCooker_11204",
+    "Voice_Ryoshu_23GuCooker_10404"
   ],
   "announcer": [
     "Announcer"
@@ -240,5 +266,14 @@
   ],
   "userBanner": [
     "UserBanner"
+  ],
+  "threadDungeon": [
+    "ThreadDungeon"
+  ],
+  "railwayDungeonStationName": [
+    "RailwayDungeonStationName1-1"
+  ],
+  "dungeonName": [
+    "DungeonName_Event"
   ]
 }

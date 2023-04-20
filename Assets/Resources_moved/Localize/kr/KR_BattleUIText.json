@@ -516,6 +516,42 @@
     {
       "id": "auto_coinToss",
       "content": "코인 토스 자동"
+    },
+    {
+      "id": "babayaga_alert",
+      "content": "{0}번의 기회가 남았어."
+    },
+    {
+      "id": "battle_operation_offset",
+      "content": "상쇄"
+    },
+    {
+      "id": "oneside_defense",
+      "content": "일방방어"
+    },
+    {
+      "id": "cantIdentify",
+      "content": "<color=#ff0000>[피아식별불가]</color>"
+    },
+    {
+      "id": "popup_message_ego_irrevocable",
+      "content": "이전 턴에 생성한 E.G.O 스킬은 취소할 수 없습니다."
+    },
+    {
+      "id": "stock",
+      "content": "보유"
+    },
+    {
+      "id": "stable",
+      "content": "안정"
+    },
+    {
+      "id": "un_stable",
+      "content": "불안정"
+    },
+    {
+      "id": "vibration_explosion",
+      "content": "진동 폭발!"
     }
   ]
 }

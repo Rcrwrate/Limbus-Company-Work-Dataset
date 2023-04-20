@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_10701_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "Name’s Heathcliff. Clobbering people is my specialty. ‘Course, only when I fancy it."
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_10701_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "What? Expecting me to ask what scran you had for lunch or some mince?"
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "id": "smalltalk_10701_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "Just ‘cause you’re the manager doesn’t mean you get to lecture me or shove me into shoddy plans. I don’t follow anyone’s orders."
     },
     {
       "id": "smalltalk_10701_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "Don’t you ever get curious about what’s on the other side of that clock on your shoulders, mate? Hahah, I was just taking the piss. What’s got you shaking like timber?"
     },
     {
       "id": "smalltalk_10701_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "No need for long gabs between us. Not about to turn down an exchange of punches, though."
     },
     {
@@ -42,17 +42,17 @@
     },
     {
       "id": "formation_10701_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "I was craving a workout. Time to smash stuff right up!"
     },
     {
       "id": "battleentry_10701_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "Don’t make it long, I’m going in!"
     },
     {
       "id": "battle_select_10701_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "What? Why?"
     },
     {
@@ -62,12 +62,12 @@
     },
     {
       "id": "battle_enemy_break_10701_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "Haha, how do ya like that?"
     },
     {
       "id": "battle_break_10701_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Grh…!"
     },
     {
@@ -92,17 +92,17 @@
     },
     {
       "id": "battle_clear_10701_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "Well, don’t wanna giggle over small victories."
     },
     {
       "id": "battle_clear_ex_10701_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "Heh, see that? I did a real bang up job!"
     },
     {
       "id": "battle_defeat_10701_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "Bugger all, this’s got me pure raging! You ain’t gonna let this go, right, mate?"
     }
   ]

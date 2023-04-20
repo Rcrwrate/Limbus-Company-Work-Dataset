@@ -37,7 +37,7 @@
     {
       "id": 7,
       "model": "베르길리우스",
-      "content": "Our destination is the town of Kalf, situated in Nest K. Investigation revealed that a passage connected to a Lobotomy Corp. branch exists somewhere in that village."
+      "content": "Our destination is the town of Calw, situated in Nest K. Investigation revealed that a passage connected to a Lobotomy Corp. branch exists somewhere in that village."
     },
     {
       "id": 8,
@@ -46,7 +46,7 @@
     },
     {
       "id": 9,
-      "content": "As soon as the name ‘Kalf’ was mentioned, Sinclair lapsed into fear once again and started trembling."
+      "content": "As soon as the name ‘Calw’ was mentioned, Sinclair lapsed into fear once again and started trembling."
     },
     {
       "id": 10,
@@ -139,7 +139,7 @@
     },
     {
       "id": 28,
-      "place": "Path towards Kalf",
+      "place": "Path towards Calw",
       "content": "As we got off the bus, a group stood in the way, clad from head to toe in rusty armor with faded coats of white."
     },
     {

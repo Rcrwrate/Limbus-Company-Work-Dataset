@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_10601_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "My name’s Hong Lu. I hope we can get along well."
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_10601_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "An interesting thing I noted here was that I was able to learn how it feels to be hungry. What a curious sensation it is!"
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "id": "smalltalk_10601_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "When I go back home later, Dante, I’d love to invite you to a fabulous gala. I’ll introduce my new friends to Father, too… It’ll be such a fun time."
     },
     {
       "id": "smalltalk_10601_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "When you’re distraught, simply remember that life goes on even if what you’re doing now doesn’t work out. Then, you’ll be free of worries."
     },
     {
       "id": "smalltalk_10601_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "Family… I heard that family is like a sanctuary offering each other shelter, right? I thought it was more like a cohort of kin looking to stab each other in the back at every turn all my life~"
     },
     {
@@ -42,17 +42,17 @@
     },
     {
       "id": "formation_10601_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "Golly, I can’t wait~"
     },
     {
       "id": "battleentry_10601_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "I hope something fun happens~"
     },
     {
       "id": "battle_select_10601_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "What is it, Dante?"
     },
     {
@@ -62,12 +62,12 @@
     },
     {
       "id": "battle_enemy_break_10601_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "Haha. What an amusing moment~"
     },
     {
       "id": "battle_break_10601_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Oh my!"
     },
     {
@@ -92,17 +92,17 @@
     },
     {
       "id": "battle_clear_10601_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "Oh… Is this thanks to me, perhaps? Anyway, it’s nice to hear that we’ve won~"
     },
     {
       "id": "battle_clear_ex_10601_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "No need to shower me with compliments~ I’m sure you had a part in it, too."
     },
     {
       "id": "battle_defeat_10601_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "It is what it is, wouldn’t you agree? Don’t be so dour~"
     }
   ]

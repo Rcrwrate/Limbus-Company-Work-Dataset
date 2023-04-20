@@ -174,7 +174,7 @@
     },
     {
       "id": "mainui_select_finished",
-      "content": "Selected"
+      "content": "Finalize"
     },
     {
       "id": "mainui_grade",
@@ -242,7 +242,7 @@
     },
     {
       "id": "mainui_dungeon_finished",
-      "content": "Exploration Over"
+      "content": "Pause Exploration"
     },
     {
       "id": "mainui_category",
@@ -258,7 +258,7 @@
     },
     {
       "id": "mainui_stats_defense",
-      "content": "DEF"
+      "content": "Defense Level"
     },
     {
       "id": "mainui_upgrade",
@@ -466,7 +466,7 @@
     },
     {
       "id": "mainui_mail_warning",
-      "content": "※ Maximum capacity is 100; expired mail will be <color=red>deleted</color>."
+      "content": "※ Maximum capacity is 100; expired mail will be <color=#990000>deleted</color>."
     },
     {
       "id": "mainui_mail_warning2",
@@ -770,7 +770,7 @@
     },
     {
       "id": "notice_of_remain_extract_chance",
-      "content": "3★ Identitiy assured in {0} Extractions"
+      "content": "3★ Identity or E.G.O assured in {0} Extractions"
     },
     {
       "id": "mainui_settings",
@@ -886,7 +886,7 @@
     },
     {
       "id": "gacha_rate_info_intro1",
-      "content": "In compliance with the「Voluntary Restraint Guidelines of Korea Association of Game Industry」, detailed rates for chance-based items are disclosed here.\n\nIndividual rates are rounded up from the fifth digit after the decimal point. The actual sum is applied as 100%.\n\nThe rates for [1 Extraction] are as follows:"
+      "content": "In compliance with the「Voluntary Restraint Guidelines of Korea Association of Game Industry」, detailed rates for chance-based items are disclosed here.\n\nIndividual rates are rounded up from the fifth digit after the decimal point. The actual sum is applied as 100%."
     },
     {
       "id": "gacha_rate_info_intro2",
@@ -1127,6 +1127,106 @@
     {
       "id": "gacha_alarm_title",
       "content": "Proceeding with Extraction"
+    },
+    {
+      "id": "clear_specific_stage",
+      "content": "Clear {0}"
+    },
+    {
+      "id": "clear_main_chapter_stage",
+      "content": "Clear Ch. {0}"
+    },
+    {
+      "id": "ingredients",
+      "content": "Items"
+    },
+    {
+      "id": "remote_download_return_title",
+      "content": "A new download has been added.\nReturning to the title screen."
+    },
+    {
+      "id": "battle_skip",
+      "content": "Skip Battle"
+    },
+    {
+      "id": "ask_battle_skip",
+      "content": "Would you like to skip the battle?"
+    },
+    {
+      "id": "notice_consumption_multiples",
+      "content": "{0} cost x {1}"
+    },
+    {
+      "id": "notice_additional_rewards",
+      "content": "Additional rewards {0} earned"
+    },
+    {
+      "id": "gacha_notice_exclude_ego",
+      "content": "This extraction banner does not include E.G.O."
+    },
+    {
+      "id": "gacha_notice_single_season",
+      "content": "The 2★ and 3★ Identities in this extraction banner belong to Season {0}."
+    },
+    {
+      "id": "error_and_return_to_main",
+      "content": "An error has occurred.\nReturning to the title screen."
+    },
+    {
+      "id": "to_window",
+      "content": "To Window"
+    },
+    {
+      "id": "completion",
+      "content": "Complete"
+    },
+    {
+      "id": "event_in_progress",
+      "content": "Event Open"
+    },
+    {
+      "id": "end_of_event",
+      "content": "Event Closed"
+    },
+    {
+      "id": "gacha_rate_info_intro1_1a",
+      "content": "The rates for a single Extraction are as follows."
+    },
+    {
+      "id": "gacha_rate_info_intro1_1b",
+      "content": "The table for one use of {0} is as follows."
+    },
+    {
+      "id": "gacha_rate_info_intro1_1c",
+      "content": "When you use {0}, you can choose one currency from the following."
+    },
+    {
+      "id": "package_info_detail1",
+      "content": "When you have selected the currency, the table for acquiring different quantities of the set currency by using one {0} is as follows."
+    },
+    {
+      "id": "package_info_detail2",
+      "content": "※ “{0}” in the lower table is an example for selecting one of the currencies from the table above."
+    },
+    {
+      "id": "acquired_quantity",
+      "content": "Amount"
+    },
+    {
+      "id": "name_of_currencies",
+      "content": "Currency"
+    },
+    {
+      "id": "package_info_title",
+      "content": "Detailed Currency Appearance Rates"
+    },
+    {
+      "id": "used_once",
+      "content": "One Use"
+    },
+    {
+      "id": "probability_details",
+      "content": "Probabilities"
     }
   ]
 }

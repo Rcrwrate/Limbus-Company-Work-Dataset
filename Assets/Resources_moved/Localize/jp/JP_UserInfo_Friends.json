@@ -215,6 +215,14 @@
     {
       "id": "Btn_Search",
       "content": "サーチ"
+    },
+    {
+      "id": "Sentence",
+      "content": "フレーズ"
+    },
+    {
+      "id": "Word",
+      "content": "ワード"
     }
   ]
 }

@@ -58,11 +58,11 @@
     },
     {
       "id": "Waiting_Friends",
-      "content": "Requests"
+      "content": "Sent Requests"
     },
     {
       "id": "Accept_Friends",
-      "content": "Invites"
+      "content": "Inbox"
     },
     {
       "id": "Last_Reload",
@@ -82,7 +82,7 @@
     },
     {
       "id": "Send_Add_Friends",
-      "content": "Send them a friend invite?"
+      "content": "Send them a friend request?"
     },
     {
       "id": "Delete_Friends_Apply",
@@ -98,7 +98,7 @@
     },
     {
       "id": "SendSendFriend_3",
-      "content": "This user currently has too many invites."
+      "content": "This user currently has too many requests."
     },
     {
       "id": "SendSendFriend_4",
@@ -206,7 +206,7 @@
     },
     {
       "id": "SearchFriends",
-      "content": "Discover"
+      "content": "Discover w/ ID"
     },
     {
       "id": "ReLoad",
@@ -215,6 +215,14 @@
     {
       "id": "Btn_Search",
       "content": "Search"
+    },
+    {
+      "id": "Sentence",
+      "content": "Phrase"
+    },
+    {
+      "id": "Word",
+      "content": "Word"
     }
   ]
 }

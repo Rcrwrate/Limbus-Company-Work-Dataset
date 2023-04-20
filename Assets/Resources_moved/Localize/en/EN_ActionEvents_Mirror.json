@@ -295,9 +295,9 @@
       "desc": "You hear the quiet flickering of candles.\nIn this cramped room, you find a wooden doll, standing.\n\nAre the talismans filling the room for a wish?\n\nDoes this wooden doll wish for anything?",
       "options": [
         {
-          "message": "Remove the doll’s talisman.",
+          "message": "Remove the doll’s talismans.",
           "result": [
-            "After you removed it, the doll knelt.\n\nIs it begging you not to take it,\nor is it a gesture of gratitude?\n\nYou won’t know for now."
+            "After you removed them, the doll knelt.\n\nIs it begging you not to take it,\nor is it a gesture of gratitude?\n\nYou won’t know for now."
           ]
         },
         {
@@ -680,7 +680,7 @@
       "desc": "“This centipede is capable of discharging a high voltage.”\n\nThat’s what the sign attached to the tank says.\n\nIs this an aquarium, or a laboratory?\n\nThe segments of the creature spark each time they move,\nsuggesting faulty connections.\n\nThere are two buttons at the tank.\n\nOne is shaped like a thunderbolt, while the other looks like a waterdrop.",
       "options": [
         {
-          "message": "Press the lighting-shaped button.",
+          "message": "Press the lightning-shaped button.",
           "result": [
             "“Apply stimulation and pain to the centipede\nto increase the discharge intensity.”\n\nSo writes a message above the buttons.\n\nThat seems to be what this one does.\n\nWhen you pressed it, a mechanical sound played for a short while.\n\nAn item that resembles a battery casing\ndropped through the chute below. \n\nThe centipede isn’t moving."
           ]

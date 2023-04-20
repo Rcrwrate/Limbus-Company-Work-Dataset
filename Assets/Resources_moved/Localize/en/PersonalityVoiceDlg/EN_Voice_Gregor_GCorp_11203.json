@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "get_11203_1",
-      "desc": "Identity Acquired",
+      "desc": "Identity Acquisition",
       "dlg": "Employee Gregor, reporting for duty! It’s an honor to join your mission, Manager!"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "lobby_noon_11203_1",
-      "desc": "Noon Greeting",
+      "desc": "Afternoon Greeting",
       "dlg": "It’s lunch hours, Manager! I’ll perform the remaining tasks with due diligence!"
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "id": "smalltalk_11203_1",
-      "desc": "Chat 1",
+      "desc": "Chatter #1",
       "dlg": "Manager! I’m still adjusting to life here… but thanks to everyone’s assistance, I am without trouble. Ms. Rodya often has unsavory comments, but… Haha, it’s alright."
     },
     {
       "id": "smalltalk_11203_2",
-      "desc": "Chat 2",
+      "desc": "Chatter #2",
       "dlg": "I’ll fight my enemies without hesitation. I’d made up my mind the day I was honored with an opportunity to get the modification procedure."
     },
     {
       "id": "smalltalk_11203_3",
-      "desc": "Chat 3",
+      "desc": "Chatter #3",
       "dlg": "Oh, this arm? I’m proud of it. It’s a tremendous boon to be able to enter the fray of battle… rather than helplessly watch from afar."
     },
     {
@@ -52,22 +52,22 @@
     },
     {
       "id": "gacksung_11203_1",
-      "desc": "Uptie",
+      "desc": "Uptying",
       "dlg": "Salutations! I’ll continue to aid you to the best of my ability, Manager!"
     },
     {
       "id": "formation_11203_1",
-      "desc": "Identity Deployed",
+      "desc": "Deployment",
       "dlg": "It’s an honor, Manager!"
     },
     {
       "id": "battleentry_11203_1",
-      "desc": "Entry",
+      "desc": "Stage Entry",
       "dlg": "I will do my utmost!"
     },
     {
       "id": "battle_select_11203_1",
-      "desc": "Selected in Battle",
+      "desc": "Viewed in Battle",
       "dlg": "Manager Corporal Gregor reporting!"
     },
     {
@@ -77,12 +77,12 @@
     },
     {
       "id": "battle_enemy_break_11203_1",
-      "desc": "Enemy Staggered",
+      "desc": "Enemy Stagger",
       "dlg": "I got a clean hit!"
     },
     {
       "id": "battle_break_11203_1",
-      "desc": "Ally Staggered",
+      "desc": "Staggered",
       "dlg": "Ngh…"
     },
     {
@@ -107,17 +107,17 @@
     },
     {
       "id": "battle_clear_11203_1",
-      "desc": "Battle Won",
+      "desc": "Victory Cry",
       "dlg": "It’s all thanks to you, Manager. Your tactical prowess shined."
     },
     {
       "id": "battle_clear_ex_11203_1",
-      "desc": "Extra Condition Fulfilled",
+      "desc": "Extra Conditions Fulfilled",
       "dlg": "This victory was all thanks to you, Executive Manager."
     },
     {
       "id": "battle_defeat_11203_1",
-      "desc": "Battle Lost",
+      "desc": "Defeat Wail",
       "dlg": "This… is what a war is. I was wholly unqualified."
     }
   ]

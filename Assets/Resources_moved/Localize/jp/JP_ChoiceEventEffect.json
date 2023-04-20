@@ -122,7 +122,7 @@
     },
     {
       "id": "Choice_901009",
-      "content": "<color=#ebcaa2>戦闘開始時、</color><color=#e30000>スキル威力-1</color>"
+      "content": "<color=#ebcaa2>戦闘開始時、</color><color=#e30000>スキルの最終威力-1</color>"
     },
     {
       "id": "Choice_901010",
@@ -205,7 +205,7 @@
       "content": "<color=#a0392b>憤怒属性の罪</color><color=#ebcaa2>を保有している人格の</color><color=#fe4b48>体力を15</color><color=#ebcaa2>回復</color>"
     },
     {
-      "id": "Choice_90100701Choice_90100701",
+      "id": "Choice_90100701",
       "content": "<color=#bb521f>色欲属性の罪</color><color=#ebcaa2>を保有している人格の</color><color=#80c9ff>精神力を</color></color=#ebcaa2>回復</color>"
     },
     {

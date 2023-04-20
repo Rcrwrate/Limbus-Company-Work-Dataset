@@ -135,6 +135,10 @@
     {
       "id": "create_guest",
       "content": "Create Guest Account"
+    },
+    {
+      "id": "ask_to_remove_all_cache",
+      "content": "Clear all caches?"
     }
   ]
 }

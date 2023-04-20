@@ -127,6 +127,10 @@
     {
       "id": "battlepass_limbuspass",
       "content": "リンバスパス"
+    },
+    {
+      "id": "battlepass_unable_levelup_by_level",
+      "content": "最大レベル 到達"
     }
   ]
 }

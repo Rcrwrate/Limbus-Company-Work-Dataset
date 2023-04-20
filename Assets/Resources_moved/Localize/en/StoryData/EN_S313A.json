@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": 0,
-      "place": "Kalf - Town Square",
+      "place": "Calw - Town Square",
       "model": "이스마엘",
       "content": "…That was a tough opponent. We should move before they come back to their senses."
     },
@@ -126,13 +126,13 @@
     {
       "id": 26,
       "teller": "A Prosthetic Head",
-      "title": "Kalf Townsfolk",
+      "title": "Calw Townsfolk",
       "content": "Sin…cl…a…ir… Bzt… Pzzt…"
     },
     {
       "id": 27,
       "teller": "A Prosthetic Head",
-      "title": "Kalf Townsfolk",
+      "title": "Calw Townsfolk",
       "content": "Why… did you… return…"
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": 34,
       "teller": "A Prosthetic Head",
-      "title": "Kalf Townsfolk",
+      "title": "Calw Townsfolk",
       "content": "Silent night…"
     },
     {
@@ -178,7 +178,7 @@
     {
       "id": 37,
       "teller": "A Prosthetic Head",
-      "title": "Kalf Townsfolk",
+      "title": "Calw Townsfolk",
       "content": "Holy night…"
     },
     {
@@ -214,7 +214,7 @@
     {
       "id": 44,
       "model": "그레고르",
-      "content": "So, was your familiy…"
+      "content": "So, was your family…"
     },
     {
       "id": 45,

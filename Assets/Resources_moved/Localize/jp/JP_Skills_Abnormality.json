@@ -78,7 +78,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血回数が3増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 回数が3増加"
                 }
               ]
             }
@@ -99,7 +99,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱 1を付与"
                 }
               ]
             }
@@ -184,7 +184,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに束縛3を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに束縛 3を付与"
                 }
               ]
             }
@@ -215,7 +215,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに火傷2を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに火傷 2を付与"
                 }
               ]
             }
@@ -257,7 +257,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 }
               ]
             }
@@ -275,7 +275,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血回数が3増加"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 回数が3増加"
                 }
               ]
             }
@@ -330,7 +330,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 回数が1増加"
                 }
               ]
             }
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 回数が1増加"
                 }
               ]
             }
@@ -367,10 +367,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 回数が1増加"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに火傷回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに火傷 回数が1増加"
                 }
               ]
             }
@@ -389,10 +389,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 回数が1増加"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに火傷回数が1増加"
+                  "desc": "[OnSucceedAttackHead] 次のターンに火傷 回数が1増加"
                 }
               ]
             }
@@ -410,7 +410,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに火傷1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに火傷 1を付与"
                 }
               ]
             }
@@ -441,7 +441,7 @@
                   "desc": "[DefeatDuel] 自分に20ダメージ"
                 },
                 {
-                  "desc": "[DefeatDuel] 黄金色1を失う"
+                  "desc": "[DefeatDuel] 黄金色 1を失う"
                 }
               ]
             }
@@ -491,10 +491,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血回数が3増加"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 回数が3増加"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 2を付与"
                 }
               ]
             }
@@ -516,7 +516,7 @@
                   "desc": "[OnSucceedAttack] 本体の体力を10回復"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血5を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 5を付与"
                 }
               ]
             }
@@ -624,7 +624,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンにクイック2を得る"
+                  "desc": "[OnSucceedAttack] 次のターンにクイック 2を得る"
                 }
               ]
             }
@@ -751,14 +751,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに欲望1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに欲望 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに欲望1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに欲望 1を付与"
                 }
               ]
             }
@@ -801,7 +801,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに欲望2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに欲望 2を付与"
                 }
               ]
             }
@@ -831,7 +831,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンにクイック2を得る"
+                  "desc": "[OnSucceedAttack] 次のターンにクイック 2を得る"
                 }
               ]
             }
@@ -875,7 +875,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに欲望3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに欲望 3を付与"
                 }
               ]
             }
@@ -905,7 +905,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに沈潜3を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに沈潜 3を付与"
                 }
               ]
             }
@@ -935,7 +935,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 2を付与"
                 }
               ]
             }
@@ -965,14 +965,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱 1を付与"
                 }
               ]
             }
@@ -1015,7 +1015,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱 1を付与"
                 }
               ]
             }
@@ -1058,7 +1058,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 }
               ]
             }
@@ -1121,7 +1121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 体力を最大値の10%回復。本能1を得る"
+                  "desc": "[OnSucceedAttack] 体力を最大値の10%回復。本能 1を得る"
                 }
               ]
             }
@@ -1146,7 +1146,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血10を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 10を付与"
                 }
               ]
             }
@@ -1164,21 +1164,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 1を付与"
                 }
               ]
             }
@@ -1196,14 +1196,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 }
               ]
             }
@@ -1221,40 +1221,40 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 }
               ]
             }
@@ -1272,10 +1272,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血回数が6増加"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 回数が6増加"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに破裂回数が6増加"
+                  "desc": "[OnSucceedAttack] 次のターンに破裂 回数が6増加"
                 }
               ]
             }
@@ -1306,7 +1306,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに出血1を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに出血 1を付与"
                 }
               ]
             }
@@ -1336,14 +1336,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与"
                 }
               ]
             }
@@ -1362,7 +1362,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 3を付与"
                 }
               ]
             }
@@ -1376,13 +1376,13 @@
         {
           "level": 1,
           "name": "ねじ切る",
-          "desc": "[DefeatDuel] 本能1を失う",
+          "desc": "[DefeatDuel] 本能 1を失う",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 体力を20回復、出血回数が5増加"
+                  "desc": "[OnSucceedAttack] 体力を20回復、出血 回数が5増加"
                 }
               ]
             }
@@ -1401,21 +1401,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2、麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2、麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2、麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2、麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血4、麻痺2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 4、麻痺 2を付与"
                 }
               ]
             }
@@ -1429,12 +1429,12 @@
         {
           "level": 1,
           "name": "両腕で引っ叩く",
-          "desc": "[DefeatDuel] 本能1を失う",
+          "desc": "[DefeatDuel] 本能 1を失う",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 混乱区間を10前進、次のターンに束縛5を付与。"
+                  "desc": "[OnSucceedAttack] 混乱区間を10前進、次のターンに束縛 5を付与。"
                 }
               ]
             }
@@ -1448,7 +1448,7 @@
         {
           "level": 1,
           "name": "息を殺す",
-          "desc": "[StartBattle] 本能1を得る",
+          "desc": "[StartBattle] 本能 1を得る",
           "coinlist": [
             {}
           ]
@@ -1461,26 +1461,26 @@
         {
           "level": 1,
           "name": "苦痛の身悶え",
-          "desc": "[WhenUse] 体力12消耗。次のターンに出血3を得る",
+          "desc": "[WhenUse] 体力12消耗。次のターンに出血 3を得る",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに毒3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに毒 3を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに毒3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに毒 3を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに毒3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに毒 3を付与"
                 }
               ]
             }
@@ -1494,19 +1494,19 @@
         {
           "level": 1,
           "name": "苦痛の足掻き",
-          "desc": "[WhenUse] 体力12消耗。次のターンに自分の出血回数が3増加",
+          "desc": "[WhenUse] 体力12消耗。次のターンに自分の出血 回数が3増加",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺6を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 6を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺6を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 6を付与"
                 }
               ]
             }
@@ -1537,7 +1537,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血6を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 6を付与"
                 }
               ]
             }
@@ -1576,7 +1576,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力増加1を得る"
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力増加 1を得る"
                 }
               ]
             }
@@ -1594,21 +1594,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに釘1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンにN社の釘 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに釘1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンにN社の釘 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに釘1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンにN社の釘 1を付与"
                 }
               ]
             }
@@ -1627,28 +1627,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 釘1を付与"
+                  "desc": "[OnSucceedAttack] N社の釘 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 釘1を付与"
+                  "desc": "[OnSucceedAttack] N社の釘 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 釘1を付与"
+                  "desc": "[OnSucceedAttack] N社の釘 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 対象の釘が5本以上なら、混乱状態にして釘を無くす"
+                  "desc": "[OnSucceedAttack] 対象のN社の釘 が5本以上なら、混乱状態にしてN社の釘 を無くす"
                 }
               ]
             }
@@ -1667,14 +1667,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 対象の釘が5本以上なら、混乱状態にする"
+                  "desc": "[OnSucceedAttack] 対象の釘 が5本以上なら、混乱状態にする"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 釘の本数×3だけダメージを与えて釘を無くす"
+                  "desc": "[OnSucceedAttack] 釘 の本数×3だけダメージを与えて釘 を無くす"
                 }
               ]
             }
@@ -1693,7 +1693,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 対象を混乱状態にし、次のターンに脆弱10を付与"
+                  "desc": "[OnSucceedAttack] 対象を混乱状態にし、次のターンに脆弱 10を付与"
                 }
               ]
             }
@@ -1762,40 +1762,40 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             }
@@ -1813,20 +1813,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             }
@@ -1844,20 +1844,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             }
@@ -1887,30 +1887,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与"
                 }
               ]
             }
@@ -1929,7 +1929,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 対処の体力が30%未満なら即死し、体力を30回復\n次のターンに攻撃威力増加2を得る"
+                  "desc": "[OnSucceedAttackHead] 対処の体力が30%未満なら即死し、体力を30回復\n次のターンに攻撃威力増加 2を得る"
                 }
               ]
             }
@@ -1948,10 +1948,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱5を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 5を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血5を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 5を付与"
                 }
               ]
             }
@@ -1988,7 +1988,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに攻撃威力減少 1を付与"
                 }
               ]
             }
@@ -2009,7 +2009,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに攻撃威力減少3を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに攻撃威力減少 3を付与"
                 }
               ]
             }
@@ -2030,14 +2030,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに脆弱1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに脆弱 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱3を付与"
+                  "desc": "[OnSucceedAttackHead] 次のターンに脆弱 3を付与"
                 }
               ]
             }
@@ -2058,7 +2058,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 3を付与"
                 }
               ]
             }
@@ -2079,10 +2079,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 出血5を付与"
+                  "desc": "[OnSucceedAttack] 出血 5を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 出血20を付与"
+                  "desc": "[OnSucceedAttackHead] 出血 20を付与"
                 }
               ]
             }
@@ -2104,7 +2104,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 出血30を付与"
+                  "desc": "[OnSucceedAttackHead] 出血 30を付与"
                 }
               ]
             }
@@ -2122,7 +2122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血2を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 2を付与。"
                 }
               ]
             }
@@ -2140,7 +2140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに破裂1を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに破裂 1を付与。"
                 }
               ]
             }
@@ -2158,14 +2158,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに破裂1を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに破裂 1を付与。"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに破裂4を付与。"
+                  "desc": "[OnSucceedAttackHead] 次のターンに破裂 4を付与。"
                 }
               ]
             }
@@ -2183,10 +2183,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛2を付与."
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 2を付与."
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 守備威力減少4を付与."
+                  "desc": "[OnSucceedAttackHead] 守備威力減少 4を付与。"
                 }
               ]
             }
@@ -2204,7 +2204,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに破裂3を付与。"
+                  "desc": "[OnSucceedAttackHead] 次のターンに破裂 3を付与。"
                 }
               ]
             }
@@ -2222,10 +2222,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに破裂2を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに破裂 2を付与。"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 次のターンに破裂5を付与。"
+                  "desc": "[OnSucceedAttackHead] 次のターンに破裂 5を付与。"
                 }
               ]
             },
@@ -2250,7 +2250,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに破裂10を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに破裂 10を付与。"
                 }
               ]
             },
@@ -2275,10 +2275,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛2を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 2を付与"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] 守備威力減少4を付与。"
+                  "desc": "[OnSucceedAttackHead] 守備威力減少 4を付与。"
                 }
               ]
             }
@@ -2296,7 +2296,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに麻痺 1を付与"
                 }
               ]
             }
@@ -2310,19 +2310,19 @@
         {
           "level": 1,
           "name": "振り回す",
-          "desc": "[WhenUse] 次のターンに攻撃威力増加1を得る",
+          "desc": "[WhenUse] 次のターンに攻撃威力増加 1を得る",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血3、麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 3、麻痺 1を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに出血3、麻痺1を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに出血 3、麻痺 1を付与"
                 }
               ]
             }
@@ -2340,7 +2340,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに束縛3を付与。"
+                  "desc": "[OnSucceedAttack] 次のターンに束縛 3を付与。"
                 }
               ]
             }
@@ -2372,22 +2372,424 @@
         {
           "level": 1,
           "name": "毒液噴射",
-          "desc": "[WhenUse] 体力6消耗。次のターンに出血3を得る",
+          "desc": "[WhenUse] 体力6消耗。次のターンに出血 3を得る",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに毒3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに毒 3を付与"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 次のターンに毒3を付与"
+                  "desc": "[OnSucceedAttack] 次のターンに毒 3を付与"
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ココココッ",
+          "desc": "精神力が最も低い対象を優先して攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 5精神力ダメージ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コココッ",
+          "desc": "精神力が最も低い対象を優先して攻撃",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 体力を7回復"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 沈潜 3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "クククッ",
+          "desc": "1ターンの間ダメージを受けなければ、次のターンに全味方へ攻撃威力増加 2を付与",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コォコッ",
+          "desc": "体力が一番低い対象を優先して攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 脆弱1を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コゴコッ",
+          "desc": "体力が一番低い対象を優先して攻撃",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 体力を7回復"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 出血 5を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククッ",
+          "desc": "[OnSucceedEvade] 対象の精神力-15",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "クククッ！",
+          "desc": "前のターンにて、ダメージを受けていなければコイン威力+3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 次のターンにクイック 3を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククゥッ！",
+          "desc": "前のターンにて、ダメージを受けていなければコイン威力+3",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 体力を7回復"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 次のターンに麻痺 2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククッ！",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククッ",
+          "desc": "体力が一番多い対象を優先して攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 麻痺 2を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククゥコッ",
+          "desc": "体力が一番多い対象を優先して攻撃",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 体力を7回復"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 麻痺 3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "グッ！",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ク！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 出血 3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 破裂 3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククッ！",
+          "desc": "精神力が最も低い対象を優先して攻撃",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 沈潜 3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ククッ…",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ク！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血 3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動 3を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "グッ！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血 3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 振動 3を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 麻痺 1, 振動 5を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動 爆発"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "クククッ!",
+          "desc": "精神力が最も低い対象を優先して攻撃\n的中時、生鶏を生産",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 沈潜 5を付与"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "クククククッ",
+          "desc": "[WinDuel] 最終威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 出血 5を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 振動 爆発"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "クククッ...",
+          "desc": "",
+          "coinlist": [
+            {}
           ]
         }
       ]
