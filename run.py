@@ -65,7 +65,7 @@ def get_path(new_path):
 
 
 NL = []
-get_list_new("./LimbusLocalize/assets/Localize/CN/", NL)
+get_list_new("./LimbusLocalize/Localize/CN/", NL)
 
 
 def fetch_json(ori):
