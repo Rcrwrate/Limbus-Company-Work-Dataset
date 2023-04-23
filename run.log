@@ -1,4 +1,4 @@
-2023-04-22 21:08:40,475:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
+2023-04-23 21:08:31,541:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -6,7 +6,7 @@
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-04-22 21:08:40,703:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
+2023-04-23 21:08:31,874:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -14,7 +14,7 @@ AttributeError: 'str' object has no attribute 'keys'
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-04-22 21:08:40,828:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
+2023-04-23 21:08:32,065:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
