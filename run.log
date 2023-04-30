@@ -1,4 +1,4 @@
-2023-04-29 21:08:23,845:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
+2023-04-30 21:08:28,742:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -6,7 +6,7 @@
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 KeyError: 'dataList'
 
-2023-04-29 21:08:23,849:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
+2023-04-30 21:08:28,745:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -14,7 +14,7 @@ KeyError: 'dataList'
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-04-29 21:08:23,862:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
+2023-04-30 21:08:28,754:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
