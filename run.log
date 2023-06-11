@@ -1,4 +1,4 @@
-2023-06-10 21:08:19,497:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
+2023-06-11 21:08:45,151:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -6,7 +6,7 @@
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-06-10 21:08:19,504:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
+2023-06-11 21:08:45,157:[critical]	./LimbusLocalize/Localize/CN/CN_NickName.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -14,7 +14,7 @@ AttributeError: 'str' object has no attribute 'keys'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 KeyError: 'dataList'
 
-2023-06-10 21:08:19,513:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-L.json
+2023-06-11 21:08:45,167:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-L.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -22,7 +22,7 @@ KeyError: 'dataList'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,562:[critical]	./LimbusLocalize/Localize/CN/CN_DailyLoginEvent.json
+2023-06-11 21:08:45,211:[critical]	./LimbusLocalize/Localize/CN/CN_DailyLoginEvent.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -30,7 +30,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,568:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-EGOBg.json
+2023-06-11 21:08:45,217:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-EGOBg.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -38,7 +38,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,573:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail.json
+2023-06-11 21:08:45,222:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -46,7 +46,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,577:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail_3.json
+2023-06-11 21:08:45,226:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail_3.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -54,7 +54,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,603:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
+2023-06-11 21:08:45,250:[critical]	./LimbusLocalize/Localize/CN/CN_AbEvents_Mirror.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -62,7 +62,7 @@ IndexError: list index out of range
     for q in h.keys():
 AttributeError: 'str' object has no attribute 'keys'
 
-2023-06-10 21:08:19,665:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-R.json
+2023-06-11 21:08:45,297:[critical]	./LimbusLocalize/Localize/CN/CN_UserTicket-R.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -70,7 +70,7 @@ AttributeError: 'str' object has no attribute 'keys'
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,742:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote_3.json
+2023-06-11 21:08:45,368:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote_3.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -78,7 +78,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,973:[critical]	./LimbusLocalize/Localize/CN/CN_MentalCondition.json
+2023-06-11 21:08:45,571:[critical]	./LimbusLocalize/Localize/CN/CN_MentalCondition.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -86,7 +86,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,996:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail_2.json
+2023-06-11 21:08:45,590:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNoteDetail_2.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -94,7 +94,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:19,996:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote_2.json
+2023-06-11 21:08:45,590:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote_2.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -102,7 +102,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,047:[critical]	./LimbusLocalize/Localize/CN/CN_StageNode1-4.json
+2023-06-11 21:08:45,634:[critical]	./LimbusLocalize/Localize/CN/CN_StageNode1-4.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -110,7 +110,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,057:[critical]	./LimbusLocalize/Localize/CN/CN_PanicInfo.json
+2023-06-11 21:08:45,639:[critical]	./LimbusLocalize/Localize/CN/CN_PanicInfo.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -118,7 +118,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,071:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote.json
+2023-06-11 21:08:45,649:[critical]	./LimbusLocalize/Localize/CN/CN_StoryTheaterDanteNote.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -126,7 +126,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,098:[critical]	./LimbusLocalize/Localize/CN/BattleAnnouncerDlg/CN_Announcer_Rodion_5.json
+2023-06-11 21:08:45,673:[critical]	./LimbusLocalize/Localize/CN/BattleAnnouncerDlg/CN_Announcer_Rodion_5.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -134,7 +134,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,112:[critical]	./LimbusLocalize/Localize/CN/BattleAnnouncerDlg/CN_Announcer_Sinclair_4.json
+2023-06-11 21:08:45,684:[critical]	./LimbusLocalize/Localize/CN/BattleAnnouncerDlg/CN_Announcer_Sinclair_4.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -142,7 +142,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,136:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S448A.json
+2023-06-11 21:08:45,701:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S448A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -150,7 +150,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,152:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S429B.json
+2023-06-11 21:08:45,715:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S429B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -158,7 +158,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,168:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S407B.json
+2023-06-11 21:08:45,730:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S407B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -166,7 +166,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,168:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S441B.json
+2023-06-11 21:08:45,730:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S441B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -174,7 +174,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,193:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S403A.json
+2023-06-11 21:08:45,753:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S403A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -182,7 +182,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,236:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10304.json
+2023-06-11 21:08:45,796:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10304.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -190,7 +190,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,351:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S447B.json
+2023-06-11 21:08:45,894:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S447B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -198,7 +198,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,360:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P11205.json
+2023-06-11 21:08:45,902:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P11205.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -206,7 +206,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,426:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S416A.json
+2023-06-11 21:08:45,968:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S416A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -214,7 +214,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,507:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E030X.json
+2023-06-11 21:08:46,045:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E030X.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -222,7 +222,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,508:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S408B.json
+2023-06-11 21:08:46,046:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S408B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -230,7 +230,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,614:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S430B.json
+2023-06-11 21:08:46,159:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S430B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -238,7 +238,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,615:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S426B.json
+2023-06-11 21:08:46,159:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S426B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -246,7 +246,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,635:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S427B.json
+2023-06-11 21:08:46,180:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S427B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -254,7 +254,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,635:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S418B.json
+2023-06-11 21:08:46,180:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S418B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -262,7 +262,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,647:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E020X.json
+2023-06-11 21:08:46,191:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E020X.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -270,7 +270,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,647:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S438B.json
+2023-06-11 21:08:46,191:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S438B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -278,7 +278,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,699:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S433B.json
+2023-06-11 21:08:46,237:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S433B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -286,7 +286,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,700:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10505.json
+2023-06-11 21:08:46,237:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10505.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -294,7 +294,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,750:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10705.json
+2023-06-11 21:08:46,286:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10705.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -302,7 +302,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,781:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S435B.json
+2023-06-11 21:08:46,315:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S435B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -310,7 +310,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,831:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S415B.json
+2023-06-11 21:08:46,365:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S415B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -318,7 +318,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,836:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S410B.json
+2023-06-11 21:08:46,371:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S410B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -326,7 +326,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,837:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S428B.json
+2023-06-11 21:08:46,371:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S428B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -334,7 +334,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,914:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S422B.json
+2023-06-11 21:08:46,438:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S422B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -342,7 +342,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,937:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P11005.json
+2023-06-11 21:08:46,462:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P11005.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -350,7 +350,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,967:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S433A.json
+2023-06-11 21:08:46,491:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S433A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -358,7 +358,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,988:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S412B.json
+2023-06-11 21:08:46,510:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S412B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -366,7 +366,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:20,988:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S402B.json
+2023-06-11 21:08:46,511:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S402B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -374,7 +374,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,048:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S448B.json
+2023-06-11 21:08:46,573:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S448B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -382,7 +382,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,055:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S409B.json
+2023-06-11 21:08:46,581:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S409B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -390,7 +390,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,056:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S417A.json
+2023-06-11 21:08:46,581:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S417A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -398,7 +398,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,056:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S445B.json
+2023-06-11 21:08:46,581:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S445B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -406,7 +406,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,105:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S443B.json
+2023-06-11 21:08:46,620:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S443B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -414,7 +414,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,113:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S406A.json
+2023-06-11 21:08:46,628:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S406A.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -422,7 +422,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,156:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10905.json
+2023-06-11 21:08:46,669:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_P10905.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -430,7 +430,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,165:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S401B.json
+2023-06-11 21:08:46,677:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S401B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -438,7 +438,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,184:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E010X.json
+2023-06-11 21:08:46,695:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_E010X.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -446,7 +446,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,203:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S416B.json
+2023-06-11 21:08:46,711:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S416B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -454,7 +454,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,228:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S421B.json
+2023-06-11 21:08:46,733:[critical]	./LimbusLocalize/Localize/CN/StoryData/CN_S421B.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -462,7 +462,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,290:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Gregor_Kcorp_11205.json
+2023-06-11 21:08:46,794:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Gregor_Kcorp_11205.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -470,7 +470,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,316:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Sinclair_Ncorp_11005.json
+2023-06-11 21:08:46,817:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Sinclair_Ncorp_11005.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -478,7 +478,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,340:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Meursault_Kcorp_10505.json
+2023-06-11 21:08:46,840:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Meursault_Kcorp_10505.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -486,7 +486,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,346:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Rodion_Kcorp_10905.json
+2023-06-11 21:08:46,846:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Rodion_Kcorp_10905.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -494,7 +494,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,443:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Heathcliff_LEGO_10705.json
+2023-06-11 21:08:46,932:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Heathcliff_LEGO_10705.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
@@ -502,7 +502,7 @@ IndexError: list index out of range
     if len(data[keys[0]]["dataList"]) == len(data[keys[1]]["dataList"]) == len(data[keys[-1]]["dataList"]) == len(data[keys[-2]]["dataList"]):
 IndexError: list index out of range
 
-2023-06-10 21:08:21,487:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Donquixote_Ncorp_10304.json
+2023-06-11 21:08:46,972:[critical]	./LimbusLocalize/Localize/CN/PersonalityVoiceDlg/CN_Voice_Donquixote_Ncorp_10304.json
 	Traceback (most recent call last):
   File "/home/runner/work/Limbus-Company-Work-Dataset/Limbus-Company-Work-Dataset/run.py", line 154, in main
     last = check(merge(transform(fetch_json(i))), last)
